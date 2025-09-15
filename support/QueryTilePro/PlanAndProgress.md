@@ -1,7 +1,6 @@
 ---
-layout: post
+layout: support-page
 title:  "Plan & Progress view"
-date:   2025-09-13 14:09:57 +0000
 categories: jekyll update
 toc: true
 ---

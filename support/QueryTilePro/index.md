@@ -7,6 +7,8 @@ toc: true
 
 # Support articles for Query Tile PRO
 {% for p in site.pages %}
-HEJ [{{ p.title }}]({{ p.url }})
- {% endfor %}
+    {% if page.dir == p.dir %}
+        HEJ [{{ p.path }} : {{ p.title }}](/{{ site.baseurl }}{{ p.url }})
+    {% endif %}
+{% endfor %}
  
