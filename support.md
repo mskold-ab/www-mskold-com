@@ -30,12 +30,12 @@ Click the links below to navigate to product support pages<br />
 
 <table border="0">
 <tr>
-<td><a href="/{{ site.baseurl }}/support/EnhancedExportPro/index.html"> <img class="extension-logo" width="86" src="../img/EnhancedExportPRO-logo.png" /></a></td>
-<td><a href="/{{ site.baseurl }}/support/EnhancedExportPro/index.html"> <h3>Enhanced Export PRO </h3></a></td>
+<td><a href="{{ site.baseurl }}/support/EnhancedExportPro/index.html"> <img class="extension-logo" width="86" src="../img/EnhancedExportPRO-logo.png" /></a></td>
+<td><a href="{{ site.baseurl }}/support/EnhancedExportPro/index.html"> <h3>Enhanced Export PRO </h3></a></td>
 </tr>
 <tr>
-<td><a href="/{{ site.baseurl }}/support/QueryTilePro/index.html"> <img class="extension-logo" width="74" src="../img/QueryTilePRO-logo.png" /></a></td>
-<td><a href="/{{ site.baseurl }}/support/QueryTilePro/index.html"> <h3>Query Tile PRO </h3></a></td>
+<td><a href="{{ site.baseurl }}/support/QueryTilePro/index.html"> <img class="extension-logo" width="74" src="../img/QueryTilePRO-logo.png" /></a></td>
+<td><a href="{{ site.baseurl }}/support/QueryTilePro/index.html"> <h3>Query Tile PRO </h3></a></td>
 </tr>
 </table>
 

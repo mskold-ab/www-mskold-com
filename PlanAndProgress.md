@@ -1,6 +1,6 @@
 ---
-layout: support-page
-title:  "Plan & Progress view"
+layout: supportpage
+title:  "Plan and Progress view"
 categories: jekyll update
 toc: true
 ---
