@@ -1,7 +1,6 @@
 ---
-layout: support-page
+layout: supportpage
 title:  "Getting started"
-date:   2025-09-13 14:09:57 +0000
 categories: Generall
 toc: true
 ---

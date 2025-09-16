@@ -1,0 +1,91 @@
+---
+layout: default
+---
+
+<style>
+  .pageinfo {
+      background: ghostwhite;
+      font-size: small;
+      text-align: center;
+      height: 25px;
+      color: gray;
+      padding:6px;
+    }
+    .feedbackFooter{
+      background-color: ghostwhite;
+      padding:6px;
+      text-align: center;
+    }
+    .infoBar {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+    .timetoRead{
+        float: left;
+    }
+
+    .improve {
+      text-align: right;
+      font-size: small;
+      color: gray !important;
+      float:right;
+    }
+</style>
+
+
+<script>
+  function SendHelpfullTelemetry(isHelpfull){
+    appInsights.trackEvent({name:isHelpfull?'Helpful':'Not-Helpful'});
+  }
+</script>
+
+
+<main class="page-content" aria-label="Content">
+    <div style="display: flex; flex-direction: row; justify-content: center; align-items: flex-start; position: relative; max-width: 1240px; margin: 0 auto;">
+        
+        
+        <div id="content-dir" style=max-height: 80vh; overflow: auto;  margin-right: 20px;">
+            <div>
+            {% if page.dir contains 'QueryTilePro' %}
+                <img src="{{ site.baseurl }}/img/QueryTilePRO-logo.png" alt="Support" width="60px"> Query Tile PRO
+            {% else %}
+                <img src="{{ site.baseurl }}/img/EnhancedExportPRO-logo.png" alt="Support" width="60px"> Enhanced Export PRO
+            {% endif %}
+            </div>    
+            <div style=" max-height: 80vh; overflow: auto; border: 1px solid #ccc; padding: 5px; background-color: #f9f9f9;">
+                <ul>
+                {% for p in site.pages %}
+                    {% if page.dir == p.dir %}
+                        {% if p.title <> "index" %}
+                            <li><a href="{{ site.baseurl }}{{ p.url }}" >{{ p.title }}</a></li>
+                        {% endif %}
+                    {% endif %}
+                {% endfor %}
+                </ul>
+            </div>
+        </div>
+        <article class="post" style="flex: 1 1 800px; max-width: 800px; min-width: 0; margin: 0 20px;">
+            <h1>{{ page.title }}    </h1>
+            
+            <div class="pageinfo">
+                <span class="timetoRead">This article will take 1 minute to read.</span> 
+                <span class="infoBar"><i class="ms-Icon ms-Icon--Contact"></i> &nbsp; Contributors:      </span>
+                <span class="improve"><a href="{{page.github_edit_url}}">   <i class="ms-Icon ms-Icon--PageEdit"></i> &nbsp;Improve this page</a></span>
+            </div>
+            
+             {{ content | inject_anchors }}
+            <div class="feedbackFooter"> 
+                <span style="margin-left: 50%;margin-right: 50%;white-space:nowrap;">Was this page helpfull <a onclick="alert('Thnx');SendHelpfullTelemetry(true);" href="#">Yes</a>/ <a onclick="alert('Thnx Sorry to learn that');SendHelpfullTelemetry(false);" href="#">No</a></span>
+                </div>
+
+        </article>
+        <div id="article-toc" style=" max-height: 80vh; overflow: auto; ">
+            <b>On this page</b>
+            {{ content | toc_only }}
+        </div>
+    </div>
+</main>
+
+
+
