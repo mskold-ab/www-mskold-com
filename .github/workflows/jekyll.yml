@@ -37,6 +37,8 @@ jobs:
         run: gem install bundler --user-install
       - name: Add Ruby gems to PATH
         run: echo "PATH=$(ruby -r rubygems -e 'puts Gem.user_dir')/bin:$PATH" >> $GITHUB_ENV
+      - name: Install gems
+        run: bundle install
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
