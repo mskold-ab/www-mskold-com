@@ -38,6 +38,49 @@ layout: default
   function SendHelpfullTelemetry(isHelpfull){
     appInsights.trackEvent({name:isHelpfull?'Helpful':'Not-Helpful'});
   }
+
+  function Printpage() {
+            let divContents = document.getElementById("pageContent").innerHTML;
+            let styles = "";
+                Array.from(document.querySelectorAll('link[rel="stylesheet"]')).forEach(styleNode => {
+                    styles = styleNode.outerHTML;
+                });
+
+            let printWindow = window.open('', '', 'height=${windows.height}, width=800');
+            printWindow.document.open();
+            printWindow.document.write(`
+                <html>
+                <head>
+                    ${styles}
+                    <style>
+                            .infoBar {
+                                margin-left: 10px;
+                                margin-right: 10px;
+                                }
+
+                                .timetoRead{
+                                    float: left;
+                                }
+
+                                .improve {
+                                text-align: right;
+                                font-size: small;
+                                color: gray !important;
+                                float:right;
+                                }
+          
+                        
+                    </style>
+                </head>
+                <body>
+                    ${divContents}
+                </body>
+                </html>
+            `);
+            printWindow.document.close();
+            printWindow.print();
+        }
+
 </script>
 
 
@@ -48,9 +91,9 @@ layout: default
         <div id="content-dir" style=max-height: 80vh; overflow: auto;  margin-right: 20px;">
             <div>
             {% if page.dir contains 'QueryTilePro' %}
-                <img src="{{ site.baseurl }}/img/QueryTilePRO-logo.png" alt="Support" width="60px"> Query Tile PRO
+                <img src="{{ site.baseurl }}/img/QueryTilePRO-logo.png" alt="Support" width="60px"> Query Tile PRO 
             {% else %}
-                <img src="{{ site.baseurl }}/img/EnhancedExportPRO-logo.png" alt="Support" width="60px"> Enhanced Export PRO
+                <img src="{{ site.baseurl }}/img/EnhancedExportPRO-logo.png" alt="Support" width="60px"> Enhanced Export PRO  
             {% endif %}
             </div>    
             <div style=" max-height: 80vh; overflow: auto; border: 1px solid #ccc; padding: 5px; background-color: #f9f9f9;">
@@ -65,13 +108,18 @@ layout: default
                 </ul>
             </div>
         </div>
-        <article class="post" style="flex: 1 1 800px; max-width: 800px; min-width: 0; margin: 0 20px;">
+        <article id="pageContent" class="post" style="flex: 1 1 800px; max-width: 800px; min-width: 0; margin: 0 20px;">
             <h1>{{ page.title }}    </h1>
             
             <div class="pageinfo">
-                <span class="timetoRead">This article will take 1 minute to read.</span> 
-                <span class="infoBar"><i class="ms-Icon ms-Icon--Contact"></i> &nbsp; Contributors:      </span>
-                <span class="improve"><a href="{{page.github_edit_url}}">   <i class="ms-Icon ms-Icon--PageEdit"></i> &nbsp;Improve this page</a></span>
+                <span class="timetoRead">This article will take {{ content |reading_time }} to read.</span> 
+                <a href="#" onclick="Printpage()"> <span class="print" >Print this page.</span> </a>
+
+                {% if page.dir contains 'QueryTilePro' %}
+                    <span class="improve"><a href="https://github.com/mskold-ab/QueryTilePro-documentation/blob/master/{{page.name}}">   <i class="ms-Icon ms-Icon--PageEdit" target="_blank"></i> &nbsp;Improve this page</a></span>
+                {% else %}
+                    <span class="improve"><a href="https://github.com/mskold-ab/EnhancedExportPro-documentation/blob/master/{{page.name}}">   <i class="ms-Icon ms-Icon--PageEdit" target="_blank"></i> &nbsp;Improve this page</a></span>
+                {% endif %}
             </div>
             
              {{ content | inject_anchors }}
