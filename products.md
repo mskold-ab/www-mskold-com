@@ -10,6 +10,8 @@ permalink: /products/
         }
 </style>
 
+# Our products 
+Our products are Azure DevOps extensions, and our distribution channel is the [Azure DevOps Marketplace](https://marketplace.visualstudio.com). There you can read more about the different extensions and find licensing and pricing information.
 
 <div class="products-table" style="display: table; width: 100%; border-collapse: separate; border-spacing: 0 20px;">
 	<div class="products-row" style="display: table-row;">
@@ -44,3 +46,15 @@ permalink: /products/
 	</div>
 </div>
 
+# Purchasing our products 
+By default purchases are done online from witin the extension, through our online self-service there you sign up for a subscription and pay online by credit card. 
+
+For larger purchases above 1000 Euros, we can offer additional purchasing options:
+## PO/Invoicing/Bank transfer payments
+If you want to make a purchase above 1000 Euros and dont want to use our self-service purchase, please reach out to [extension-support@mskold.com](mailto://extension-support@mskold.com)
+
+## Purchasing through 3rd party resellers 
+We also work with 3rd party licenses partners/resellers such as SoftwareOne, SHI, QBS, ABDistribution, Insights, Ebusiness-design and many others. 
+We are also open to work with your prefered partner to deliver throught them. 
+
+To make a purchas throgh a 3rd part reseller, please reach out to your reseller contact. 
