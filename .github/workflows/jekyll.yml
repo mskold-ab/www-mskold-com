@@ -8,8 +8,8 @@ name: Deploy Jekyll site to Pages
 
 on:
   # Runs on pushes targeting the default branch
-  # push:
-  #   branches: ["main"]
+  push:
+     branches: ["main"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -29,7 +29,7 @@ concurrency:
 jobs:
   # Build job
   build:
-    runs-on: mcr.microsoft.com/devcontainers/jekyll:2-bullseye
+    runs-on: 	ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
