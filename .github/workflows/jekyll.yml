@@ -74,7 +74,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: github-pages
-          path: "/_site"
+          path: "_site"
       - name: Copy files to workspace
         run: |
           mkdir -p /github/workspace/github/workspace/_site
