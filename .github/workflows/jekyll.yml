@@ -83,4 +83,5 @@ jobs:
           action: "upload"
           app_location: "_site"
           output_location: "_site"
+          skip_app_build: true
 
