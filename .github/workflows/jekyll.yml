@@ -77,7 +77,7 @@ jobs:
           path: "_site"
       - name: List root
         run: |
-          ls / -r          
+          ls -R /          
       - name: Copy files to workspace
         run: |
           cd /github/workspace
