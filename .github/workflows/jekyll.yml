@@ -73,7 +73,7 @@ jobs:
       - name: Download build artifact
         uses: actions/download-artifact@v4
         with:
-          name: pages-artifact
+          name: github-pages
           path: _site
       - name: Deploy to Azure Static Web Apps
         uses: Azure/static-web-apps-deploy@v1
