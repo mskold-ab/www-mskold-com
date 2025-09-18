@@ -77,8 +77,8 @@ jobs:
           path: "_site"
       - name: Copy files to workspace
         run: |
-          mkdir -p /github/workspace/github/workspace/_site
-          cp -r /home/runner/work/www-mskold-com/www-mskold-com/_site/* /github/workspace/_site            
+          mkdir -p /github/workspace/_site
+          cp -r /home/runner/work/www-mskold-com/_site/* /github/workspace/_site            
       - name: Deploy to Azure Static Web Apps
         uses: Azure/static-web-apps-deploy@v1
         with:
