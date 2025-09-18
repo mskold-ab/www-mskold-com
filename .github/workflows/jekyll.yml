@@ -81,7 +81,7 @@ jobs:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
           repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for GitHub integrations (i.e. PR comments)
           action: "upload"
-          app_location: "${{ github.workspace }}/_site"
-          output_location: "${{ github.workspace }}/_site"
+          app_location: "/home/runner/work/www-mskold-com/www-mskold-com/_site"
+          output_location: "/home/runner/work/www-mskold-com/www-mskold-com/_site"
           skip_app_build: true
 
