@@ -1,7 +1,3 @@
-# This workflow uses actions that are not certified by GitHub.
-# They are provided by a third-party and are governed by
-# separate terms of service, privacy policy, and support
-# documentation.
 
 # Sample workflow for building and deploying a Jekyll site to GitHub Pages
 name: Deploy Jekyll site to Pages
@@ -50,8 +46,7 @@ jobs:
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
 
-
-  # Deployment job to GitHub Pages
+  # Deployment job
   deploy:
     environment:
       name: github-pages
@@ -62,27 +57,37 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
-  # Deployment job to Azure Static Web Apps
-  deploy-azure:
-    environment:
-      name: azure-static-web-app
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Download build artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: github-pages
-          path: "_site"     
-      - name: Deploy to Azure Static Web Apps
-        uses: Azure/static-web-apps-deploy@v1
-        with:
-          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
-          repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for GitHub integrations (i.e. PR comments)
-          action: "upload"
-          app_location: "_site"          
-          skip_app_build: true
-          skip_api_build: true
+/github/workspace/_site/github/workspace/_site/github/workspace/_site
+                    - nname: cCopy      - name: Copy files to workspace
+        run: |
+          mkdir -p /github/workspace/_site
+          cp -r /_site/* /github/workspace/_site  
+          /home/runner/work/www-mskold-com/www-mskold-com/_site//github/wrkspac     /runner/work/www-mskold-com/www-mskold-com/_site
+          skip_api_build          skip_api_build: true
+          www-mskold-com/www-mskold-com/_site
 
 
+# Deployment job to Azure Blob Storage
+deploy-azure-blob:
+  runs-on: ubuntu-latest
+  needs: build
+  steps:
+    - name: Download build artifact
+      uses: actions/download-artifact@v4
+      with:
+        name: github-pages
+        path: _site
+    - name: Install Azure CLI
+      run: |
+        curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+    - name: Upload to Azure Blob Storage
+      run: |
+        az storage blob upload-batch -d "$AZURE_BLOB_CONTAINER" --account-name "$AZURE_STORAGE_ACCOUNT" -s _site
+      env:
+        AZURE_STORAGE_ACCOUNT: ${{ secrets.AZURE_STORAGE_ACCOUNT }}
+        AZURE_STORAGE_KEY: ${{ secrets.AZURE_STORAGE_KEY }}
+        AZURE_BLOB_CONTAINER: ${{ secrets.AZURE_BLOB_CONTAINER }}
+# This workflow uses actions that are not certified by GitHub.
+# They are provided by a third-party and are governed by
+# separate terms of service, privacy policy, and support
+# documentation.

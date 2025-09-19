@@ -17,6 +17,8 @@ Some features are free to use, while other require a licence.
 + styling tile 
 
 ### Paid features 
+Paid features focus on 3 things, Extended capaabilities, performace enhancedments adn keeping the time and effort down to build new and maintain dashboards.
+Example of paid features are:
 + Multiple Queries 
 + Calculations on result level
 + Charts 
