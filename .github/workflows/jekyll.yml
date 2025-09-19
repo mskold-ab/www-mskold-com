@@ -62,9 +62,9 @@ jobs:
         run: |
           az storage blob upload-batch -d "$AZURE_BLOB_CONTAINER" --account-name "$AZURE_STORAGE_ACCOUNT" --overwrite -s /home/runner/work/www-mskold-com/www-mskold-com/_site
         env:
-          AZURE_STORAGE_ACCOUNT: ${{ secrets.AZURE_STORAGE_ACCOUNT }}
+          AZURE_STORAGE_ACCOUNT: "mskoldcom"
           AZURE_STORAGE_KEY: ${{ secrets.AZURE_STORAGE_KEY }}
-          AZURE_BLOB_CONTAINER: ${{ secrets.AZURE_BLOB_CONTAINER }}
+          AZURE_BLOB_CONTAINER: "$web"
 # This workflow uses actions that are not certified by GitHub.
 # They are provided by a third-party and are governed by
 # separate terms of service, privacy policy, and support
