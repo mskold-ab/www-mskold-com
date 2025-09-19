@@ -1,6 +1,6 @@
 
 # Sample workflow for building and deploying a Jekyll site to GitHub Pages
-name: Deploy Jekyll site to Pages
+name: Deploy Jekyll site to Azure 
 
 on:
   # Runs on pushes targeting the default branch
@@ -45,30 +45,26 @@ jobs:
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
-
-
-
-
   # Deployment job to Azure Blob Storage
-deploy-azure-blob:
-  runs-on: ubuntu-latest
-  needs: build
-  steps:
-    - name: Download build artifact
-      uses: actions/download-artifact@v4
-      with:
-        name: github-pages
-        path: _site
-    - name: Install Azure CLI
-      run: |
-        curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
-    - name: Upload to Azure Blob Storage
-      run: |
-        az storage blob upload-batch -d "$AZURE_BLOB_CONTAINER" --account-name "$AZURE_STORAGE_ACCOUNT" -s _site
-      env:
-        AZURE_STORAGE_ACCOUNT: ${{ secrets.AZURE_STORAGE_ACCOUNT }}
-        AZURE_STORAGE_KEY: ${{ secrets.AZURE_STORAGE_KEY }}
-        AZURE_BLOB_CONTAINER: ${{ secrets.AZURE_BLOB_CONTAINER }}
+  deploy-azure-blob:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Download build artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: github-pages
+          path: _site
+      - name: Install Azure CLI
+        run: |
+          curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+      - name: Upload to Azure Blob Storage
+        run: |
+          az storage blob upload-batch -d "$AZURE_BLOB_CONTAINER" --account-name "$AZURE_STORAGE_ACCOUNT" -s _site
+        env:
+          AZURE_STORAGE_ACCOUNT: ${{ secrets.AZURE_STORAGE_ACCOUNT }}
+          AZURE_STORAGE_KEY: ${{ secrets.AZURE_STORAGE_KEY }}
+          AZURE_BLOB_CONTAINER: ${{ secrets.AZURE_BLOB_CONTAINER }}
 # This workflow uses actions that are not certified by GitHub.
 # They are provided by a third-party and are governed by
 # separate terms of service, privacy policy, and support
