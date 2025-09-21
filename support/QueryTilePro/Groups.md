@@ -1,3 +1,9 @@
+---
+layout: supportpage
+title: Grouping tiles
+toc: true
+---
+
 # Introduction 
 If you are building dashboards with multiple tiles showing metrics that are computed the same way, but for different input/fitlera such as teams overview dashboards, or showing metrics accross different categories, you should definatly look into groups. 
 Groups can help you 
