@@ -108,22 +108,12 @@ layout: default
                 {% assign dir_pages = site.pages | where: "dir", page.dir %}
 
 {% comment %}
-  Add a default nav_group for pages missing it, so we can group consistently.
+  Group pages by nav_group, defaulting missing nav_group to "Other",
+  and exclude the index page from the sidebar.
 {% endcomment %}
-{% assign normalized = "" | split: "" %}
-{% for p in dir_pages %}
-  {% if p.title <> "index" %}
-    {% if p.nav_group %}
-      {% assign normalized = normalized | push: p %}
-    {% else %}
-      {% assign p2 = p | merge: {"nav_group":"Other"} %}
-      {% assign normalized = normalized | push: p2 %}
-    {% endif %}
-  {% endif %}
-{% endfor %}
-
-{% assign groups = normalized | group_by: "nav_group" %}
-
+{% assign groups = dir_pages
+     | where_exp: "p", "p.title != 'index'"
+     | group_by_exp: "p", "p.nav_group | default: 'Other'" %}
 <ul>
 {% for g in groups %}
   <li>
