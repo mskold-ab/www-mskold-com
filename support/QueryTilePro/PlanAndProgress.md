@@ -1,8 +1,7 @@
 ---
 layout: supportpage
-title:  "Plan and Progress view"
 nav_group: Paid features
-
+title:  "Plan and Progress view"
 toc: true
 ---
 
