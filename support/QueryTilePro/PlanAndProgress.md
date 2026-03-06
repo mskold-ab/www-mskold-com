@@ -1,7 +1,8 @@
 ---
 layout: supportpage
 title:  "Plan and Progress view"
-categories: jekyll update
+nav_group: Paid features
+
 toc: true
 ---
 
