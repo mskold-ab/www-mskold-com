@@ -105,15 +105,38 @@ layout: default
             {% endif %}
             </div>    
             <div style=" max-height: 80vh; overflow: auto; border: 1px solid #ccc; padding: 5px; background-color: #f9f9f9;">
-                <ul>
-                {% for p in site.pages %}
-                    {% if page.dir == p.dir %}
-                        {% if p.title <> "index" %}
-                            <li><a href="{{ site.baseurl }}{{ p.url }}" >{{ p.title }}</a></li>
-                        {% endif %}
-                    {% endif %}
-                {% endfor %}
-                </ul>
+                {% assign dir_pages = site.pages | where: "dir", page.dir %}
+
+{% comment %}
+  Add a default nav_group for pages missing it, so we can group consistently.
+{% endcomment %}
+{% assign normalized = "" | split: "" %}
+{% for p in dir_pages %}
+  {% if p.title <> "index" %}
+    {% if p.nav_group %}
+      {% assign normalized = normalized | push: p %}
+    {% else %}
+      {% assign p2 = p | merge: {"nav_group":"Other"} %}
+      {% assign normalized = normalized | push: p2 %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+{% assign groups = normalized | group_by: "nav_group" %}
+
+<ul>
+{% for g in groups %}
+  <li>
+    <b>{{ g.name }}</b>
+    <ul>
+      {% assign items = g.items | sort: "title" %}
+      {% for p in items %}
+        <li><a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </li>
+{% endfor %}
+</ul>
             </div>
         </div>
         <article id="pageContent" class="post" style="flex: 1 1 800px; max-width: 800px; min-width: 0; margin: 0 20px;">
