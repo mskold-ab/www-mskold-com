@@ -1,5 +1,6 @@
 ---
 layout: supportpage
+nav_group: Paid features
 title: Global Data Sources 
 toc: true
 ---
