@@ -1,6 +1,8 @@
 ---
 layout: supportpage
 title: Managing subscriptions
+nav_group: General
+nav_order: 3
 toc: true
 ---
 
