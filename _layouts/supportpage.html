@@ -119,7 +119,7 @@ layout: default
   <li>
     <b>{{ g.name }}</b>
     <ul>
-    {% assign items = g.items | sort: "nav_order" | sort: "title" | sort_natural %} 
+        {% assign items = g.items | sort: "nav_order" | sort: "title" | sort_natural %}
       {% for p in items %}
         <li><a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a></li>
       {% endfor %}
