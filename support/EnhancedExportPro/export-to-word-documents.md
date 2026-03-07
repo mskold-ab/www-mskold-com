@@ -1,6 +1,8 @@
 ---
 layout: supportpage
-title: Export word documents 
+title: Export to word documents 
+nav_group: General
+nav_order:5
 toc: true
 ---
 
