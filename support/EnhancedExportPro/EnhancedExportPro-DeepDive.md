@@ -1,6 +1,8 @@
 ---
 layout: supportpage
 title: How does Enhanced Export PRO work 
+nav_group: General
+nav_order: 1
 ---
 
 ## Overview 
