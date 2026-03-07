@@ -1,6 +1,8 @@
 ---
 layout: supportpage
 title: Editing templates
+nav_group: General
+nav_order: 2
 toc: true
 ---
 
