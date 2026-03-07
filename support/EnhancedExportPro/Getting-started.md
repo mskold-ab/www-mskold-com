@@ -1,7 +1,8 @@
 ---
 layout: supportpage
 title:  "Getting started"
-categories: Generall
+nav_group: General
+nav_order: 0
 toc: true
 ---
 

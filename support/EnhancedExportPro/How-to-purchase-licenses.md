@@ -1,6 +1,8 @@
 ---
 layout: supportpage
 title: Purchase licenses
+nav_group: General
+nav_order: 3
 toc: true
 ---
 ## Introduction 
