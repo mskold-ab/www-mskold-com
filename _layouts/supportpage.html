@@ -118,7 +118,16 @@ layout: default
 <ul>
 {% for g in groups %}
   <li>
-    <b>{{g.name | append: ''  | replace_regex: '^\s*\d+_', ''}}</b>
+      {% assign group_parts = g.name | split: '_' %}
+{% assign first_part = group_parts[0] %}
+
+{% if first_part == '0' or first_part == '1' or first_part == '2' or first_part == '3' or first_part == '4' or first_part == '5' or first_part == '6' or first_part == '7' or first_part == '8' or first_part == '9' %}
+  <b>{{ group_parts | slice: 1, 99 | join: '_' }}</b>
+{% else %}
+  <b>{{ g.name }}</b>
+{% endif %}
+      
+    
     <ul>
         {% assign items = g.items
         | sort: "nav_order" 
