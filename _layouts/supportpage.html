@@ -118,7 +118,7 @@ layout: default
 <ul>
 {% for g in groups %}
   <li>
-    <b>{{g.name | replace_regex: '^\d+_', ''}}</b>
+    <b>{{g.name | replace_regex: '^\s*\d+_', ''}}</b>
     <ul>
         {% assign items = g.items
         | sort: "nav_order" 
