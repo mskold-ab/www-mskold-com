@@ -20,7 +20,7 @@ Just follow this procedure to create your own template.
 1.	Open an ordinary word document that is according to your organization’s standards and styling
 2.	At the location you want the export data to start, enter the text
 HTML_CONTENT surrounded by %% on both sides like this.
-![](./img/customWordTemplate.png)
+![](./img/WordTemplateExempel.png)
 4. You can use word properties to render data decided at runtime in the word template 
 5.	Save the document (as an ordinary word document)   
 6.	Go to the admin hub for Enhanced Export PRO
