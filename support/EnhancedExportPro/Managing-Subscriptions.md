@@ -1,7 +1,7 @@
 ---
 layout: supportpage
 title: Managing subscriptions
-nav_group: Purchase 
+nav_group: Licensing
 nav_order: 1
 toc: true
 ---
