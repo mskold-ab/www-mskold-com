@@ -11,28 +11,33 @@ Creating an export is not worth much if you can’t share it with others. Enhanc
 
 ## Saving an export as a word document 
 To save your export as a word document, just dop down the Open menu and select one of the uploaded word document templates. 
-(img/ExortToWordMenu.png)
+![](./img/ExortToWordMenu.png)
+
 
 ## Creating your own custom word template
 You can simply take your ordinary word document with your organizations logo and styling and convert it to a word template used by Enhanced Export PRO to create its word document. 
 Just follow this procedure to create your own template. 
 1.	Open an ordinary word document that is according to your organization’s standards and styling
 2.	At the location you want the export data to start, enter the text
-HTML_CONTENT surrounded by %% on both sides like this
- (img/customWordTemplate.png)
-3.	Save the document (as an ordinary word document)   
-5.	Go to the admin hub for Enhanced Export PRO
-6.	Select the Library tab
-7.	Click Add new Library item in the left hand menu
-8.	Give your template a name, id and select a scope
-9.	Click the Change item button
-10.	Upload the document
-11.	Click Save
+HTML_CONTENT surrounded by %% on both sides like this.
+![](./img/WordTemplateExample.png)
+4. You can use word properties to render data decided at runtime in the word template 
+5.	Save the document (as an ordinary word document)   
+6.	Go to the admin hub for Enhanced Export PRO
+7.	Select the Library tab
+8.	Click Add new Library item in the left hand menu
+9.	Give your template a name, id and select a scope
+10.	Click the Change item button
+11.	Upload the document
+12.	Click Save
+    
 You are now done and can use your word template in Enhanced Export PRO 
 
-
 ## Document properties 
-The title of the report is taken from the title html element if present, if not the query name Is used. 
+You can use Word document properties to show data in the word template that is populated at runtime 
+One example of this is the Title properties. In the word template you can insert the Title property both on the first page, and in headars and/or fotters. 
+
+Then exporting to a word document, the document title peoperty is automnaticly populated bu the Title element, if present, if not the query name Is used. 
 By default we populate the following properties  of the exported word document 
 *	Title
 *	Creator
@@ -50,12 +55,8 @@ You can create and set document properties in the exported document by rendering
 ### Setting properties at runtime 
 We also push all Options as custom properties, enabling the user to fill values at run time and have them exported as document properties in word. 
 
-
-
-
-
-## Creating an template that auto updates TOC and fields on open
-To automate refreshing the TOC and document fields you need to add a macro to the template. 
+### Creating an template that auto updates TOC and fields on open
+To automate refreshing the TOC and document fields you need to add a macro named Auto Open to the template. 
 
 ### Create an AutoOpen macro  
 Create a new macro AutoOpen in the template document Specific (not All or the normal.dotm)
