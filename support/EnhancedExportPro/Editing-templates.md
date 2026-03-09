@@ -1,7 +1,7 @@
 ---
 layout: supportpage
 title: Editing templates
-nav_group: Customizing templates
+nav_group: 2_Customizing templates
 nav_order: 2
 toc: true
 ---
