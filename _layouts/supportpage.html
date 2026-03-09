@@ -113,11 +113,12 @@ layout: default
 {% endcomment %}
 {% assign groups = dir_pages
      | where_exp: "p", "p.title != 'index'"
-     | group_by_exp: "p", "p.nav_group | default: 'General'" %}
+     | group_by_exp: "p", "p.nav_group | default: 'General'" 
+     | sort: "name" %}
 <ul>
 {% for g in groups %}
   <li>
-    <b>g.name | replace: '1_', ''</b>
+    <b>{{g.name | replace_regex: '^\d+_', ''}}</b>
     <ul>
         {% assign items = g.items
         | sort: "nav_order" 
