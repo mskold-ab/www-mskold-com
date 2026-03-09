@@ -19,17 +19,17 @@ You can simply take your ordinary word document with your organizations logo and
 Just follow this procedure to create your own template. 
 1.	Open an ordinary word document that is according to your organization’s standards and styling
 2.	At the location you want the export data to start, enter the text
-HTML_CONTENT surrounded by %% on both sides like this
- ![](./img/customWordTemplate.png)
-3. You can use word properties to render data decided at runtime in the word template 
-4.	Save the document (as an ordinary word document)   
-5.	Go to the admin hub for Enhanced Export PRO
-6.	Select the Library tab
-7.	Click Add new Library item in the left hand menu
-8.	Give your template a name, id and select a scope
-9.	Click the Change item button
-10.	Upload the document
-11.	Click Save
+HTML_CONTENT surrounded by %% on both sides like this.
+![](./img/customWordTemplate.png)
+4. You can use word properties to render data decided at runtime in the word template 
+5.	Save the document (as an ordinary word document)   
+6.	Go to the admin hub for Enhanced Export PRO
+7.	Select the Library tab
+8.	Click Add new Library item in the left hand menu
+9.	Give your template a name, id and select a scope
+10.	Click the Change item button
+11.	Upload the document
+12.	Click Save
 You are now done and can use your word template in Enhanced Export PRO 
 
 ## Document properties 
