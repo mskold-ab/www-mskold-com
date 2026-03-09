@@ -1,7 +1,7 @@
 ---
 layout: supportpage
 title: Guide - Adding a custom field to a template
-nav_group: Customizing templates
+nav_group: 2_Customizing templates
 nav_order: 4
 toc: true
 ---
