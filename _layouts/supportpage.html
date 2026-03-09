@@ -117,7 +117,7 @@ layout: default
 <ul>
 {% for g in groups %}
   <li>
-    <b>{{ g.name }}</b>
+    <b>g.name | replace: '1_', ''</b>
     <ul>
         {% assign items = g.items
         | sort: "nav_order" 
