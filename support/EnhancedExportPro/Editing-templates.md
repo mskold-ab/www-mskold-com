@@ -1,7 +1,7 @@
 ---
 layout: supportpage
 title: Editing templates
-nav_group: General
+nav_group: Customizing templates
 nav_order: 2
 toc: true
 ---
@@ -19,6 +19,7 @@ Enhanced Export PRO uses common well-known languages for renderign the data into
 * [HTML](https://www.w3schools.com/html)
 * [XML](https://www.w3schools.com/xml)
 * [XSLT](https://www.w3schools.com/xml/xsl_intro.asp)
+* [Handlebars](https://handlebarsjs.com/)
 
 
 
