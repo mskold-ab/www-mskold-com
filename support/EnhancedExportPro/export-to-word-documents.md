@@ -6,10 +6,29 @@ nav_order: 5
 toc: true
 ---
 
-
 ## Introduction
-Exporting to word 
+Creating an export is not worth much if you can’t share it with others. Enhanced Export PRO has the capability to save an export as a full fletched word document with the look and feel that you can share across your organization. 
 
+## Saving an export as a word document 
+To save your export as a word document, just dop down the Open menu and select one of the uploaded word document templates. 
+(img/ExortToWordMenu.png)
+
+## Creating your own custom word template
+You can simply take your ordinary word document with your organizations logo and styling and convert it to a word template used by Enhanced Export PRO to create its word document. 
+Just follow this procedure to create your own template. 
+1.	Open an ordinary word document that is according to your organization’s standards and styling
+2.	At the location you want the export data to start, enter the text
+HTML_CONTENT surrounded by %% on both sides like this
+ (img/customWordTemplate.png)
+3.	Save the document (as an ordinary word document)   
+5.	Go to the admin hub for Enhanced Export PRO
+6.	Select the Library tab
+7.	Click Add new Library item in the left hand menu
+8.	Give your template a name, id and select a scope
+9.	Click the Change item button
+10.	Upload the document
+11.	Click Save
+You are now done and can use your word template in Enhanced Export PRO 
 
 
 ## Document properties 
@@ -17,7 +36,7 @@ The title of the report is taken from the title html element if present, if not 
 By default we populate the following properties  of the exported word document 
 *	Title
 *	Creator
-*	Creted
+*	Created
 *	Modified 
 *	Last modified by 
 
@@ -28,9 +47,11 @@ You can create and set document properties in the exported document by rendering
 <meta name="word-properties"  data-propName="Prop value" data-prop2Name="prop 2 value"/>
 ```
 
-
 ### Setting properties at runtime 
 We also push all Options as custom properties, enabling the user to fill values at run time and have them exported as document properties in word. 
+
+
+
 
 
 ## Creating an template that auto updates TOC and fields on open
@@ -48,5 +69,7 @@ Save the macro as part of the template documet as a Macro included document (.do
 Upload the template document as a temlate document in Enhanced Export PRO. 
 
 Make sure that the documents you download from Azure DevOps is trusted 
+
+
 
 
