@@ -30,6 +30,7 @@ HTML_CONTENT surrounded by %% on both sides like this.
 10.	Click the Change item button
 11.	Upload the document
 12.	Click Save
+    
 You are now done and can use your word template in Enhanced Export PRO 
 
 ## Document properties 
