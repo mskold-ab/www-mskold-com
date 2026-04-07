@@ -28,7 +28,7 @@ jobs:
         uses: actions/configure-pages@v6
 
       - name: Setup Ruby
-        uses: ruby/setup-ruby@v2
+        uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.3'
           bundler-cache: true
