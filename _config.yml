@@ -21,6 +21,12 @@ description: MSkold AB - Azure DevOps extensions that solves everyday problems.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.mskold.com" # the base hostname & protocol for your site, e.g. http://example.com
 
+# Application Insights (GDPR-first defaults)
+application_insights:
+  enabled: true
+  connection_string: "InstrumentationKey=3524666c-4b6a-4408-9cb7-d3fe88c3c1bf;IngestionEndpoint=https://westeurope-5.in.applicationinsights.azure.com/;LiveEndpoint=https://westeurope.livediagnostics.monitor.azure.com/;ApplicationId=99a4fa13-2d52-4a4a-bf9c-0e02bf1bc11e"
+  respect_dnt: true
+
 
 
 # Build settings

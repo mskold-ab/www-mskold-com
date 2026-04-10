@@ -16,3 +16,48 @@
         </div>
     </div>
 </footer>
+
+{% if site.application_insights and site.application_insights.enabled and site.application_insights.connection_string != "" %}
+<script>
+    (function () {
+        var respectDnt = {{ site.application_insights.respect_dnt | default: true | jsonify }};
+        var dntEnabled =
+            navigator.doNotTrack === "1" ||
+            window.doNotTrack === "1" ||
+            navigator.msDoNotTrack === "1";
+
+        if (respectDnt && dntEnabled) {
+            return;
+        }
+
+        var connectionString = {{ site.application_insights.connection_string | jsonify }};
+        if (!connectionString) {
+            return;
+        }
+
+        var script = document.createElement("script");
+        script.src = "https://js.monitor.azure.com/scripts/b/ai.2.min.js";
+        script.async = true;
+        script.onload = function () {
+            var appInsights = new Microsoft.ApplicationInsights.ApplicationInsights({
+                config: {
+                    connectionString: connectionString,
+                    disableCookiesUsage: true,
+                    isStorageUseDisabled: true,
+                    enableSessionStorageBuffer: false,
+                    disableExceptionTracking: true,
+                    disableAjaxTracking: true,
+                    disableFetchTracking: true,
+                    disableCorrelationHeaders: true,
+                    autoTrackPageVisitTime: false
+                }
+            });
+
+            appInsights.loadAppInsights();
+            appInsights.trackPageView();
+        };
+
+        document.head.appendChild(script);
+    })();
+</script>
+{% endif %}
