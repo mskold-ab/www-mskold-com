@@ -10,20 +10,18 @@
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
       background: #f7f7f8;
       margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      padding: 32px;
       height: 100vh;
+      width: 100%;
+      box-sizing: border-box;
     }
 
     .card {
       background: white;
       padding: 32px;
-      border-radius: 12px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-      max-width: 480px;
-      width: 90%;
+      width: 100%;
+      height: 100%;
+      box-sizing: border-box;
     }
 
     h1 {
@@ -99,6 +97,37 @@
 <body>
 
 <div class="card">
+
+    <div>
+                    <p style="margin:0 0 4px 0;font-size:13px;font-weight:700;color:#1a1a2e;font-family:Arial,Helvetica,sans-serif;">How likely are you to recommend Enhanced Export PRO?</p>
+                    <p style="margin:0 0 14px 0;font-size:12px;color:#5f5e5a;font-family:Arial,Helvetica,sans-serif;">Select a number from 0 (not at all) to 10 (extremely likely)</p>
+
+                    <!-- NPS buttons — single row -->
+                    <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="margin-bottom:10px;">
+                      <tbody><tr>
+                        <td style="padding:0 3px 0 0;"><button onclick="selectScore(0)" style="display:block;width:38px;height:34px;line-height:34px;text-align:center;background-color:#ffffff;border:1px solid #d3d1c7;border-radius:6px;font-size:12px;font-weight:600;color:#444441;cursor:pointer;font-family:Arial,Helvetica,sans-serif;">0</button></td>
+                        <td style="padding:0 3px 0 0;"><button onclick="selectScore(1)" style="display:block;width:38px;height:34px;line-height:34px;text-align:center;background-color:#ffffff;border:1px solid #d3d1c7;border-radius:6px;font-size:12px;font-weight:600;color:#444441;cursor:pointer;font-family:Arial,Helvetica,sans-serif;">1</button></td>
+                        <td style="padding:0 3px 0 0;"><button onclick="selectScore(2)" style="display:block;width:38px;height:34px;line-height:34px;text-align:center;background-color:#ffffff;border:1px solid #d3d1c7;border-radius:6px;font-size:12px;font-weight:600;color:#444441;cursor:pointer;font-family:Arial,Helvetica,sans-serif;">2</button></td>
+                        <td style="padding:0 3px 0 0;"><button onclick="selectScore(3)" style="display:block;width:38px;height:34px;line-height:34px;text-align:center;background-color:#ffffff;border:1px solid #d3d1c7;border-radius:6px;font-size:12px;font-weight:600;color:#444441;cursor:pointer;font-family:Arial,Helvetica,sans-serif;">3</button></td>
+                        <td style="padding:0 3px 0 0;"><button onclick="selectScore(4)" style="display:block;width:38px;height:34px;line-height:34px;text-align:center;background-color:#ffffff;border:1px solid #d3d1c7;border-radius:6px;font-size:12px;font-weight:600;color:#444441;cursor:pointer;font-family:Arial,Helvetica,sans-serif;">4</button></td>
+                        <td style="padding:0 3px 0 0;"><button onclick="selectScore(5)" style="display:block;width:38px;height:34px;line-height:34px;text-align:center;background-color:#ffffff;border:1px solid #d3d1c7;border-radius:6px;font-size:12px;font-weight:600;color:#444441;cursor:pointer;font-family:Arial,Helvetica,sans-serif;">5</button></td>
+                        <td style="padding:0 3px 0 0;"><button onclick="selectScore(6)" style="display:block;width:38px;height:34px;line-height:34px;text-align:center;background-color:#ffffff;border:1px solid #d3d1c7;border-radius:6px;font-size:12px;font-weight:600;color:#444441;cursor:pointer;font-family:Arial,Helvetica,sans-serif;">6</button></td>
+                        <td style="padding:0 3px 0 0;"><button onclick="selectScore(7)" style="display:block;width:38px;height:34px;line-height:34px;text-align:center;background-color:#ffffff;border:1px solid #d3d1c7;border-radius:6px;font-size:12px;font-weight:600;color:#444441;cursor:pointer;font-family:Arial,Helvetica,sans-serif;">7</button></td>
+                        <td style="padding:0 3px 0 0;"><button onclick="selectScore(8)" style="display:block;width:38px;height:34px;line-height:34px;text-align:center;background-color:#ffffff;border:1px solid #d3d1c7;border-radius:6px;font-size:12px;font-weight:600;color:#444441;cursor:pointer;font-family:Arial,Helvetica,sans-serif;">8</button></td>
+                        <td style="padding:0 3px 0 0;"><button onclick="selectScore(9)" style="display:block;width:38px;height:34px;line-height:34px;text-align:center;background-color:#ffffff;border:1px solid #d3d1c7;border-radius:6px;font-size:12px;font-weight:600;color:#444441;cursor:pointer;font-family:Arial,Helvetica,sans-serif;">9</button></td>
+                        <td style="padding:0;"><button onclick="selectScore(10)" style="display:block;width:38px;height:34px;line-height:34px;text-align:center;background-color:#ffffff;border:1px solid #d3d1c7;border-radius:6px;font-size:12px;font-weight:600;color:#444441;cursor:pointer;font-family:Arial,Helvetica,sans-serif;">10</button></td>
+                      </tr>
+                    </tbody></table>
+
+                    <!-- Scale labels -->
+                    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                      <tbody><tr>
+                        <td style="font-size:10px;color:#b4b2a9;font-family:Arial,Helvetica,sans-serif;">Not at all likely</td>
+                        <td align="right" style="font-size:10px;color:#b4b2a9;font-family:Arial,Helvetica,sans-serif;">Extremely likely</td>
+                      </tr>
+                    </tbody></table>
+        </div>
+
   <h1 id="title"></h1>
   <p id="subtitle"></p>
 
@@ -119,7 +148,7 @@
   };
 
   const params = new URLSearchParams(window.location.search);
-  const score = parseInt(params.get("npsScore"));
+  let score = parseInt(params.get("npsScore"));
   const product = params.get("product");
 
   const title = document.getElementById("title");
@@ -149,23 +178,57 @@
     });
   }
 
-  if (score >= 9) {
-    title.innerText = "Awesome — thank you!";
-    subtitle.innerText = `What did you love about ${productNames[product] || product}?`;
-    textarea.placeholder = "What stood out most?";
-    createTags(["Ease of use", "Features", "Support", "Performance"]);
+  function redrawForm() {
+    selectedTags = [];
+    textarea.value = '';
+    
+    if (score >= 9) {
+      title.innerText = "Awesome — thank you!";
+      subtitle.innerText = `What did you love about ${productNames[product] || product}?`;
+      textarea.placeholder = "What stood out most?";
+      createTags(["Ease of use", "Features", "Support", "Performance"]);
 
-  } else if (score >= 7) {
-    title.innerText = "Thanks — we’re close!";
-    subtitle.innerText = `You rated ${productNames[product] || product} ${score}/10. What’s missing?`;
-    textarea.placeholder = "What could we improve to make it a 9 or 10?";
-    createTags(["Missing features", "Bugs", "Hard to use", "Pricing", "Performance", "Support"]);
+    } else if (score >= 7) {
+      title.innerText = "Thanks — we're close!";
+      subtitle.innerText = `You rated ${productNames[product] || product} ${score}/10. What's missing?`;
+      textarea.placeholder = "What could we improve to make it a 9 or 10?";
+      createTags(["Missing features", "Bugs", "Hard to use", "Pricing", "Performance", "Support"]);
 
-  } else {
-    title.innerText = "Sorry we missed the mark";
-    subtitle.innerText = `What went wrong with ${productNames[product] || product}?`;
-    textarea.placeholder = "Tell us what didn’t work...";
-    createTags(["Buggy", "Hard to use", "Too expensive", "Missing features", "Lack of documentation", "Poor support"]);
+    } else {
+      title.innerText = "Sorry we missed the mark";
+      subtitle.innerText = `What went wrong with ${productNames[product] || product}?`;
+      textarea.placeholder = "Tell us what didn't work...";
+      createTags(["Buggy", "Hard to use", "Too expensive", "Missing features", "Lack of documentation", "Poor support"]);
+    }
+
+    updateActiveButton();
+  }
+
+  function selectScore(newScore) {
+    score = newScore;
+    const newUrl = new URL(window.location);
+    newUrl.searchParams.set('npsScore', newScore);
+    window.history.replaceState({}, '', newUrl);
+    redrawForm();
+  }
+
+  function updateActiveButton() {
+    document.querySelectorAll('button[onclick^="selectScore"]').forEach(btn => {
+      const btnText = btn.innerText;
+      if (parseInt(btnText) === score) {
+        btn.style.backgroundColor = '#1a1a2e';
+        btn.style.borderColor = '#1a1a2e';
+        btn.style.color = '#ffffff';
+      } else {
+        btn.style.backgroundColor = '#ffffff';
+        btn.style.borderColor = '#d3d1c7';
+        btn.style.color = '#444441';
+      }
+    });
+  }
+
+  if (!isNaN(score)) {
+    redrawForm();
   }
 
   function submitFeedback() {
@@ -189,6 +252,8 @@
       <p>Your feedback helps us improve.</p>
     `;
   }
+
+
 
   // Application Insights — load SDK and post NpsScoreSelected on page load
   (function () {
