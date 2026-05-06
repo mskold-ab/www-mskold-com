@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+        {% include head.html %}
+
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Feedback</title>
@@ -93,10 +95,15 @@
     }
   </style>
 </head>
-
 <body>
 
-<div class="card">
+      {% include header.html %}
+     
+      <div class="container-fluid container-middle">
+          
+     
+
+    <div class="card">
 
     <div>
                     <p style="margin:0 0 4px 0;font-size:13px;font-weight:700;color:#1a1a2e;font-family:Arial,Helvetica,sans-serif;">How likely are you to recommend Enhanced Export PRO?</p>
@@ -105,17 +112,17 @@
                     <!-- NPS buttons — single row -->
                     <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="margin-bottom:10px;">
                       <tbody><tr>
-                        <td style="padding:0 3px 0 0;"><button onclick="selectScore(0)" style="display:block;width:38px;height:34px;line-height:34px;text-align:center;background-color:#ffffff;border:1px solid #d3d1c7;border-radius:6px;font-size:12px;font-weight:600;color:#444441;cursor:pointer;font-family:Arial,Helvetica,sans-serif;">0</button></td>
-                        <td style="padding:0 3px 0 0;"><button onclick="selectScore(1)" style="display:block;width:38px;height:34px;line-height:34px;text-align:center;background-color:#ffffff;border:1px solid #d3d1c7;border-radius:6px;font-size:12px;font-weight:600;color:#444441;cursor:pointer;font-family:Arial,Helvetica,sans-serif;">1</button></td>
-                        <td style="padding:0 3px 0 0;"><button onclick="selectScore(2)" style="display:block;width:38px;height:34px;line-height:34px;text-align:center;background-color:#ffffff;border:1px solid #d3d1c7;border-radius:6px;font-size:12px;font-weight:600;color:#444441;cursor:pointer;font-family:Arial,Helvetica,sans-serif;">2</button></td>
-                        <td style="padding:0 3px 0 0;"><button onclick="selectScore(3)" style="display:block;width:38px;height:34px;line-height:34px;text-align:center;background-color:#ffffff;border:1px solid #d3d1c7;border-radius:6px;font-size:12px;font-weight:600;color:#444441;cursor:pointer;font-family:Arial,Helvetica,sans-serif;">3</button></td>
-                        <td style="padding:0 3px 0 0;"><button onclick="selectScore(4)" style="display:block;width:38px;height:34px;line-height:34px;text-align:center;background-color:#ffffff;border:1px solid #d3d1c7;border-radius:6px;font-size:12px;font-weight:600;color:#444441;cursor:pointer;font-family:Arial,Helvetica,sans-serif;">4</button></td>
-                        <td style="padding:0 3px 0 0;"><button onclick="selectScore(5)" style="display:block;width:38px;height:34px;line-height:34px;text-align:center;background-color:#ffffff;border:1px solid #d3d1c7;border-radius:6px;font-size:12px;font-weight:600;color:#444441;cursor:pointer;font-family:Arial,Helvetica,sans-serif;">5</button></td>
-                        <td style="padding:0 3px 0 0;"><button onclick="selectScore(6)" style="display:block;width:38px;height:34px;line-height:34px;text-align:center;background-color:#ffffff;border:1px solid #d3d1c7;border-radius:6px;font-size:12px;font-weight:600;color:#444441;cursor:pointer;font-family:Arial,Helvetica,sans-serif;">6</button></td>
-                        <td style="padding:0 3px 0 0;"><button onclick="selectScore(7)" style="display:block;width:38px;height:34px;line-height:34px;text-align:center;background-color:#ffffff;border:1px solid #d3d1c7;border-radius:6px;font-size:12px;font-weight:600;color:#444441;cursor:pointer;font-family:Arial,Helvetica,sans-serif;">7</button></td>
-                        <td style="padding:0 3px 0 0;"><button onclick="selectScore(8)" style="display:block;width:38px;height:34px;line-height:34px;text-align:center;background-color:#ffffff;border:1px solid #d3d1c7;border-radius:6px;font-size:12px;font-weight:600;color:#444441;cursor:pointer;font-family:Arial,Helvetica,sans-serif;">8</button></td>
-                        <td style="padding:0 3px 0 0;"><button onclick="selectScore(9)" style="display:block;width:38px;height:34px;line-height:34px;text-align:center;background-color:#ffffff;border:1px solid #d3d1c7;border-radius:6px;font-size:12px;font-weight:600;color:#444441;cursor:pointer;font-family:Arial,Helvetica,sans-serif;">9</button></td>
-                        <td style="padding:0;"><button onclick="selectScore(10)" style="display:block;width:38px;height:34px;line-height:34px;text-align:center;background-color:#ffffff;border:1px solid #d3d1c7;border-radius:6px;font-size:12px;font-weight:600;color:#444441;cursor:pointer;font-family:Arial,Helvetica,sans-serif;">10</button></td>
+                        <td style="padding:0 3px 0 0;"><button onclick="selectScore(0)" style="display:flex;align-items:center;justify-content:center;width:38px;height:34px;background-color:#ffffff;border:1px solid #d3d1c7;border-radius:6px;font-size:12px;font-weight:600;color:#444441;cursor:pointer;font-family:Arial,Helvetica,sans-serif;">0</button></td>
+                        <td style="padding:0 3px 0 0;"><button onclick="selectScore(1)" style="display:flex;align-items:center;justify-content:center;width:38px;height:34px;background-color:#ffffff;border:1px solid #d3d1c7;border-radius:6px;font-size:12px;font-weight:600;color:#444441;cursor:pointer;font-family:Arial,Helvetica,sans-serif;">1</button></td>
+                        <td style="padding:0 3px 0 0;"><button onclick="selectScore(2)" style="display:flex;align-items:center;justify-content:center;width:38px;height:34px;background-color:#ffffff;border:1px solid #d3d1c7;border-radius:6px;font-size:12px;font-weight:600;color:#444441;cursor:pointer;font-family:Arial,Helvetica,sans-serif;">2</button></td>
+                        <td style="padding:0 3px 0 0;"><button onclick="selectScore(3)" style="display:flex;align-items:center;justify-content:center;width:38px;height:34px;background-color:#ffffff;border:1px solid #d3d1c7;border-radius:6px;font-size:12px;font-weight:600;color:#444441;cursor:pointer;font-family:Arial,Helvetica,sans-serif;">3</button></td>
+                        <td style="padding:0 3px 0 0;"><button onclick="selectScore(4)" style="display:flex;align-items:center;justify-content:center;width:38px;height:34px;background-color:#ffffff;border:1px solid #d3d1c7;border-radius:6px;font-size:12px;font-weight:600;color:#444441;cursor:pointer;font-family:Arial,Helvetica,sans-serif;">4</button></td>
+                        <td style="padding:0 3px 0 0;"><button onclick="selectScore(5)" style="display:flex;align-items:center;justify-content:center;width:38px;height:34px;background-color:#ffffff;border:1px solid #d3d1c7;border-radius:6px;font-size:12px;font-weight:600;color:#444441;cursor:pointer;font-family:Arial,Helvetica,sans-serif;">5</button></td>
+                        <td style="padding:0 3px 0 0;"><button onclick="selectScore(6)" style="display:flex;align-items:center;justify-content:center;width:38px;height:34px;background-color:#ffffff;border:1px solid #d3d1c7;border-radius:6px;font-size:12px;font-weight:600;color:#444441;cursor:pointer;font-family:Arial,Helvetica,sans-serif;">6</button></td>
+                        <td style="padding:0 3px 0 0;"><button onclick="selectScore(7)" style="display:flex;align-items:center;justify-content:center;width:38px;height:34px;background-color:#ffffff;border:1px solid #d3d1c7;border-radius:6px;font-size:12px;font-weight:600;color:#444441;cursor:pointer;font-family:Arial,Helvetica,sans-serif;">7</button></td>
+                        <td style="padding:0 3px 0 0;"><button onclick="selectScore(8)" style="display:flex;align-items:center;justify-content:center;width:38px;height:34px;background-color:#ffffff;border:1px solid #d3d1c7;border-radius:6px;font-size:12px;font-weight:600;color:#444441;cursor:pointer;font-family:Arial,Helvetica,sans-serif;">8</button></td>
+                        <td style="padding:0 3px 0 0;"><button onclick="selectScore(9)" style="display:flex;align-items:center;justify-content:center;width:38px;height:34px;background-color:#ffffff;border:1px solid #d3d1c7;border-radius:6px;font-size:12px;font-weight:600;color:#444441;cursor:pointer;font-family:Arial,Helvetica,sans-serif;">9</button></td>
+                        <td style="padding:0;"><button onclick="selectScore(10)" style="display:flex;align-items:center;justify-content:center;width:38px;height:34px;background-color:#ffffff;border:1px solid #d3d1c7;border-radius:6px;font-size:12px;font-weight:600;color:#444441;cursor:pointer;font-family:Arial,Helvetica,sans-serif;">10</button></td>
                       </tr>
                     </tbody></table>
 
@@ -139,6 +146,12 @@
 
   <div class="footer">Takes 10 seconds · Read by our product team</div>
 </div>
+ </div>
+
+
+
+
+     {% include footer.html %}
 
 <script>
   const productNames = {
