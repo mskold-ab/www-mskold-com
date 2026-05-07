@@ -244,7 +244,8 @@
           product: productNames[product] || product,
           source: params.get('source') || '',
           tags: selectedTags.join(','),
-          hasFeedback: feedback.trim().length > 0 ? 'true' : 'false'
+          hasFeedback: feedback.trim().length > 0 ? 'true' : 'false',
+          feedback:feedback.trim()
         }
       );
     }
@@ -294,7 +295,7 @@
           npsScore: params.get('npsScore'),
           product: productNames[product] || product,
           source: params.get('source') || '',
-          page: window.location.pathname
+          comment:
         }
       );
     };
