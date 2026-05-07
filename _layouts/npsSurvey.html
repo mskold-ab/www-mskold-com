@@ -75,7 +75,7 @@
       <div class="container-fluid container-middle">
         <main class="page-content" aria-label="Content">
             <div class="wrapper">
-            <p style="margin:0 0 4px 0;font-size:13px;font-weight:700;color:#1a1a2e;font-family:Arial,Helvetica,sans-serif;">How likely are you to recommend Enhanced Export PRO?</p>
+            <h1 id="npsTitle">How likely are you to recommend us ?</h1>
             <p style="margin:0 0 14px 0;font-size:12px;color:#5f5e5a;font-family:Arial,Helvetica,sans-serif;">Select a number from 0 (not at all) to 10 (extremely likely)</p>
 
             <!-- NPS buttons — single row -->
@@ -102,7 +102,7 @@
                 <td align="right" style="font-size:10px;color:#b4b2a9;font-family:Arial,Helvetica,sans-serif;">Extremely likely</td>
               </tr>
             </tbody></table>
-          </div>
+          
 
           <h1 id="title"></h1>
           <p id="subtitle"></p>
@@ -131,11 +131,18 @@
     "WKP": "Wiki Pro",
   };
 
+  const sourceNames = {
+    "supportEmail": "Based on the support experience, how likely are you to recommend us to a friend or colleague?",
+    "inapp": "In-app prompt",
+    "other": "Other"
+  };
+
   const params = new URLSearchParams(window.location.search);
   let score = parseInt(params.get("npsScore"));
   const product = params.get("product");
 
   const title = document.getElementById("title");
+  const npsTitle = document.getElementById("npsTitle");
   const subtitle = document.getElementById("subtitle");
   const textarea = document.getElementById("feedback");
   const tagsContainer = document.getElementById("tags");
@@ -165,7 +172,8 @@
   function redrawForm() {
     selectedTags = [];
     textarea.value = '';
-    
+    npsTitle.innerText = sourceNames[params.get('source')] || 'How likely are you to recommend us ?';
+
     if (score >= 9) {
       title.innerText = "Awesome — thank you!";
       subtitle.innerText = `What did you love about ${productNames[product] || product}?`;
