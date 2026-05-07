@@ -8,34 +8,7 @@
   <title>Feedback</title>
 
   <style>
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      background: #f7f7f8;
-      margin: 0;
-      padding: 32px;
-      height: 100vh;
-      width: 100%;
-      box-sizing: border-box;
-    }
-
-    .card {
-      background: white;
-      padding: 32px;
-      width: 100%;
-      height: 100%;
-      box-sizing: border-box;
-    }
-
-    h1 {
-      font-size: 22px;
-      margin-bottom: 10px;
-    }
-
-    p {
-      color: #555;
-      margin-bottom: 20px;
-    }
-
+   
     textarea {
       width: 100%;
       height: 120px;
@@ -68,7 +41,7 @@
       border-color: #111;
     }
 
-    button {
+    .FeedbackButton {
       width: 100%;
       padding: 12px;
       background: #111;
@@ -79,7 +52,7 @@
       cursor: pointer;
     }
 
-    button:hover {
+    .FeedbackButton:hover {
       background: #333;
     }
 
@@ -89,7 +62,7 @@
       color: #888;
       margin-top: 12px;
     }
-
+    
     .hidden {
       display: none;
     }
@@ -103,7 +76,6 @@
           
      
 
-    <div class="card">
 
     <div>
                     <p style="margin:0 0 4px 0;font-size:13px;font-weight:700;color:#1a1a2e;font-family:Arial,Helvetica,sans-serif;">How likely are you to recommend Enhanced Export PRO?</p>
@@ -142,7 +114,7 @@
 
   <div class="tags" id="tags"></div>
 
-  <button onclick="submitFeedback()">Send feedback</button>
+  <button class="FeedbackButton" onclick="submitFeedback()">Send feedback</button>
 
   <div class="footer">Takes 10 seconds · Read by our product team</div>
 </div>
