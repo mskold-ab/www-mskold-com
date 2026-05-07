@@ -178,9 +178,10 @@
   function redrawForm() {
     selectedTags = [];
     textarea.value = '';
+    const source = params.get('source') || 'other';
     let tagKey= source+"-"+product+"-";
 
-    npsTitle.innerText = sourceNames[params.get('source')] || 'How likely are you to recommend us ?';
+    npsTitle.innerText = sourceNames[source] || 'How likely are you to recommend us ?';
 
     if (score >= 9) {
       title.innerText = "Awesome — thank you!";
