@@ -6,32 +6,32 @@ toc: true
 ---
 
 ## Introduction 
-The Plan & Progress view is built to provide an visualization like Delivery plan, but for the dash board. It simple takes a set of work items and put them on a timeline. 
+The Plan & Progress view is built to provide a visualization like Delivery Plan, but for the dashboard. It simply takes a set of work items and puts them on a timeline.
 
 ## Data source 
-The Plan & progress view works with all query types, but if you select an hierarchical query, you will get the structure rendered. 
+The Plan & Progress view works with all query types, but if you select a hierarchical query, you will get the structure rendered.
 
 ## How items are placed on the time line
 In the plan 
 ### Start and target dates 
-First it tries with the standard fields - (Microsoft.VSTS.Scheduling.StartDate & Microsoft.VSTS.Scheduling.TargetDate)
+First, it tries the standard fields (Microsoft.VSTS.Scheduling.StartDate and Microsoft.VSTS.Scheduling.TargetDate).
 
-### Any field containg StartDate and EndDate 
-If not the standard date fields is present, it check for any fields with their ref names containing StartDate and EndDate
+### Any field containing StartDate and EndDate 
+If the standard date fields are not present, it checks for any fields with reference names containing StartDate and EndDate.
 
 ### Iteration dates
-If not date fields are found, the iteration start and end date will be used as the start and end date 
+If no date fields are found, the iteration start and end dates will be used.
 
-## Showing progreess
+## Showing progress
 The Plan & Progress view can show progress by measuring it by 
 
 ### Count
 Progress is measured in the number of work items, (per state and the total)
 
 ### Remaining & Completed 
-uses the fields for remaining and completed work - (Microsoft.VSTS.Scheduling.RemainingWork & Microsoft.VSTS.Scheduling.CompletedWork)
+Uses the fields for remaining and completed work (Microsoft.VSTS.Scheduling.RemainingWork and Microsoft.VSTS.Scheduling.CompletedWork).
 
 ### Expression 
-Evaluates 2 javascript expressions, to get the Remaining and Completed work (so you can use your custom fields like "@Custom.IDidntUseTheStandardFields4Completed"
+Evaluates two JavaScript expressions to get the Remaining and Completed work (so you can use your custom fields, like "@Custom.IDidntUseTheStandardFields4Completed").
 
 

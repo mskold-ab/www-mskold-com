@@ -33,7 +33,7 @@ Without this feature, reports show a 65-hour delay. With Business Hours, you see
 
 
 # How to use it 
-Simply replace your DateDiff function with the BusinessHours function in your Query Tiles configurations
+Simply replace your DateDiff function with the BusinessHours function in your Query Tile configuration.
 ![Business Hours settings panel showing configuration options](image-2.png)
 
 
@@ -64,7 +64,7 @@ Business Hours settings are managed through the **Query Tile PRO settings panel*
 ## Step 4: Add Holidays
 
 1. Import the official holidays by clicking the **Import Holidays** button
-2. Manually adjust or add other days of 
+2. Manually adjust or add other days of closure as needed
 
 ![Settings panel showing business hours configuration](image.png)
 

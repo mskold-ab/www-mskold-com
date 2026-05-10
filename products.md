@@ -40,21 +40,21 @@ Our products are Azure DevOps extensions, and our distribution channel is the [A
 		</div>
 		<div class="products-cell" style="display: table-cell; vertical-align: top;">
 			<h3>Enhanced Export</h3>
-			Export Work Item Queries and Test Plans to word using customizable templates. Direct from the web, without client installs and moving templates files between computers
+			Export Work Item Queries and Test Plans to Word using customizable templates, directly from the web, without client installs or moving template files between computers.
 			<div class="getExtension"><a href="https://marketplace.visualstudio.com/items?itemName=mskold.mskold-enhanced-export" >Get it Free</a></div>
 		</div>
 	</div>
 </div>
 
 # Purchasing our products 
-By default purchases are done online from within the extension, through our online self-service there you sign up for a subscription and pay online by credit card. 
+By default, purchases are made online from within the extension through our self-service flow, where you sign up for a subscription and pay by credit card.
 
 For larger purchases above 1000 Euros, we can offer additional purchasing options:
 ## PO/Invoicing/Bank transfer payments
 If you want to make a purchase above 1000 Euros and don't want to use our self-service purchase, please reach out to [sales@mskold.com](mailto://sales@mskold.com)
 
 ## Purchasing through 3rd party resellers 
-We also work with 3rd party licenses partners/resellers such as SoftwareOne, SHI, QBS, ABDistribution, Insights, Ebusiness-design and many others. 
-We are also open to work with your preferred partner to deliver through them. 
+We also work with 3rd-party licensing partners and resellers such as SoftwareOne, SHI, QBS, ABDistribution, Insights, Ebusiness-design, and many others.
+We are also open to working with your preferred partner to deliver through them.
 
 To make a purchase through a 3rd party reseller, please reach out to your reseller contact. 

@@ -1,7 +1,7 @@
 ---
 layout: redirect
 title:  "index"
-categories: Generall
+categories: General
 toc: true
 ---
 

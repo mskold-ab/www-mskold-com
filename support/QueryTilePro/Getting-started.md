@@ -7,33 +7,33 @@ toc: true
 ---
 
 ## Introduction 
-Query Tile PRO is built to enable you to create the tiles for dashboard you can't get with the standard Query Tile
+Query Tile PRO is built to enable you to create dashboard tiles you can't get with the standard Query Tile.
 
-Some features are free to use, while other require a licence. 
+Some features are free to use, while others require a license.
 ### Free features
-+ Support all Query types
-+ Filters on query result 
-+ Different aggregations of all field values 
-+ Calculations on row level
-+ styling tile 
++ Support for all query types
++ Filters on query results
++ Different aggregations of field values
++ Calculations at row level
++ Tile styling
 
 ### Paid features 
-Paid features focus on 3 things, Extended capaabilities, performance enhancements and keeping the time and effort down to build new and maintain dashboards.
-Example of paid features are:
+Paid features focus on three things: extended capabilities, performance enhancements, and reducing the time and effort required to build and maintain dashboards.
+Examples of paid features are:
 + Multiple Queries 
-+ Calculations on result level
++ Calculations at result level
 + Charts 
 + Plan & progress view 
 + Grouping
-+ Global stylesets 
++ Global stylesets
 + Global Queries 
 + Global functions 
 
 ## Key concepts 
 
 ### Expressions 
-In many places you can provide *expressions*. Expressions follows Javascript syntax, so you can use Javascript operators, variables, functions. 
-For example 
+In many places, you can provide *expressions*. Expressions follow JavaScript syntax, so you can use JavaScript operators, variables, and functions.
+For example:
 
 ``` javascript
 let a = 0;
@@ -42,12 +42,12 @@ a+= Date().getFullYear()==2023?0:1
 ```
 
 ### Macros 
-In addition to the javascipt syntax, we also support macros. Macros starts with @. 
-The macros available depends on the localtion for the expressions.
-For example in a row level expression you could use fields macros 
+In addition to JavaScript syntax, we also support macros. Macros start with @.
+The macros available depend on the location of the expression.
+For example, in a row-level expression you could use field macros.
 #### Field macros 
-Field macros is @ followed by the fields reference name, like @System.Descriptions 
-So you can do an expressions like 
+Field macros are @ followed by the field reference name, like @System.Descriptions.
+So you can write an expression like:
 
 ``` javascript
 @Microsoft.VSTS.Scheduling.CompletedWork+@Microsoft.VSTS.Scheduling.RemainingWork
@@ -56,8 +56,8 @@ So you can do an expressions like
 @System.State=="Closed" ? 0:@Microsoft.VSTS.Scheduling.CompletedWork
 
 ```
-Important with field macros is that they only contains the value, it is not a typed variable. 
-If you want to use the Created date as a date object you need to do like this 
+An important thing about field macros is that they only contain the value; they are not typed variables.
+If you want to use the Created date as a date object, you need to do this:
 
 ``` javascript
 Date.parts("@System.CreatedDate")
@@ -65,9 +65,9 @@ Date.parts("@System.CreatedDate")
 
 
 ### Calculation engine 
-This is simple the engine that stitch all features together so we can pass a tree query and calculate the average of the child items. 
+This is simply the engine that stitches all features together so we can pass a tree query and calculate the average of child items.
 We have had a major rewrite of the engine to fix bugs, increase performance and make it easier to add new functions. 
-As the calculated value (specially for filtered results) might be different with the new engine. To be backward compatible and ensure we do not break existing customers - we have made it possible to keep using the old engine if your dashboards or KPI depends on it. The default and recommended engine is the new version. 
+Because calculated values (especially for filtered results) might be different with the new engine, we made it possible to keep using the old engine to stay backward compatible and avoid breaking existing customers if your dashboards or KPIs depend on it. The default and recommended engine is the new version.
 
 
 
