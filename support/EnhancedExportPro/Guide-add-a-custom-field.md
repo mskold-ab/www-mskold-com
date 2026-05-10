@@ -44,6 +44,6 @@ You can find the name of your field in the data tab.
 
 ## Test it 
 A quick test can be done by switch over to the preview tab.  
-You can also save the template and switch back to the export tab and re-run the export. Just remeber to reload the export tab to get the latest version of the template. 
+You can also save the template and switch back to the export tab and re-run the export. Just remember to reload the export tab to get the latest version of the template. 
 
 

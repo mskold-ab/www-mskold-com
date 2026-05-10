@@ -7,10 +7,10 @@ toc: true
 ---
 
 ## Introduction
-Creating an export is not worth much if you can’t share it with others. Enhanced Export PRO has the capability to save an export as a full fletched word document with the look and feel that you can share across your organization. 
+Creating an export is not worth much if you can’t share it with others. Enhanced Export PRO has the capability to save an export as a full fledged word document with the look and feel that you can share across your organization. 
 
 ## Saving an export as a word document 
-To save your export as a word document, just dop down the Open menu and select one of the uploaded word document templates. 
+To save your export as a word document, just drop down the Open menu and select one of the uploaded word document templates. 
 ![](./img/ExortToWordMenu.png)
 
 
@@ -37,7 +37,7 @@ You are now done and can use your word template in Enhanced Export PRO
 You can use Word document properties to show data in the word template that is populated at runtime 
 One example of this is the Title properties. In the word template you can insert the Title property both on the first page, and in headars and/or fotters. 
 
-Then exporting to a word document, the document title peoperty is automnaticly populated bu the Title element, if present, if not the query name Is used. 
+Then exporting to a word document, the document title peoperty is automatically populated bu the Title element, if present, if not the query name Is used. 
 By default we populate the following properties  of the exported word document 
 *	Title
 *	Creator
@@ -66,8 +66,8 @@ Create a new macro AutoOpen in the template document Specific (not All or the no
         ActiveDocument.Fields.Update
     End Sub
 
-Save the macro as part of the template documet as a Macro included document (.docm)
-Upload the template document as a temlate document in Enhanced Export PRO. 
+Save the macro as part of the template document as a Macro included document (.docm)
+Upload the template document as a template document in Enhanced Export PRO. 
 
 Make sure that the documents you download from Azure DevOps is trusted 
 

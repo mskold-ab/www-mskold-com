@@ -36,7 +36,7 @@ With the auto approval turned on - unlicensed teams requesting a license will di
 
 ### 4. Change the number of purchased teams. 
 On the top of your subscription there is links to **change the quantity**
-All changes of of the quantiy will be done directly and will result in a new invoice with pro rated charges. 
+All changes of of the quantity will be done directly and will result in a new invoice with pro rated charges. 
 If you want to avoid having an extra invoice - please reach out to extension-support@mskold.com and we will assist you.
 
 ### 4. Change billing details. 
@@ -44,11 +44,11 @@ On the top of your subscription there is links to **change billing details**  it
 If you need to change the card information on file - the simplest way is to drop an email to extension-support@mskold.com and we will send a secure link for updating the card details.
 
 ### 5. Change owner of the subscription 
-To change the owner of the subscrition you go to the settings tab of the subscription and change the owner by dropping down the listbox and chaning team.
+To change the owner of the subscription you go to the settings tab of the subscription and change the owner by dropping down the listbox and chaning team.
 
 ### 6. Cancel a subsription 
 On the top of your subscription there is links to **cancel the subscription**  it will open up a form for submitting your cancellation. 
-Please provide the reason for cancellign and also note that the cancellaion will take effect directly. 
+Please provide the reason for cancelling and also note that the cancellation will take effect directly. 
 If you want the subscription canceled on the end of the term or on a specific date - please reach out to extension-support@mskold.com and we will assist you.
 
 

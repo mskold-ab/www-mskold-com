@@ -7,12 +7,12 @@ permalink: /support/
 We offer paying customers support on their use of our extensions, primarily by email. If needed, we might suggest other communication channels.
 
 To initialize a support request, please send an email to <a href="mailto://extension-support@mskold.com">extension-support@mskold.com</a><br/>
-We strive to deliver a top-notch support experience and start working on your ticket within 8 bussiness hours. 
+We strive to deliver a top-notch support experience and start working on your ticket within 8 business hours. 
 
-If you require certain other communication channels then email or if you want us to build or do customizations for you, we can offer that as an additonal time and material based service.
+If you require certain other communication channels then email or if you want us to build or do customizations for you, we can offer that as an additional time and material based service.
 <br/>
 ## Documentation & support articles  
-We have collected som articles and documentation our our producs that can be helpfull:
+We have collected some articles and documentation our our producs that can be helpful:
 
 
 <div class="support-table" style="display: table; width: 100%; border-collapse: separate; border-spacing: 0 20px;">
@@ -48,6 +48,6 @@ We have collected som articles and documentation our our producs that can be hel
 For our free and community tools - we offer limited support on a best effort basis without any additional promises or guarantees.
 The main channel for support is through the public Q&A sections on the extension or other public channels (GitHub Issues)<br/>
 <br/>
-We will always prioritize paying customers, and we have multiple free or open source extensions or projects we support then we have an chans.
+We will always prioritize paying customers, and we have multiple free or open source extensions or projects we support then we have an chance.
 
 

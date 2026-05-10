@@ -7,15 +7,15 @@ toc: true
 ---
 
 ## Introduction
-In Enhanced Export PRO all settings are stored in Templates that is accesseible for all users.
-The extension comes with a set of predifned templates out of the box intended to showcase the capablilities and server as a starting point for customers. 
+In Enhanced Export PRO all settings are stored in Templates that is accessible for all users.
+The extension comes with a set of predefined templates out of the box intended to showcase the capabilities and server as a starting point for customers. 
 You can copy existing templates and modifying them or create new templates with the Admin hub.
-The out of the box templates has the **Default** scope and can not be overwritten, users can save Templates with the scoped of **Collection** visible to all projects, or **Project** only vissible for the current project. 
+The out of the box templates has the **Default** scope and can not be overwritten, users can save Templates with the scoped of **Collection** visible to all projects, or **Project** only visible for the current project. 
 
-You can navigate to the Admin hub by either clicking the settings gear on the export tab, or by selecting Project settings and then clicking Enhnaced Export PRO in the left-hand lower corner.
+You can navigate to the Admin hub by either clicking the settings gear on the export tab, or by selecting Project settings and then clicking Enhanced Export PRO in the left-hand lower corner.
 
 ## Languages 
-Enhanced Export PRO uses common well-known languages for renderign the data into a document. There is plenty of resources avaible on internet for learning and mastering them, below is just some examples. 
+Enhanced Export PRO uses common well-known languages for rendering the data into a document. There is plenty of resources available on internet for learning and mastering them, below is just some examples. 
 * [HTML](https://www.w3schools.com/html)
 * [XML](https://www.w3schools.com/xml)
 * [XSLT](https://www.w3schools.com/xml/xsl_intro.asp)
@@ -45,9 +45,9 @@ The properties tab contains the default values for all settings.
 | Description | A general description for the template   |
 | DocType | The default file extension used then user opens /downloads the rendered report |
 | Export driver | The default export driver used then user opens /downloads rendered report |
-| Data options | This sets the defualt options used for fetching data.  |
+| Data options | This sets the default options used for fetching data.  |
 | Custom options | You can create your own custom options that you can use for controling the rendering. |
-| Default decorators| Defualt decorators to be applied once the rendering is complete.  |
+| Default decorators| Default decorators to be applied once the rendering is complete.  |
 
 ## Template tab
 This is the editor for the transformation template. 
@@ -55,7 +55,7 @@ This is the editor for the transformation template.
 
 |   |   |
 |---|---|
-| Show template structure | Shows a treview of the template structure for easy of understanding and quick navigation. |
+| Show template structure | Shows a tree view of the template structure for easy of understanding and quick navigation. |
 | Insert snippet | Inserts XSLT tags for word codes and work item fields   |
 | Show data structure| Shows a tree view of the data structure. |
 
