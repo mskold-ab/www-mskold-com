@@ -4,8 +4,6 @@ title: Our Founder
 permalink: /founder/
 ---
 
-<br />
-<br />
 
 # The Founder
 [about us](/about) | [our history](/history) | [our products](/products) 

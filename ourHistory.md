@@ -4,11 +4,8 @@ title: Our History
 permalink: /history/
 ---
 
-<br />
-<br />
 
 # Our history 
-
 [about us](/about) | [the founder](/founder) | [our products](/products) 
 
 Our company was founded in 2015. In the ten years since, we have gone from shipping
