@@ -6,7 +6,7 @@ permalink: /support/
 # Support Policy 
 We offer paying customers support on their use of our extensions, primarily by email. If needed, we might suggest other communication channels.
 
-To initialize a support request, please send an email to <a href="mailto://extension-support@mskold.com">extension-support@mskold.com</a><br/>
+To open a support request, please send an email to <a href="mailto://extension-support@mskold.com">extension-support@mskold.com</a><br/>
 We strive to deliver a top-notch support experience and start working on your ticket within 8 business hours. 
 
 If you require communication channels other than email, or if you want us to build or customize something for you, we can offer that as an additional time-and-materials service.

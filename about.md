@@ -4,7 +4,7 @@ title: About us
 permalink: /about/
 ---
 
-About Us
+# About Us
 
 ## We build the tools Azure DevOps forgot to include
 
@@ -21,7 +21,7 @@ We build precisely because we've felt that friction ourselves.
 
 ## Seeing is believing
 
-Don't take our word for it — all our extensions are available with a free 30-day.  
+Don't take our word for it — all our extensions are available with a free 30-day trial.  
 You can evaluate them in your own environment, no strings attached, no sales call needed. 
 Just install directly from the [Azure DevOps Marketplace](https://marketplace.visualstudio.com/publishers/mskold) 
 and get started in minutes. If it's a fit, self-service credit card billing makes it easy to continue.
