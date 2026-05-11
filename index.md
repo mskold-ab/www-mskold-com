@@ -14,7 +14,7 @@ Our mission is to fill the small gaps that prevent teams from reaching their ful
 
 We are a Certified Top Publisher on the Azure DevOps Marketplace with more then 10 years experince on building extensions for Azure Devops. Our extensiosns are trusted by more than 30,000 organizations worldwide.
 
-[See our prodcts](/products/) | [Get support](/support/) | [Learn more about us](/aboutUs/)
+[See our prodcts](/products/) | [Get support](/support/) | [Learn more about us](/about/)
 
 
 

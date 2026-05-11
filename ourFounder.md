@@ -1,11 +1,14 @@
 ---
 layout: page
+title: Our Founder
+permalink: /founder/
 ---
 
 <br />
 <br />
 
-## The Founder
+# The Founder
+[about us](/about) | [our history](/history) | [our products](/products) 
 
 MSkold AB was founded in 2015, but the story behind it starts a decade earlier —
 in the trenches of software development, where a passion for tooling and developer

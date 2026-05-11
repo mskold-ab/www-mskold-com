@@ -5,6 +5,7 @@ permalink: /about/
 ---
 
 # About Us
+[our founder](/founder) | [our history](/history) | [our products](/products) 
 
 ## 20 years building tools to make teams excel
 

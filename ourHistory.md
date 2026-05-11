@@ -1,9 +1,15 @@
 ---
 layout: page
+title: Our History
+permalink: /history/
 ---
 
 <br />
 <br />
+
+# Our history 
+
+[about us](/about) | [the founder](/founder) | [our products](/products) 
 
 For 20 years, building tools that solve everyday problems for development teams has
 been the driving force behind MSkold AB. From shipping writing guidiance and building tools to shipping extensions under the Microsoft DevLabs brand — accumulating over 130,000 installs across five extensions
