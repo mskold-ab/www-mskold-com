@@ -47,7 +47,7 @@ permalink: /products/
 </style>
 
 # Our products 
-Our products are Azure DevOps extensions, and our distribution channel is the [Azure DevOps Marketplace](https://marketplace.visualstudio.com). There you can read more about the different extensions and find licensing and pricing information.
+For full product information, licensing details, and pricing, visit our product pages on the [Azure DevOps Marketplace](https://marketplace.visualstudio.com) using the links for each product. The summaries below are for quick reference.
 
 <div class="products-table" style="display: table; width: 100%; border-collapse: separate; border-spacing: 0 20px;">
 	<div class="products-row" style="display: table-row;">
@@ -64,7 +64,7 @@ Our products are Azure DevOps extensions, and our distribution channel is the [A
 		</div>
 		<div class="review-cell" style="display: table-cell; vertical-align: top;">
 			<span class="star-rating" style="--rating: 4.5;" aria-label="4.5 out of 5"></span>
-			<span class="rating-label">4.5 out of 5</span>
+			<span class="rating-label">4.5 out of 5 average customer raiting</span>
 		</div>
 	</div>
 	<div class="products-row" style="display: table-row;">
@@ -82,7 +82,7 @@ Our products are Azure DevOps extensions, and our distribution channel is the [A
 		</div>
 		<div class="review-cell" style="display: table-cell; vertical-align: top;">
 			<span class="star-rating" style="--rating: 4.2;" aria-label="4.2 out of 5"></span>
-			<span class="rating-label">4.2 out of 5</span>
+			<span class="rating-label">4.2 out of 5  average customer raiting</span>
 		</div>
 	</div>
 	<div class="products-row" style="display: table-row;">
@@ -100,7 +100,7 @@ Our products are Azure DevOps extensions, and our distribution channel is the [A
 		</div>
 		<div class="review-cell" style="display: table-cell; vertical-align: top;">
 			<span class="star-rating" style="--rating: 3.8;" aria-label="3.8 out of 5"></span>
-			<span class="rating-label">3.8 out of 5</span>
+			<span class="rating-label">3.8 out of 5  average customer raiting</span>
 		</div>
 	</div>
 </div>
