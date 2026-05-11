@@ -17,7 +17,8 @@ experience quietly took shape.
 
 ## Mattias Sköld — The founders story 
 
-*[Photo placeholder]*
+<img class="founder-portrait" src="../img/Mattias-skold-profile.png" alt="Mattias Sköld, fouder of MSkold AB " style="float: right; margin: 0 0 1rem 1.5rem; max-width: 280px; width: 35%;" />
+		
 
 I have been building tools for development teams since 2005 — first as a
 consultant, then as an open source contributor, and eventually as the founder
