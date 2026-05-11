@@ -7,8 +7,7 @@ permalink: /about/
 # About Us
 [our founder](/founder) | [our history](/history) | [our products](/products) 
 
-## 20 years building tools to make teams excel
-
+## 10 years building tools to let teams focus on the important issues 
 MSkold AB is a Swedish software company with one focus: making the everyday work of
 development teams smoother. We build extensions for Azure DevOps that fill the small
 but frustrating gaps — the missing export, the dashboard widget that almost does what
@@ -19,12 +18,9 @@ Our tools are used by more than 30,000 organizations worldwide, and we are a cer
 
 ## Our story
 
-MSkold AB was founded in 2015, but the experience behind it goes back further. A decade
-of consulting, community work, and open source contributions to the Azure DevOps
-ecosystem gave us an unusually clear picture of what development teams actually struggle with day to day — and what was missing from the tooling available to them. That history is what shaped everything we build today.
-
-If you want to understand what drives us, read about our
-[founder's background](/founder) or explore the full [company history](/history).
+Founded in 2015, backed by a decade of consulting and community work in the Azure DevOps
+ecosystem before that. Read about our [founder's background](/founder) or the full
+[company history](/history).
 
 ## Our philosophy
 
@@ -70,6 +66,7 @@ We meet the requirements of security-conscious organizations. On request, we pro
 
 Reach us at [info@mskold.com](mailto:info@mskold.com) to request any of these.
 
+---
 
 ## Get in touch
 
@@ -81,7 +78,7 @@ Byvägen 6
 Sweden
 
 General enquiries: [info@mskold.com](mailto:info@mskold.com)
-Sales contact: [sales@mskold.com](mailto:sales@mskold.com)
-Support: [extension-support@mskold.com](mailto:extension-support@mskold.com)
+Extension support: [extension-support@mskold.com](mailto:extension-support@mskold.com)
+Sales & licensing: [sales@mskold.com](mailto:sales@mskold.com)
 
 Organisation number: 559204-7319

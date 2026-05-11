@@ -11,16 +11,15 @@ permalink: /history/
 
 [about us](/about) | [the founder](/founder) | [our products](/products) 
 
-For 20 years, building tools that solve everyday problems for development teams has
-been the driving force behind MSkold AB. From shipping writing guidiance and building tools to shipping extensions under the Microsoft DevLabs brand — accumulating over 130,000 installs across five extensions
-— to becoming an independent publisher serving more than 30,000 organizations
-worldwide, we have spent two decades earning our place as a trusted name in the
-Azure DevOps marketplace.
+Our company was founded in 2015. In the ten years since, we have gone from shipping
+extensions under the Microsoft DevLabs brand — accumulating over 130,000 installs
+across five extensions — to becoming an independent publisher serving more than
+30,000 organizations worldwide with our own products. 
 
 This is the history of the company we built.
 
-*The experience and community work that laid the groundwork for MSkold AB is
-covered on our [Founder](/founder) page.*
+*The decade of consulting and community work that laid the groundwork for MSkold AB
+is covered on our [Founder](/founder) page.*
 
 ---
 
@@ -92,14 +91,6 @@ features stayed free, while new premium features would be available to paying
 customers. In June 2023 we re-launched Query Tile PRO as a freemium extension
 and quickly built a paying customer base around the premium tier.
 
-## 2023–2024 – Query Tile PRO Features
-We mainly worked around customer requests and our experience from building dashboards at scale, adding things like. 
-- Global styles, functions, datasets to make building and maintaining dashboards easier and more effective. 
-- Grouping to improve performance and make building advanced dashboards easier. 
-- BusienessHours calculations to be able to produce KPI numbers that matters 
-- Charting filling the holes in the standard charting widget
-
-
 ## 2024 – The Idea Behind Wiki PRO
 
 Over the preceding years we had increasingly encountered customer frustration
@@ -115,5 +106,6 @@ Wiki PRO was underway.
 ## Today
 
 Wiki PRO is currently in private preview. Our aim is to release an initial public
-preview on the marketplace by mid-2026 — and we're looking forward to sharing it
-with the community that has supported us for 20 years.
+preview on the marketplace by mid-2026. If you want to be among the first to know
+when it launches, reach out to us at [info@mskold.com](mailto:info@mskold.com) and
+we'll make sure you hear about it first.
