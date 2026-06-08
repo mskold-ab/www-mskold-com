@@ -55,6 +55,24 @@ For full product information, licensing details, and pricing, visit our product 
 			<img class="extension-logo" src="../img/EnhancedExportPRO-logo.png" />
 		</div>
 		<div class="products-cell" style="display: table-cell; vertical-align: top;">
+			<h3>Wiki PRO </h3>
+			A better wiki experience for both developers and business users. Rich text editing, Draw.IO integration, latest version and full support for all Mermaid charts.
+			Page tag and filtering,  print or export multiple wiki pages to word, page and wiki analytics and statistics  
+			
+			<div class="getExtension"><a  href="https://marketplace.visualstudio.com/items?itemName=mskold.mskold-PRO-EnhancedExport">Read more and <b>start a free 30 day trieal</b>at the Azure DevOps Marketplace...</a></div>
+		</div>
+		<div class="license-cell" style="display: table-cell; vertical-align: top;">
+			<b>Paid<br /> Free 30 day trial </b><br />			
+		</div>
+		<div class="review-cell" style="display: table-cell; vertical-align: top;">
+			WikiPRO is a new product and hasnt had any reviews yet. 
+		</div>
+	</div>
+	<div class="products-row" style="display: table-row;">
+		<div class="products-cell" style="display: table-cell; vertical-align: top; width: 120px;text-align: center;">
+			<img class="extension-logo" src="../img/EnhancedExportPRO-logo.png" />
+		</div>
+		<div class="products-cell" style="display: table-cell; vertical-align: top;">
 			<h3>Enhanced Export PRO </h3>
 			Report on work item queries and test plans using customizable templates. Export the report to your standard word document template. Add visual effects at runtime.
 			<div class="getExtension"><a  href="https://marketplace.visualstudio.com/items?itemName=mskold.mskold-PRO-EnhancedExport">Read more and <b>start a free 30 day trieal</b>at the Azure DevOps Marketplace...</a></div>
