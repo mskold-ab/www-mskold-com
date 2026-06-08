@@ -40,6 +40,18 @@ We have collected some articles and documentation about our products that can be
 			</a>
 		</div>
 	</div>
+	<div class="support-row" style="display: table-row;">
+		<div class="support-cell" style="display: table-cell; vertical-align: middle; width: 100px;text-align: center;">
+			<a href="{{ site.baseurl }}/support/WikiPro/index.html">
+				<img class="extension-logo" width="62" src="../img/wikipro-logo.png" />
+			</a>
+		</div>
+		<div class="support-cell" style="display: table-cell; vertical-align: middle;">
+			<a href="{{ site.baseurl }}/support/WikiPro/index.html">
+				<h3>Wiki PRO </h3>
+			</a>
+		</div>
+	</div>
 </div>
 
 <br/>
