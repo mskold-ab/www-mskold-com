@@ -52,7 +52,7 @@ For full product information, licensing details, and pricing, visit our product 
 <div class="products-table" style="display: table; width: 100%; border-collapse: separate; border-spacing: 0 20px;">
 	<div class="products-row" style="display: table-row;">
 		<div class="products-cell" style="display: table-cell; vertical-align: top; width: 120px;text-align: center;">
-			<img class="extension-logo" src="../img/EnhancedExportPRO-logo.png" />
+			<img class="extension-logo" src="../img/WikiPRO-logo.png" />
 		</div>
 		<div class="products-cell" style="display: table-cell; vertical-align: top;">
 			<h3>Wiki PRO </h3>
