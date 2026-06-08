@@ -99,7 +99,9 @@ layout: default
         <div id="content-dir" style=max-height: 80vh; overflow: auto;  margin-right: 20px;">
             <div  style="height: 64px;">
             {% if page.dir contains 'QueryTilePro' %}
-                <img src="{{ site.baseurl }}/img/QueryTilePRO-logo.png" alt="Support" width="60px"> Query Tile PRO 
+                <img src="{{ site.baseurl }}/img/QueryTilePRO-logo.png" alt="Support" width="60px"> Query Tile PRO
+            {% elsif page.dir contains 'WikiPRo' %}
+                <img src="{{ site.baseurl }}/img/wikipro-logo.png" alt="Support" width="60px"> WikiPRO 
             {% else %}
                 <img src="{{ site.baseurl }}/img/EnhancedExportPRO-logo.png" alt="Support" width="60px"> Enhanced Export PRO  
             {% endif %}
