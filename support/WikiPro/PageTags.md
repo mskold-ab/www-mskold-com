@@ -1,4 +1,9 @@
-
+---
+layout: supportpage
+nav_group: Paid features
+title: Tags/labels on pages
+toc: true
+---
 
 
 ## Intorduction
