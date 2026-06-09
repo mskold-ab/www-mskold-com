@@ -1,7 +1,7 @@
 ---
 layout: supportpage
 nav_group: Paid features
-title: DrawIO
+title: Draw.IO diagrams
 toc: true
 ---
 
