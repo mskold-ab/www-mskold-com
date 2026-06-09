@@ -80,18 +80,31 @@ To modify a previously created diagram:
 All updates become immediately available to users viewing the page.
 
 
-## Embedding Existing Diagram Files
+## Migrating Existing Diagrams
 
-If your organization already maintains Draw.io files:
+If your organization already maintains Draw.io diagrams, there is two way you can move them into WikiPRO.
 
-1. Upload the `.drawio` file to the supported repository or storage location.
-2. Insert the diagram into the WikiPRO page.
-3. Select the existing diagram file.
-4. Save the page.
+### Manual exporting and importing 
 
-This approach allows teams to reuse diagrams across multiple documentation pages.
+1. Open the diagram in Draw.IO 
+2. Export the diagram to a json or xml file
+3. Open WikiPRO and create a page with a Draw.IO diagram 
+4. Select Import from device and select the exported file.
+5. Save the page.
 
----
+### Importing diagrams by editing markdown
+1. Export the diagram to a .Drawio (xml)  file
+2. Edit the file and copy the content (xml) 
+2. Open WikiPRO and edit a page in markdown mode
+3. Click on the DrawIO icon in the toolbar or add the following markdown
+>```drawio
+>  <!-- Line to be replaced by xml content -->
+>```
+4. Paste the content in the DrawIO container.
+6. Save the page.
+
+The second option is suitable for automation. 
+
 
 
 
