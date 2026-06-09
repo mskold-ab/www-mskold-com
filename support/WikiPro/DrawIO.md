@@ -97,9 +97,11 @@ If your organization already maintains Draw.io diagrams, there is two way you ca
 2. Edit the file and copy the content (xml) 
 2. Open WikiPRO and edit a page in markdown mode
 3. Click on the DrawIO icon in the toolbar or add the following markdown
->```drawio
->  <!-- Line to be replaced by xml content -->
->```
+>\`\`\`drawio
+>
+>< !-- Line to be replaced by xml content -->
+>
+>\`\`\`
 4. Paste the content in the DrawIO container.
 6. Save the page.
 
