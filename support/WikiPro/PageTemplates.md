@@ -19,14 +19,13 @@ Templates can be used for common document types such as:
 - Team presentations
 
 
-## Using a Template When Creating a Page
+## Creating a new page using a Template
 
 1. In the wiki, click **New Page**.
-2. Select **Create from Template**.
-3. Choose the desired template.
-4. Enter the page title.
-5. Review and customize the generated content.
-6. Save the page.
+2. Choose the desired template.
+3. Enter the page title.
+4. Review and customize the generated content.
+5. Save the page.
 
 The page will be created with the predefined structure from the selected template.
 
