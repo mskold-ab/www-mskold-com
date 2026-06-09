@@ -1,7 +1,7 @@
 ---
 layout: supportpage
 nav_group: 
-nav_order: 1
+nav_order: 1000
 title:  "Getting started"
 toc: true
 ---
