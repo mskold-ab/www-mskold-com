@@ -1,3 +1,9 @@
+---
+layout: supportpage
+nav_group: Paid features
+title: Wiki page Templates
+toc: true
+---
 ## Introduction
 
 Page Templates in WikiPRO help standardize content creation across your Azure DevOps Wikis. By defining reusable templates, teams can ensure consistency in documentation structure, formatting, and required content sections.
