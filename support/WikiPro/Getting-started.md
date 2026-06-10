@@ -8,10 +8,13 @@ toc: true
 
 ## Introduction 
 Wiki PRO is built to enable both developers and business users to be able to collaborate better. 
+It works side by side with the native Azure DevOps wiki, usign the same datasource and API, while adding long missed features like latest mermaid diagrams, alerts/admontation and other improvments. No migration of data needed.
 
+WikiPRO works both for Azure DevOps and Azure DevOps Server, just install the extension and enjoy your missed diagrams, even for older version of Azure DevOps Server. 
 
 ## Freemium Model
-WikiPRO is offered as a freemium model. You can use the basic features for free. If you need advanced enterprise focused features or guaranteed support, you can upgrade to a paid subscription.
+WikiPRO is offered as a freemium model. You can use the basic features for free. 
+If you need advanced enterprise focused features or guaranteed support, you can upgrade to a paid subscription.
 
 ## Free Features
 - Wiki rendering
@@ -35,6 +38,3 @@ WikiPRO is offered as a freemium model. You can use the basic features for free.
 
 Investment in paid features focus on enterprise features like stakeholder colaboration, wiki analytics and governance 
 
-
-### Paid features 
-Investment in paid features focus mainly organizations.
