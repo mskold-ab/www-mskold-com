@@ -32,7 +32,8 @@ If you need advanced enterprise focused features or guaranteed support, you can 
 - DrawIO charts and other plugins.
 - Export wikis to Word documents.
 - Wiki page metadata.
-- Wiki page templates
+- Tag & Filter wiki pages
+- Page templates
 - Wiki templates.
 - Wiki-level statistics (most viewed pages, top contributions).
 
