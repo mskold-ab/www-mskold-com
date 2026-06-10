@@ -21,65 +21,26 @@ The following alert/admonition types are supported:
 
 | Type      | Purpose                                            |
 | --------- | -------------------------------------------------- |
-| Note      | General information or guidance                    |
-| Tip       | Helpful suggestions and best practices             |
-| Info       | Helpful suggestions and best practices             |
+| Note      | General information or guidance that users should know, even then skimming content.|
+| Tip       | Helpful advice/suggestions and best practices             |
+| Info       | Helpful information users should be aware of|
 | Important | Critical information users should be aware of      |
 | Warning   | Information about potential problems or risks      |
-| Caution   | Information requiring extra care before proceeding |
+| Caution   | Advices about risk or negative outcome of certain actions |
 
----
 
-## GitHub Alerts
+## Supported syntax
 
-WikiPRO fully supports the GitHub Alerts syntax introduced in GitHub Flavored Markdown.
+### GitHub Alerts
 
-### Syntax
-
+WikiPRO fully supports reading and GitHub Alerts syntax introduced in GitHub Flavored Markdown.
 ```markdown
 > [!NOTE]
-> This is a note alert.
+> Note is an alert to show a note. 
+> All alers/admontions can be multiline 
 ```
 
-### Example
-
-```markdown
-> [!TIP]
-> Use variables to avoid repeating configuration values.
-```
-
-### Result
-
-> **Tip**
->
-> Use variables to avoid repeating configuration values.
-
-### Supported GitHub Alert Keywords
-
-| Keyword   |
-| --------- |
-| NOTE      |
-| TIP       |
-| IMPORTANT |
-| WARNING   |
-| CAUTION   |
-
-### Multi-Line Content
-
-GitHub alerts can contain multiple paragraphs and lists.
-
-```markdown
-> [!WARNING]
-> Before upgrading:
->
-> - Create a backup
-> - Verify compatibility
-> - Test in a staging environment
-```
-
----
-
-## Docusaurus Admonitions
+### Docusaurus Admonitions
 
 WikiPRO also supports the Docusaurus admonition syntax commonly used in modern documentation sites.
 
@@ -87,5 +48,6 @@ WikiPRO also supports the Docusaurus admonition syntax commonly used in modern d
 
 ```markdown
 :::note
-This is a note.
+Note is an alert to show a note. 
+All alers/admontions can be multiline 
 ```
