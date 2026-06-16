@@ -45,10 +45,15 @@ The resulting document provides a complete record of what was tested, how it was
 2. Select the **Export** tab 
 3. Select the template **Test Execution Log**
 
-This will produce an export like 
+This will produce an export like:
+
 <img width="774" height="897" alt="image" src="https://github.com/user-attachments/assets/d5af85db-64e2-4974-8fd9-7674558dedce" />
 
 ## Configure what to includ in the report 
+
+Click the Options button to configure what you want include in the export.
+
+<img width="376" height="338" alt="image" src="https://github.com/user-attachments/assets/9d11794f-fdf8-4562-bef8-514bd91bb39a" />
 
 Recommended settings include:
 
@@ -65,6 +70,7 @@ These options ensure that all available execution evidence is included in the fi
 
 ## Generate a document for storage/sharing 
 
-Click **Open** and select  for the export process to complete.
+Click **Open** and select your desired word template you want to use for formatting.
+<img width="1102" height="323" alt="image" src="https://github.com/user-attachments/assets/ccc71cc8-82ef-4591-8190-90684a810f84" />
 
-Once finished, download the generated file in your preferred format.
+Enhanced Export PRO will generate a word document and embedd images and other attachments in the word document.
