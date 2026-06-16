@@ -11,8 +11,6 @@ toc: true
 
 Enhanced Export PRO enables you to generate comprehensive test execution evidence directly from your Test Plans. Instead of exporting only test definitions or summary results, you can create a complete execution document that includes all testing activities, execution outcomes, tester comments, attachments, screenshots, and supporting evidence.
 
-The generated document preserves Azure DevOps identifiers, execution timestamps, tester attribution, result status, linked defects, comments, and attachments, allowing auditors and stakeholders to trace exported information back to the original Azure DevOps records.
-
 This capability is particularly valuable for audits, compliance reporting, customer acceptance testing, and release sign-off documentation.
 
 ### What Is Included in the Export?
@@ -30,7 +28,8 @@ Enhanced Export PRO can generate a detailed evidence package containing:
 * Attachments
 * Embedded screenshots
 
-The resulting document provides a complete record of what was tested, how it was executed, and the evidence collected during testing.
+The resulting document provides a complete record of what was planned to be tested, how and then the indivdual test was executed, and the evidence collected during testing.
+Enhanced Export PRO preserves Azure DevOps identifiers, execution timestamps, tester attribution, result status, linked defects, comments, and attachments, allowing auditors and stakeholders to trace exported information back to the original Azure DevOps records.
 
 ### Common Use Cases
 
