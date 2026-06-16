@@ -71,6 +71,6 @@ These options ensure that all available execution evidence is included in the fi
 ## Generate a document for storage/sharing 
 
 Click **Open** and select your desired word template you want to use for formatting.
-<img width="1102" height="323" alt="image" src="https://github.com/user-attachments/assets/ccc71cc8-82ef-4591-8190-90684a810f84" />
+<img width="551" height="137" alt="image" src="https://github.com/user-attachments/assets/73e65881-9419-4a75-b7e9-748bc53a5aa4" />
 
 Enhanced Export PRO will generate a word document and embedd images and other attachments in the word document.
