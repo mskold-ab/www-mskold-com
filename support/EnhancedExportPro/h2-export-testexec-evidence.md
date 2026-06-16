@@ -55,18 +55,16 @@ Click the Options button to configure what you want include in the export.
 
 <img width="376" height="338" alt="image" src="https://github.com/user-attachments/assets/9d11794f-fdf8-4562-bef8-514bd91bb39a" />
 
-Recommended settings include:
+### Options 
+Below is a short description of the different options you can check and what it will bring.
 
-* Include Test Cases
-* Include Test Steps
-* Include Execution Results
-* Include Comments
-* Include Defects
-* Include Attachments
-* Include Screenshots
-* Include Custom Fields
+#### Include Test results details 
+Checking the Include Test Results details will show results on the test step level, including attachments & comments 
 
-These options ensure that all available execution evidence is included in the final document.
+<img width="709" height="432" alt="image" src="https://github.com/user-attachments/assets/427462da-95cb-4a67-8446-cdd4b2bd834a" />
+
+
+
 
 ## Generate a document for storage/sharing 
 
