@@ -46,6 +46,7 @@ The resulting document provides a complete record of what was tested, how it was
 3. Select the template **Test Execution Log**
 
 This will produce an export like 
+<img width="774" height="897" alt="image" src="https://github.com/user-attachments/assets/d5af85db-64e2-4974-8fd9-7674558dedce" />
 
 ## Configure what to includ in the report 
 
