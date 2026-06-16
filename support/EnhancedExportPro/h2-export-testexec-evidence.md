@@ -16,14 +16,14 @@ This capability is particularly valuable for audits, compliance reporting, custo
 
 Enhanced Export PRO can generate a detailed evidence package containing:
 
-* Test Plan information
+* Test Plan information & Structure 
 * Test execution summary
 * Individual test cases
-* Test result on test point level  (Passed, Failed, Blocked, etc.)
+* Test result on test point level Test case, config, tester, outcome (Passed, Failed, Blocked, etc.)
 * Test step level result (action, expected result, actual result)
 * Execution dates and tester information
 * Comments and notes
-* Defects linked to executions
+* Filed Defects (linked to execution)
 * Attachments
 * Embedded screenshots
 
@@ -41,7 +41,7 @@ The resulting document provides a complete record of what was tested, how it was
 
 ## Exporting Test Execution Evidence
 
-1. Navigate to the Test Plan that you want to export documantation for .
+1. Navigate to the Test Plan that you want to export documentation for
 2. Select the **Export** tab 
 3. Select the template **Test Execution Log**
 
@@ -49,9 +49,9 @@ This will produce an export like:
 
 <img width="774" height="897" alt="image" src="https://github.com/user-attachments/assets/d5af85db-64e2-4974-8fd9-7674558dedce" />
 
-## Configure what to includ in the report 
+## Configure what to included in the report 
 
-Click the Options button to configure what you want include in the export.
+Click the Options button to configure what you want to include in the export.
 
 <img width="376" height="338" alt="image" src="https://github.com/user-attachments/assets/9d11794f-fdf8-4562-bef8-514bd91bb39a" />
 
@@ -59,16 +59,16 @@ Click the Options button to configure what you want include in the export.
 Below is a short description of the different options you can check and what it will bring.
 
 #### Include Test results details 
-Checking the Include Test Results details will show results on the test step level, including attachments & comments 
+Checking the Include Test Results details will show results on the test step level, including attachments & comments. 
 
 <img width="709" height="432" alt="image" src="https://github.com/user-attachments/assets/427462da-95cb-4a67-8446-cdd4b2bd834a" />
 
 
 
 
-## Generate a document for storage/sharing 
+## Generate a document for Archiving/storage/sharing 
 
 Click **Open** and select your desired word template you want to use for formatting.
 <img width="551" height="137" alt="image" src="https://github.com/user-attachments/assets/73e65881-9419-4a75-b7e9-748bc53a5aa4" />
 
-Enhanced Export PRO will generate a word document and embedd images and other attachments in the word document.
+Enhanced Export PRO will generate a word document and embed images and other attachments in the word document.
