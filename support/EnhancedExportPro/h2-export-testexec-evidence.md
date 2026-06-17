@@ -13,6 +13,18 @@ Enhanced Export PRO enables you to generate comprehensive test execution evidenc
 
 This capability is particularly valuable for audits, compliance reporting, customer acceptance testing, and release sign-off documentation.
 
+### Scope 
+All Test plans exports are done in the scope of a test plan and can provide traceability between planed and exactuted test effort, test case to requirement tracebility and evidence of what has been tested. 
+If your looking for requirement centric Evidance or tracebility, those needs can be meet by Work Item Query Exports. 
+For example 
+**Requirement Specification** 
+Export deep details about the requirements, the test cases and outcome from potantial multiple test plans. 
+
+**Tracebility Report*** 
+Exports a tracebility grid suitable for Requirement to Test case tracebility, with outcome from potential mutiple test plans. 
+
+
+
 ### What Is Included in the Export?
 
 Enhanced Export PRO can generate a detailed evidence package containing:
