@@ -13,9 +13,7 @@ def transform_github_alerts(content)
   end
 end
 
-Jekyll::Hooks.register :pages, :pre_render do |page|
-  page.content = transform_github_alerts(page.content)
-end
+
 
 Jekyll::Hooks.register :documents, :pre_render do |doc|
   doc.content = transform_github_alerts(doc.content)
