@@ -16,7 +16,7 @@ This capability is particularly valuable for audits, compliance reporting, custo
 ### Data integrity
 Each export is a point-in-time snapshot of your Test Plan. Azure DevOps identifiers, execution timestamps, and tester attribution are preserved on every record, so auditors and reviewers can always trace an entry in the exported document back to its source in Azure DevOps.In most cases they are even direct linked. 
 
-<div class="GH-Alert" >
+<div class="gh-alert gh-alert-caution " >
   Because the underlying Test Plan can keep changing after you export it, treat each exported document as a dated, fixed evidence artifact, see Retention and Storage below for naming and archiving recommendations.
 </div>
 
