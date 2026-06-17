@@ -13,6 +13,12 @@ Enhanced Export PRO enables you to generate comprehensive test execution evidenc
 
 This capability is particularly valuable for audits, compliance reporting, customer acceptance testing, and release sign-off documentation.
 
+### Data integrity
+Each export is a point-in-time snapshot of your Test Plan. Azure DevOps identifiers, execution timestamps, and tester attribution are preserved on every record, so auditors and reviewers can always trace an entry in the exported document back to its source in Azure DevOps.In most cases they are even direct linked. 
+
+> [!CAUTION]
+>Because the underlying Test Plan can keep changing after you export it, treat each exported document as a dated, fixed evidence artifact, see Retention and Storage below for naming and archiving recommendations.
+
 ### Scope 
 All Test plans exports are done in the scope of a test plan and can provide traceability between planed and executed test effort, test case to requirement traceability and evidence of what has been tested. If your looking for requirement centric Evidence or traceability, those needs can be meet by Work Item Query Exports. For example:
 
@@ -34,7 +40,7 @@ Enhanced Export PRO can generate a detailed evidence package containing:
 * Test Plan information & Structure 
 * Test execution summary
 * Individual test cases
-* Test result on test point level Test case, config, tester, outcome (Passed, Failed, Blocked, etc.)
+* Test result at the test point level: test case, configuration, tester, and outcome (Passed, Failed, Blocked, etc.)
 * Test step level result (action, expected result, actual result)
 * Execution dates and tester information
 * Comments and notes
@@ -79,12 +85,17 @@ Checking the Include Test Results details will show results on the test step lev
 
 <img width="709" height="432" alt="image" src="https://github.com/user-attachments/assets/427462da-95cb-4a67-8446-cdd4b2bd834a" />
 
-
-
-
 ## Generate a document for Archiving/storage/sharing 
 
 Click **Open** and select your desired word template you want to use for formatting.
 <img width="551" height="137" alt="image" src="https://github.com/user-attachments/assets/73e65881-9419-4a75-b7e9-748bc53a5aa4" />
 
 Enhanced Export PRO will generate a word document and embed images and other attachments in the word document.
+
+## Retention and Storage
+Once generated, the exported Word document is a static file with no further connection to Azure DevOps. We recommend the following practices for audit and compliance use:
+
+* **Name files consistently**, including the Test Plan name and export date, for example TestPlan-1234_ExecutionEvidence_2026-06-17.docx.
+* **Store exports in a controlled location**, such as a document management system or a dedicated, access-controlled folder, rather than ad hoc local copies.
+* **Re-export before any audit or sign-off deadline** if the Test Plan has changed since the last export, so the evidence reflects the current execution state.
+* **Treat each export as a dated snapshot**. If your process requires version history or formal document control, manage that at the storage layer; Enhanced Export PRO does not version exported documents.
