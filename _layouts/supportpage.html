@@ -117,7 +117,7 @@ layout: default
      | where_exp: "p", "p.title != 'index'"
      | group_by_exp: "p", "p.nav_group | default: 'General'" 
      | sort: "name" %}
-<ul>
+<ul style="margin-left:12px;">
 {% for g in groups %}
   <li>
       {% assign group_parts = g.name | split: '_' %}
@@ -130,7 +130,7 @@ layout: default
 {% endif %}
       
     
-    <ul>
+    <ul style="margin-left:12px;">
         {% assign items = g.items
         | sort: "nav_order" 
         | sort: "title" 
