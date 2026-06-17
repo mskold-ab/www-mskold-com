@@ -96,7 +96,7 @@ layout: default
     <div style="display: flex; flex-direction: row; justify-content: center; align-items: flex-start; position: relative; max-width: 1240px; margin: 0 auto;">
         
         
-        <div id="content-dir" style=max-height: 80vh; overflow: auto;  margin-right: 20px;">
+        <div id="content-dir" style=max-height: 80vh; overflow: auto;  margin-right: 20px;min-widht:230px">
             <div  style="height: 64px;">
             {% if page.dir contains 'QueryTilePro' %}
                 <img src="{{ site.baseurl }}/img/QueryTilePRO-logo.png" alt="Support" width="60px"> Query Tile PRO
@@ -136,7 +136,7 @@ layout: default
         | sort: "title" 
         | sort_natural %}
       {% for p in items %}
-        <li><a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a></li>
+        <li style="max-width:220px;"><a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a></li>
       {% endfor %}
     </ul>
   </li>
