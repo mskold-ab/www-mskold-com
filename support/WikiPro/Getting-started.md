@@ -8,7 +8,7 @@ toc: true
 
 ## Introduction
 Wiki PRO is built to enable both developers and business users to collaborate better.
-It works side by side with the native Azure DevOps wiki, using the same datasource and API, while adding long-missed features like the latest Mermaid diagrams, alerts/admonitions and other improvements. No migration of data needed.
+It works side by side with the native Azure DevOps wiki, using the same data source and API, while adding long-missed features like the latest Mermaid diagrams, alerts/admonitions, and other improvements. No data migration is needed.
 WikiPRO works both for Azure DevOps and Azure DevOps Server — just install the extension and enjoy your missing diagrams, even for older versions of Azure DevOps Server.
 
 ## Freemium Model
@@ -36,4 +36,4 @@ If you need advanced enterprise-focused features or guaranteed support, you can 
 - Wiki templates
 - Wiki-level statistics (most viewed pages, top contributors)
 
-Investment in paid features focuses on enterprise features like stakeholder collaboration, wiki analytics and governance.
+Investment in paid features focuses on enterprise capabilities like stakeholder collaboration, wiki analytics, and governance.

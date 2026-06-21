@@ -65,7 +65,7 @@ To output a value, wrap its name in double curly braces:
 {{name}}
 ```
 
-Names that contain dots — for example `System.Title` — needs to be wrapped in square brackets:
+Names that contain dots — for example `System.Title` — need to be wrapped in square brackets:
 
 ```handlebars
 {{[System.Title]}}
@@ -122,7 +122,7 @@ Use `#each` to repeat a block once for every item in a list. Inside the loop, `t
 {{/each}}
 ```
 
-**Reaching outside the loop** Within a loop you are "inside" the current item. To reach something from the outer level, prefix it with `../`:
+**Reaching outside the loop:** Within a loop you are "inside" the current item. To reach something from the outer level, prefix it with `../`:
 
 ```handlebars
 {{#each Columns}}

@@ -91,10 +91,9 @@ Example:
 
 ### Standardize Metadata
 
-Include common metadata fields at the top of templates .
+Include common metadata fields at the top of templates.
 
 ```markdown
 ---
 ---
 ```
-

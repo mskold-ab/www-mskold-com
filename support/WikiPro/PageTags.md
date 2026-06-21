@@ -6,7 +6,7 @@ toc: true
 ---
 
 
-## Intorduction
+## Introduction
 
 WikiPRO allows authors to assign tags to wiki pages, making it easier to organize, categorize, search, and filter content across your Azure DevOps wiki.
 
@@ -92,4 +92,3 @@ When creating tags:
 | Security | Security Stuff |
 | API | APIs and Related Things |
 | Onboarding | New Employee Documentation |
-

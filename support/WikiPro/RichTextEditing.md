@@ -1,7 +1,7 @@
 ---
 layout: supportpage
 nav_group: Paid features
-title: Ritch Text Editing
+title: Rich Text Editing
 toc: true
 ---
 ## Introduction
@@ -33,17 +33,17 @@ Changes are automatically converted into Wiki-compatible formatting when the pag
 ## Creating Tables
 
 Tables help organize structured information.
-Just click on the Insert table 
-Tables can contian other elements like images and styled text.
+Just click on **Insert table**.
+Tables can contain other elements like images and styled text.
 
 ## Modifying Tables
-If you click on the ... menus to the left of each row, you will get the row menu there you can
-- insert new rows above or below the curren row
-- delete the current row 
+If you click on the ... menus to the left of each row, you will get the row menu, where you can:
+- insert new rows above or below the current row
+- delete the current row
 
-If you click on the ... menus above each column, you will get the column me menu there you can
+If you click on the ... menus above each column, you will get the column menu, where you can:
 - Select alignment (left, center or right aligned) for the current column.
-- insert new columns befor or after the current column.
+- insert new columns before or after the current column.
 - delete the current column.
 
 
@@ -148,4 +148,3 @@ Recommendations:
 Code blocks preserve formatting and improve readability for technical content.
 
 Example:
-

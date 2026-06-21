@@ -21,23 +21,23 @@ The following alert/admonition types are supported:
 
 | Type      | Purpose                                            |
 | --------- | -------------------------------------------------- |
-| Note      | General information or guidance that users should know, even then skimming content.|
+| Note      | General information or guidance that users should know, even when skimming content. |
 | Tip       | Helpful advice/suggestions and best practices             |
 | Info       | Helpful information users should be aware of|
 | Important | Critical information users should be aware of      |
 | Warning   | Information about potential problems or risks      |
-| Caution   | Advices about risk or negative outcome of certain actions |
+| Caution   | Advice about risks or negative outcomes of certain actions |
 
 
 ## Supported syntax
 
 ### GitHub Alerts
 
-WikiPRO fully supports reading and GitHub Alerts syntax introduced in GitHub Flavored Markdown.
+WikiPRO fully supports reading and rendering GitHub Alerts syntax introduced in GitHub Flavored Markdown.
 ```markdown
 > [!NOTE]
 > Note is an alert to show a note. 
-> All alers/admontions can be multiline 
+> All alerts/admonitions can be multiline.
 ```
 
 ### Docusaurus Admonitions
@@ -48,6 +48,6 @@ WikiPRO also supports the Docusaurus admonition syntax commonly used in modern d
 
 ```markdown
 :::note
-Note is an alert to show a note. 
-All alers/admontions can be multiline 
+Note is an alert to show a note.
+All alerts/admonitions can be multiline.
 ```

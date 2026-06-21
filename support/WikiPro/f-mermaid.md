@@ -7,7 +7,7 @@ toc: true
 ---
 ## Introduction
 Mermaid is a text-based diagramming syntax that allows you to create different charts/diagrams. 
-WikiPRO supports the lates version of Mermaid. 
+WikiPRO supports the latest version of Mermaid.
 WikiPRO also supports a more modern markdown syntax for mermaid charts
 
 ````markdown
@@ -49,7 +49,7 @@ WikiPRO supports the following diagram types:
 By embedding Mermaid code blocks in your wiki content, diagrams can be maintained as source text, making them easier to version, review, and update.
 
 
-## Creating a Mermaid Diagram in the ritch text editor
+## Creating a Mermaid diagram in the rich text editor
 Click on the Mermaid icon in the toolbar and select edit on the inserted chart.
 
 ## Creating a Mermaid Diagram in the markdown editor

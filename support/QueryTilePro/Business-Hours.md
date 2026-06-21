@@ -27,7 +27,7 @@ Imagine a support ticket scenario:
 - **Arrives:** Friday 17:30
 - **Addressed:** Monday 09:30
 - **Calendar time:** 64 hours
-- **Business time (with Business Hours 08:00-17:00):** 1,5 hours
+- **Business time (with Business Hours 08:00-17:00):** 1.5 hours
 
 Without this feature, reports show a 65-hour delay. With Business Hours, you see the accurate 1.5 hour response time—which reveals actual performance and helps you set realistic SLAs.
 
@@ -75,7 +75,6 @@ Business Hours settings are managed through the **Query Tile PRO settings panel*
 # Need More Help?
 
 For detailed configuration examples or timezone-specific guidance, see [Getting Started with Query Tile PRO](Getting-started.md) or contact our support team on extension-support@mskold.com.
-
 
 
 

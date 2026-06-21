@@ -5,13 +5,13 @@ permalink: /history/
 ---
 
 
-# Our history 
-[about us](/about) | [the founder](/founder) | [our products](/products) 
+# Our history
+[about us](/about) | [the founder](/founder) | [our products](/products)
 
 Our company was founded in 2015. In the ten years since, we have gone from shipping
 extensions under the Microsoft DevLabs brand — accumulating over 130,000 installs
 across five extensions — to becoming an independent publisher serving more than
-30,000 organizations worldwide with our own products. 
+30,000 organizations worldwide with our own products.
 
 This is the history of the company we built.
 
@@ -34,7 +34,7 @@ Microsoft DevLabs brand:
 
 ## 2016 – Enhanced Export PRO: The First Azure DevOps Commercial Extension
 
-As the number of extensions and users grew, requests came in for prioritised
+As the number of extensions and users grew, requests came in for prioritized
 support, custom development, and support contracts. This was especially true
 for Enhanced Export, which had grown fast since its Marketplace launch in 2015.
 The extension was originally built as a proof of concept — to show that an Azure
