@@ -22,16 +22,19 @@ Yes. WikiPRO works with both Azure DevOps and Azure DevOps Server. See [Getting 
 WikiPRO uses a freemium model. Core functionality is available for free, while enterprise-oriented capabilities and guaranteed support are part of paid plans. See [Freemium Model](./Getting-started.md#freemium-model).
 
 ### What features are included in the free version of WikiPRO?
-The free offering includes wiki rendering, a markdown editor, Mermaid charts, alerts/admonitions, markdown improvements, better code blocks, side panels such as TOC and revision history, My Pages, and organisation-level wikis. See [Free Features](./Getting-started.md#free-features).
+The free offering includes wiki rendering, a markdown editor, Mermaid charts, alerts/admonitions, markdown improvements, better code blocks, side panels such as TOC and revision history, My Pages, organisation-level wikis, and printing including subtree printing. See [Free Features](./Getting-started.md#free-features) and [Printing](./Print.md#printing).
 
 ### What features are included in the paid version of WikiPRO?
 🔒 Paid features include rich text editing, Draw.io charts and plugins, Word export, wiki page metadata, tags and filters, page templates, wiki templates, and wiki-level statistics. See [Paid Features](./Getting-started.md#paid-features).
 
-### Does WikiPRO support printing and exporting?
-Yes. WikiPRO supports printing and exporting wiki content to Word documents. Printing a single page is free, while printing multiple pages or subtrees is a paid feature. Exporting pages and page trees to Word documents is a paid feature. See [Printing and Exporting](./PrintExport.md#printing-and-exporting).
+### Does WikiPRO support printing?
+Yes. WikiPRO supports printing wiki content, including subtree printing, in the free version. See [Printing](./Print.md#printing).
+
+### Does WikiPRO support exporting?
+🔒 Yes. WikiPRO supports exporting wiki content to Word documents. Exporting pages and page trees to Word documents is a paid feature. See [Exporting to Word](./Export.md#exporting-to-word).
 
 ### Does WikiPRO support custom Word templates for export?
-🔒 Yes. WikiPRO supports custom Word templates for Word export. See [Custom Word templates](./PrintExport.md#custom-word-templates).
+🔒 Yes. WikiPRO supports custom Word templates for Word export. See [Custom Word templates](./Export.md#custom-word-templates).
 
 ## Mermaid diagrams
 

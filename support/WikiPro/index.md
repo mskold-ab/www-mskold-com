@@ -8,4 +8,5 @@ toc: true
 # Support articles for Wiki PRO
 
 - [WikiPRO FAQ](./FAQ.md)
-- [Printing and Exporting](./PrintExport.md)
+- [Printing](./Print.md)
+- [Exporting to Word](./Export.md)
