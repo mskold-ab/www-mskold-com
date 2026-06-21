@@ -1,7 +1,8 @@
 ---
 layout: supportpage
 nav_group: 3_Paid features
-title: Rich Text Editing
+title: Rich Text Editor for Azure DevOps Wiki PRO (WYSIWYG)
+menu: Rich Text Editor
 toc: true
 ---
 ## Introduction
