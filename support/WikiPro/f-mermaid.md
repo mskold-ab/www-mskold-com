@@ -1,8 +1,9 @@
 ---
 layout: supportpage
-nav_group: Free features
+nav_group: 2_Free features
 nav_order: 99
-title: Mermaid charts 
+title: Mermaid Diagrams (including C4, ER, UML) in Azure DevOps Wiki 
+menu: Mermaid Diagrams 
 toc: true
 ---
 ## Introduction
