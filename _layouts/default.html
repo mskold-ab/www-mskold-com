@@ -2,11 +2,12 @@
 <html class="no-js">
   <head>
     <title>
-      {% if page.dir contains 'QueryTilePro' %}Query Tile PRO for Azure DevOps - 
-      {% elsif page.dir contains 'WikiPro' %}Wiki PRO for Azure DevOps - 
-      {% elsif page.dir contains 'EnhancedExport' %}Enhanced Export PRO for Azure DevOps - 
+      {{ page.title }} 
+      {% if page.dir contains 'QueryTilePro' %}- Query Tile PRO for Azure DevOps 
+      {% elsif page.dir contains 'WikiPro' %}- Wiki PRO for Azure DevOps - 
+      {% elsif page.dir contains 'EnhancedExport' %}- Enhanced Export PRO for Azure DevOps - 
     {% endif %}
-    {{ page.title }} |mskold.com
+    |mskold.com
     </title>
     {% include head.html %}
 
