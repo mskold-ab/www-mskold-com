@@ -2,6 +2,7 @@
 layout: supportpage
 nav_group: 3_Paid features
 title: "Documentation Templates"
+menu: "Documentation Templates"
 toc: true
 ---
 ## Introduction
