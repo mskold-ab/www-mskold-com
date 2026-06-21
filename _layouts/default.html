@@ -3,7 +3,13 @@
   <head>
 
     {% include head.html %}
-
+<title>
+  {% if page.dir contains 'QueryTilePro' %}Query Tile PRO
+  {% elsif page.dir contains 'WikiPro' %}Wiki PRO 
+  {% else %} Enhanced Export PRO  
+{% endif %}
+    - {{ page.title }}
+</title>
   </head>
   <body >
 
