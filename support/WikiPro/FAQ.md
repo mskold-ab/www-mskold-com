@@ -10,7 +10,7 @@ toc: true
 ## General
 
 ### What is WikiPRO?
-WikiPRO is an extension for Azure DevOps and Azure DevOps Server that enhances the native wiki with richer authoring and rendering features while using the same underlying wiki data and APIs. For an overview, see [Getting started](./Getting-started.md#introduction).
+WikiPRO is an extension for Azure DevOps and Azure DevOps Server that enhances the native wiki with richer authoring and rendering features while using the same underlying wiki data and APIs. For more information, see [Getting started](./Getting-started.md#introduction).
 
 ### Does WikiPRO require data migration from the native Azure DevOps wiki?
 No. WikiPRO works side by side with the native Azure DevOps wiki and uses the same data source and API, so no data migration is needed. See [Getting started](./Getting-started.md#introduction).
@@ -22,10 +22,16 @@ Yes. WikiPRO works with both Azure DevOps and Azure DevOps Server. See [Getting 
 WikiPRO uses a freemium model. Core functionality is available for free, while enterprise-oriented capabilities and guaranteed support are part of paid plans. See [Freemium Model](./Getting-started.md#freemium-model).
 
 ### What features are included in the free version of WikiPRO?
-The free offering includes wiki rendering, a markdown editor, Mermaid charts, alerts/admonitions, markdown improvements, better code blocks, side panels such as TOC and revision history, My Pages, and related usability enhancements. See [Free Features](./Getting-started.md#free-features).
+The free offering includes wiki rendering, a markdown editor, Mermaid charts, alerts/admonitions, markdown improvements, better code blocks, side panels such as TOC and revision history, My Pages, and organisation-level wikis. See [Free Features](./Getting-started.md#free-features).
 
 ### What features are included in the paid version of WikiPRO?
 🔒 Paid features include rich text editing, Draw.io charts and plugins, Word export, wiki page metadata, tags and filters, page templates, wiki templates, and wiki-level statistics. See [Paid Features](./Getting-started.md#paid-features).
+
+### Does WikiPRO support printing and exporting?
+Yes. WikiPRO supports printing and exporting wiki content to Word documents. Printing a single page is free, while printing multiple pages or subtrees is a paid feature. Exporting pages and page trees to Word documents is a paid feature. See [Printing and Exporting](./PrintExport.md#printing-and-exporting).
+
+### Does WikiPRO support custom Word templates for export?
+🔒 Yes. WikiPRO supports custom Word templates for Word export. See [Custom Word templates](./PrintExport.md#custom-word-templates).
 
 ## Mermaid diagrams
 
@@ -33,7 +39,7 @@ The free offering includes wiki rendering, a markdown editor, Mermaid charts, al
 Yes. WikiPRO supports Mermaid diagrams in Azure DevOps Wiki pages, including a modern fenced-code-block syntax. See [Introduction](./f-mermaid.md#introduction).
 
 ### Which Mermaid diagram types are supported?
-WikiPRO supports flowcharts, sequence diagrams, class diagrams, state diagrams, ER diagrams, user journeys, gantt charts, pie charts, quadrant charts, requirement diagrams, git graphs, C4 diagrams, mind maps, timelines, ZenUML, Sankey, packet, xychart, block, and architecture diagrams. See [Supported Mermaid Diagram Types](./f-mermaid.md#supported-mermaid-diagram-types).
+WikiPRO supports flowcharts, sequence diagrams, class diagrams, state diagrams, ER diagrams, user journeys, gantt charts, pie charts, quadrant charts, requirement diagrams, git graphs, C4 diagrams, and more. See [Supported chart types](./f-mermaid.md#supported-chart-types).
 
 ### How do I create a Mermaid diagram in the rich text editor?
 🔒 Use the Mermaid toolbar icon and then edit the inserted chart. See [Creating a Mermaid diagram in the rich text editor](./f-mermaid.md#creating-a-mermaid-diagram-in-the-rich-text-editor).
@@ -124,7 +130,7 @@ Supported types include Note, Tip, Info, Important, Warning, and Caution. See [S
 🔒 In the wiki, click **New Page**, choose a template, enter a page title, customize the generated content, and save. See [Creating a new page using a Template](./PageTemplates.md#creating-a-new-page-using-a-template).
 
 ### How do I create or manage page templates?
-🔒 Administrators can create, edit, delete, organize, and set defaults for templates. For creation and management steps, see [Managing Templates](./PageTemplates.md#managing-templates) and [Creating a Page Template](./PageTemplates.md#creating-a-page-template).
+🔒 Administrators can create, edit, delete, organize, and set defaults for templates. For creation and management steps, see [Managing Templates](./PageTemplates.md#managing-templates) and [Creating a Template](./PageTemplates.md#creating-a-template).
 
 ### Do changes to a template update existing pages automatically?
 🔒 No. Changes apply only to future pages created from the template. Existing pages are not updated automatically. See [Editing an Existing Template](./PageTemplates.md#editing-an-existing-template).
