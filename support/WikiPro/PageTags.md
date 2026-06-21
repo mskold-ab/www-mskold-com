@@ -2,7 +2,7 @@
 layout: supportpage
 nav_group: 3_Paid features
 title: "Organize Wiki Documentation with Page Tags"
-menu: "Organize pages with Tags"
+menu: "Use Tags to organize pages"
 toc: true
 ---
 
