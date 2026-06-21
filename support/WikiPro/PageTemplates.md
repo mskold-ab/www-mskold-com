@@ -1,7 +1,7 @@
 ---
 layout: supportpage
 nav_group: 3_Paid features
-title: Documentation Templates
+title: "Documentation Templates"
 toc: true
 ---
 ## Introduction
