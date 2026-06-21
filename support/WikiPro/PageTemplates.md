@@ -1,7 +1,7 @@
 ---
 layout: supportpage
 nav_group: Paid features
-title: Wiki page Templates
+title: Documentation Templates
 toc: true
 ---
 ## Introduction
