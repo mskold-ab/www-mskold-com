@@ -1,6 +1,6 @@
 ---
 layout: supportpage
-nav_group: Paid features
+nav_group: 3_Paid features
 menu: Draw.IO diagrams
 title: How to add Draw.IO diagrams to wiki pages
 toc: true
