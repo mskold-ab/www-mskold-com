@@ -1,11 +1,11 @@
 ---
 layout: supportpage
-title: "WikiPRO FAQ"
+title: "Wiki PRO for Azure DevOps FAQ"
 menu: "FAQ"
 toc: true
 ---
 
-# WikiPRO FAQ
+# Wiki PRO for Azure DevOps FAQ
 
 ## General
 
