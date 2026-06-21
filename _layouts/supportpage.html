@@ -149,7 +149,11 @@ layout: default
         | sort: "title" 
         | sort_natural %}
       {% for p in items %}
-        <li style="max-width:220px;"><a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a></li>
+        {% assign menuTxt = p.menu %}
+        {% if menuTxt == ''%}
+            {% assign menuTxt = p.title %}
+        {% endif %}
+        <li style="max-width:220px;"><a href="{{ site.baseurl }}{{ p.url }}">{{ menuTxt }}</a></li>
       {% endfor %}
     </ul>
   </li>
