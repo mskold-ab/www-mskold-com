@@ -1,8 +1,9 @@
 ---
 layout: supportpage
-nav_group: 
+nav_group: 1_General 
 nav_order: 1000
-title:  "Getting started"
+title:  "WikiPro Getting Started Guide for Azure DevOps"
+menu: "Getting started guide"
 toc: true
 ---
 
