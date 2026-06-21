@@ -1,18 +1,14 @@
 ---
 layout: supportpage
+nav_group: 3_Paid features
 title: "Exporting to Word"
 menu: "Exporting to Word"
 toc: true
 ---
 
-# Exporting to Word
-
-WikiPRO supports exporting wiki content to Word documents.
-
 ## Overview
 
 You can use WikiPRO to export individual pages and page trees to Microsoft Word documents.
-
 Exporting to Word is a paid feature.
 
 ## Export features
