@@ -2,7 +2,7 @@
 layout: supportpage
 nav_group: How tos 
 nav_order: 99
-title: Export Complete Test Execution Evidence 
+title: Export complete test execution evidence
 toc: true
 ---
 
@@ -20,10 +20,10 @@ Each export is a point-in-time snapshot of your Test Plan. Azure DevOps identifi
   Because the underlying Test Plan can keep changing after you export it, treat each exported document as a dated, fixed evidence artifact, see Retention and Storage below for naming and archiving recommendations.
 </div>
 
-### Scope 
-All Test plans exports are done in the scope of a test plan and can provide traceability between planned and executed test effort, test case to requirement traceability and evidence of what has been tested. If you're looking for requirement centric Evidence or traceability, those needs can be met by Work Item Query Exports. For example:
+### Scope
+All test plan exports are done in the scope of a test plan and can provide traceability between planned and executed test effort, test case to requirement traceability, and evidence of what has been tested. If you're looking for requirement-centric evidence or traceability, those needs can be met by Work Item Query exports. For example:
 
-* **Requirement Specification** 
+* **Requirement Specification**
 Export deep details about the requirements, the test cases and outcome from potential multiple test plans.
 
 
@@ -72,7 +72,7 @@ This will produce an export like:
 
 <img width="774" height="897" alt="image" src="https://github.com/user-attachments/assets/d5af85db-64e2-4974-8fd9-7674558dedce" />
 
-## Configure what to included in the report 
+## Configure what to include in the report
 
 Click the Options button to configure what you want to include in the export.
 
@@ -86,12 +86,12 @@ Checking the Include Test Results details will show results on the test step lev
 
 <img width="709" height="432" alt="image" src="https://github.com/user-attachments/assets/427462da-95cb-4a67-8446-cdd4b2bd834a" />
 
-## Generate a document for Archiving/storage/sharing 
+## Generate a document for archiving, storage, or sharing
 
 Click **Open** and select your desired word template you want to use for formatting.
 <img width="551" height="137" alt="image" src="https://github.com/user-attachments/assets/73e65881-9419-4a75-b7e9-748bc53a5aa4" />
 
-Enhanced Export PRO will generate a word document and embed images and other attachments in the word document.
+Enhanced Export PRO will generate a Word document and embed images and other attachments in the document.
 
 ## Retention and Storage
 Once generated, the exported Word document is a static file with no further connection to Azure DevOps. We recommend the following practices for audit and compliance use:

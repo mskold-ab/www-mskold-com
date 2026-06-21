@@ -23,9 +23,9 @@ packaged as a one-time effort and then used by everyone. All advanced features
 needed for creating customized solutions are in the Admin Hub.
 
 
-## Export tab for day to day operations
-For your day to day operations you have the export tab right in your workflow, just
-click on the export tab and it will render a report with your current Work Item Query
+## Export tab for day-to-day operations
+For your day-to-day operations, you have the Export tab right in your workflow. Just
+click on the Export tab and it will render a report with your current Work Item Query
 or Test Plan. You can easily switch between prebuilt templates and your own custom templates to produce different reports.
 
 <img src="./img/ExportTabScreenShoot.png" alt="Export tab screenshot" width="100%"/>
@@ -77,17 +77,17 @@ or Test Plan. You can easily switch between prebuilt templates and your own cust
 </table>
 
 
-## Exporting to word document with your organizations style
+## Exporting to a Word document with your organization's style
 You can simply take your ordinary Word document with your organization's logo and
-styling and convert it to a word template used by Enhanced Export PRO to create its
+styling and convert it to a Word template used by Enhanced Export PRO to create its
 Word document.
 Just follow this procedure to create your own template.
-1. Open an ordinary word document that is according to your organization’s
+1. Open an ordinary Word document that is according to your organization’s
 standards and styling
 2. At the location you want the export data to start, enter the text
 %%HTML_CONTENT%%
-3. Save the document (as an ordinary word document)
-4. Go to the admin hub for Enhanced Export PRO
+3. Save the document (as an ordinary Word document)
+4. Go to the Admin Hub for Enhanced Export PRO
 5. Select the Library tab
 6. Click Add new Library item
 7. Give your template a name, id and select a scope
@@ -97,15 +97,15 @@ standards and styling
  
 
 
-## Edit templates 
+## Edit templates
 The Admin Hub is the place for editing templates. While creating customizations
 can be a bit technical, it’s fairly easy to copy an existing template and make minor
 changes like adding or removing fields without technical knowledge.
 
 ## Simple Modifications
 
-To make minor changes to an existing template – follow those steps:
-1. Go to the admin hub
+To make minor changes to an existing template, follow these steps:
+1. Go to the Admin Hub
 2. Select the template you want to make changes to in the left-hand
 menu.
 3. Change the name and id and set a scope for your template.
@@ -120,5 +120,4 @@ menu.
 If you want to create advanced custom solutions, the technologies used for templates are
 mainly XML, XSLT, and HTML. If you prefer, Enhanced Export PRO also
 supports Handlebars and Markdown.
-
 

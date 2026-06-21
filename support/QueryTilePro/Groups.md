@@ -8,8 +8,8 @@ toc: true
 # Introduction 
 If you are building dashboards with multiple tiles showing metrics that are computed the same way, but for different inputs or filters (such as team overview dashboards), or showing metrics across different categories, you should definitely look into groups.
 Groups can help you:
-+ Minimize the effort setting up and maintaining the dashboard 
-+ Improve performance of the dashboard 
++ Minimize the effort of setting up and maintaining the dashboard
++ Improve dashboard performance
 
 # An example 
 Let's say you are building a dashboard showing overall status across 6 teams and 5 different metrics. To build that dashboard, you need to configure a total of 30 widgets and may need to create up to 30 queries.
@@ -62,7 +62,6 @@ Select the group name in the list of available groups.
 
 ## Format the title of the tile
 If you want to display group information in the tile, you can set the Title or Subtitle to @GroupName.
-
 
 
 

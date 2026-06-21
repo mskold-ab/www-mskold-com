@@ -6,7 +6,7 @@ nav_order: 3
 toc: true
 ---
 ## Introduction 
-Enhanced Export PRO is licensed through subscriptions. You can have multiple subscriptions side by side with separated billing and management. 
+Enhanced Export PRO is licensed through subscriptions. You can have multiple subscriptions side by side with separate billing and management.
 Each user who wants to use the extension needs to have an active subscription, or they will see this screen when they go to the Export tab.
 
 ![](./img/no-licenseScreen50.png)

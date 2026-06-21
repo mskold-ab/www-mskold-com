@@ -45,8 +45,8 @@ a+= Date().getFullYear()==2023?0:1
 In addition to JavaScript syntax, we also support macros. Macros start with @.
 The macros available depend on the location of the expression.
 For example, in a row-level expression you could use field macros.
-#### Field macros 
-Field macros are @ followed by the field reference name, like @System.Descriptions.
+#### Field macros
+Field macros are @ followed by the field reference name, like @System.Description.
 So you can write an expression like:
 
 ``` javascript
@@ -66,9 +66,8 @@ Date.parts("@System.CreatedDate")
 
 ### Calculation engine 
 This is simply the engine that stitches all features together so we can pass a tree query and calculate the average of child items.
-We have had a major rewrite of the engine to fix bugs, increase performance and make it easier to add new functions. 
+We have had a major rewrite of the engine to fix bugs, increase performance, and make it easier to add new functions.
 Because calculated values (especially for filtered results) might be different with the new engine, we made it possible to keep using the old engine to stay backward compatible and avoid breaking existing customers if your dashboards or KPIs depend on it. The default and recommended engine is the new version.
-
 
 
 

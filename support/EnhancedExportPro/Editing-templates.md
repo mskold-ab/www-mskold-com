@@ -12,7 +12,7 @@ The extension comes with a set of predefined templates out of the box, intended 
 You can copy existing templates and modify them, or create new templates with the Admin Hub.
 The out-of-the-box templates have the **Default** scope and cannot be overwritten. Users can save templates with the scope **Collection** (visible to all projects), or **Project** (visible only for the current project).
 
-You can navigate to the Admin hub by either clicking the settings gear on the export tab, or by selecting Project settings and then clicking Enhanced Export PRO in the left-hand lower corner.
+You can navigate to the Admin Hub by either clicking the settings gear on the Export tab, or by selecting Project settings and then clicking Enhanced Export PRO in the lower-left corner.
 
 ## Languages 
 Enhanced Export PRO uses common, well-known languages for rendering data into a document. There are plenty of resources available on the internet for learning and mastering them; below are just some examples.
@@ -33,7 +33,7 @@ The right part is the edit area for the template. It consists of a common header
 ## Common Header 
 <img src="./img/templateEditTop.png" /> 
 
-Here you set the Name, Id and scope for your template. By setting the same ID as an out of the box template - you can "override" it with your template. 
+Here you set the Name, Id and scope for your template. By setting the same ID as an out-of-the-box template, you can "override" it with your template.
 You can also choose the language that should be used for your template and the output format of the template.
 
 ## Properties tab
@@ -71,7 +71,6 @@ Clicking the preview will apply the content of the template tab with the content
 ## History 
 Shows the revision history for the template.
 <img src="./img/templateEditHistoryTab.png" /> 
-
 
 
 

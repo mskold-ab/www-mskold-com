@@ -11,9 +11,9 @@ This article explains how to create, embed, edit, and manage Draw.io diagrams in
 
 Using Draw.io within WikiPRO provides several advantages:
 - Create professional architecture and process diagrams.
-- Diagrams are stored as part of the wiki page versioned controlled wiki page.
-- Changes in diagrams can be viewed in a diff view, higlight the actual change of in the chart.
-- Diagrams can by changed in markdown mode by editing the soure of the diagram.
+- Diagrams are stored as part of the version-controlled wiki page.
+- Changes in diagrams can be viewed in a diff view, highlighting the actual changes in the chart.
+- Diagrams can be changed in Markdown mode by editing the source of the diagram.
 - Diagrams can be included in page templates. 
 - Reduce dependency on external diagram repositories.
 
@@ -82,19 +82,19 @@ All updates become immediately available to users viewing the page.
 
 ## Migrating Existing Diagrams
 
-If your organization already maintains Draw.io diagrams, there is two way you can move them into WikiPRO.
+If your organization already maintains Draw.io diagrams, there are two ways you can move them into WikiPRO.
 
-### Manual exporting and importing 
+### Manual exporting and importing
 
-1. Open the diagram in Draw.IO 
-2. Export the diagram to a json or xml file
-3. Open WikiPRO and create a page with a Draw.IO diagram 
+1. Open the diagram in Draw.io.
+2. Export the diagram to a JSON or XML file.
+3. Open WikiPRO and create a page with a Draw.io diagram.
 4. Select Import from device and select the exported file.
 5. Save the page.
 
 ### Importing diagrams by editing markdown
-1. Export the diagram to a .Drawio (xml)  file
-2. Edit the file and copy the content (xml) 
+1. Export the diagram to a .drawio (XML) file.
+2. Edit the file and copy the content (XML).
 2. Open WikiPRO and edit a page in markdown mode
 3. Click on the DrawIO icon in the toolbar or add the following markdown
 >\`\`\`drawio
@@ -103,7 +103,7 @@ If your organization already maintains Draw.io diagrams, there is two way you ca
 >
 >\`\`\`
 4. Paste the content in the DrawIO container.
-6. Save the page.
+5. Save the page.
 
 The second option is suitable for automation. 
 
