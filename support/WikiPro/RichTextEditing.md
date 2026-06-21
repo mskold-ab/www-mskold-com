@@ -1,6 +1,6 @@
 ---
 layout: supportpage
-nav_group: Paid features
+nav_group: 3_Paid features
 title: Rich Text Editing
 toc: true
 ---
