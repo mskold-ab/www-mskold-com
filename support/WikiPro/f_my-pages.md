@@ -1,8 +1,9 @@
 ---
 layout: supportpage
-nav_group: Free features
+nav_group: 2_Free features
 nav_order: 99
-title: My Pages 
+title: Quick Access to Favorite Wiki Pages 
+menu: My Pages Quick Access 
 toc: true
 ---
 ## Introduction
