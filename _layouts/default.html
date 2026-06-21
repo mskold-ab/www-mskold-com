@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html class="no-js">
   <head>
-
+    <title>
+      {% if page.dir contains 'QueryTilePro' %}Query Tile PRO
+      {% elsif page.dir contains 'WikiPro' %}Wiki PRO 
+      {% else %} Enhanced Export PRO  
+    {% endif %}
+        - {{ page.title }}
+    </title>
     {% include head.html %}
-<title>
-  {% if page.dir contains 'QueryTilePro' %}Query Tile PRO
-  {% elsif page.dir contains 'WikiPro' %}Wiki PRO 
-  {% else %} Enhanced Export PRO  
-{% endif %}
-    - {{ page.title }}
-</title>
+
   </head>
   <body >
 
