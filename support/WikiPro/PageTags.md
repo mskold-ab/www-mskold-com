@@ -1,7 +1,8 @@
 ---
 layout: supportpage
 nav_group: 3_Paid features
-title: Tags/labels on pages
+title: Organize Wiki Documentation with Page Tags
+menu: Organize pages with Tags
 toc: true
 ---
 
