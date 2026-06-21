@@ -1,8 +1,8 @@
 ---
 layout: supportpage
-nav_group: Free features
+nav_group: 2_Free features
 nav_order: 99
-title: Alerts and Admonitions
+title: Alers and callouts
 toc: true
 ---
 
