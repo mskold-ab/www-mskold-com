@@ -150,7 +150,7 @@ layout: default
         | sort_natural %}
       {% for p in items %}
         {% assign menuTxt = p.menu %}
-        {% if menuTxt == ''%}
+        {% if menuTxt == blank %}
             {% assign menuTxt = p.title %}
         {% endif %}
         <li style="max-width:220px;"><a href="{{ site.baseurl }}{{ p.url }}">{{ menuTxt }}</a></li>
