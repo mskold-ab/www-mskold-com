@@ -1,4 +1,10 @@
 
 <script>
-    window.location.href = "Getting-started.html";
+    {% if page.dir contains 'WikiPro' %}
+        window.location.href = "about-wiki-pro.html";
+    {% else %}
+        window.location.href = "Getting-started.html";
+    {% endif %}
+    
+    
 </script>
