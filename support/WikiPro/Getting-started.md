@@ -2,8 +2,8 @@
 layout: supportpage
 nav_group: 1_General 
 nav_order: 1000
-title:  "WikiPro Getting Started Guide for Azure DevOps"
-menu: "Getting started guide"
+title:  "About Wiki PRO for Azure DevOps, Rich Text Editor, Mermaid & DrawIO Charts and Enterprise Wiki Features"
+menu: "About Wiki PRO"
 toc: true
 ---
 
@@ -15,6 +15,89 @@ WikiPRO works both for Azure DevOps and Azure DevOps Server — just install the
 ## Freemium Model
 WikiPRO is offered as a freemium model. You can use the basic features for free.
 If you need advanced enterprise-focused features or guaranteed support, you can upgrade to a paid subscription.
+
+## Why use Wiki PRO instead of the native Azure DevOps Wiki
+
+
+### Editing & Authoring
+
+| Feature | Azure DevOps Wiki | WikiPRO Free | WikiPRO Paid |
+|-----------|----------------|---------------|---------------|
+| Markdown editing | ✅ | ✅ Enhanced | ✅ Enhanced |
+| Rich text (WYSIWYG) editor | ❌ | ❌ | ✅ Word-style editor |
+| Business-user-friendly editing | ❌ | ❌ | ✅ |
+| Modern Markdown compatibility | Limitied | ✅ | ✅ |
+| Learning curve for non-technical users | High | Medium | Low |
+
+### Diagrams & Visualization
+
+| Feature | Azure DevOps Wiki | WikiPRO Free | WikiPRO Paid |
+|-----------|----------------|---------------|---------------|
+| Mermaid diagrams | Limited support (4-11 diagrams)| ✅  Latest Mermaid support (all 21 diagrams)  | ✅ |
+| ZenUML diagrams | ❌ | ✅ | ✅ |
+| Draw.io integration | ❌ | ❌ | ✅ |
+| Additional plugins | ❌ | ❌ | ✅ |
+
+### Navigation & User Experience
+
+| Feature | Azure DevOps Wiki | WikiPRO Free | WikiPRO Paid |
+|-----------|----------------|---------------|---------------|
+| Table of Contents side panel | ❌ | ✅ | ✅ |
+| Revision history side panel | Basic page history | ✅ | ✅ |
+| Favorites pages | ❌ | ✅ | ✅ |
+| Recently viewed pages | ❌ | ✅ | ✅ |
+| Cross-team wiki favorites | ❌ | ✅ | ✅ |
+| Organization-wide wiki promotion | ❌ | ✅ | ✅ |
+
+
+## Templates & Standardization
+
+| Feature | Azure DevOps Wiki | WikiPRO Free | WikiPRO Paid |
+|-----------|----------------|---------------|---------------|
+| Page templates | ❌ | ❌ | ✅ |
+| Custom templates | ❌ | ❌ | ✅ |
+| Architecture Decision Record (ADR) templates | ❌ | ❌ | ✅ |
+| Retrospective templates | ❌ | ❌ | ✅ |
+| Team page templates | ❌ | ❌ | ✅ |
+
+## Governance & Metadata
+
+| Feature | Azure DevOps Wiki | WikiPRO Free | WikiPRO Paid |
+|-----------|----------------|---------------|---------------|
+| Page metadata | ❌ | ❌ | ✅ |
+| Governance metadata | ❌ | ❌ | ✅ |
+
+## Analytics & Insights
+
+| Feature | Azure DevOps Wiki | WikiPRO Free | WikiPRO Paid |
+|-----------|----------------|---------------|---------------|
+| Wiki page views| 30 days | ✅ | ✅ |
+| Wiki statistics | ❌ | ❌ | ✅ |
+| Most viewed pages analytics | ❌ | ❌ | ✅ |
+| Top contributors analytics | ❌ | ❌ | ✅ |
+
+## Export & Publishing
+
+| Feature | Azure DevOps Wiki | WikiPRO Free | WikiPRO Paid |
+|-----------|----------------|---------------|---------------|
+| Print page | ✅ | ✅ | ✅ |
+| Print page and subpages| ❌ | ✅ | ✅ |
+| Export to Word documents | ❌ | ❌ | ✅ |
+
+### General 
+
+| Feature | Azure DevOps Wiki | WikiPRO Free | WikiPRO Paid |
+|-----------|----------------|---------------|---------------|
+| Existing wiki compatibility | ✅ | ✅ | ✅ |
+| No migration required | ✅ | ✅ | ✅ |
+| Data stored in Azure DevOps | ✅ | ✅ | ✅ |
+
+
+## Support
+
+| Feature | Azure DevOps Wiki | WikiPRO Free | WikiPRO Paid |
+|-----------|----------------|---------------|---------------|
+| Priority email support | Paid | ❌ | ✅ |
 
 ## Free Features
 - Wiki rendering
