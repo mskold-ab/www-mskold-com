@@ -8,7 +8,9 @@ toc: true
 ---
 ## Introduction
 Mermaid is a text-based diagramming syntax that allows you to create different charts/diagrams. 
-WikiPRO supports the latest version of Mermaid.
+Azure DevOps has limited support for mermaid diagrams , specially for onprem versions of Azure DevOps Server, covering between 4-11 of the 21+ diagrams availble in mermaid. 
+
+WikiPRO supports the latest version of Mermaid and all 21+ diagrams availble for both Azure DevOps and Azure DevOps Server. 
 WikiPRO also supports a more modern markdown syntax for mermaid charts
 
 ````markdown
