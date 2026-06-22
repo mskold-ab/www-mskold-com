@@ -8,18 +8,31 @@ toc: true
 ---
 
 # Printing
-You can use WikiPRO to print single pages, and subtrees.
-Printing is available without a paid license, including subtree printing.
 
-## Printing features
-
-- Print a single page for free.
-- Print subtrees for free.
+Wiki PRO allows you to print individual wiki pages as well as entire page trees. Printing is available without a paid license.
 
 > [!TIP]
-> Printing a page or a subtree wiht a PDF printer driver will allow you to export the wiki to a PDF file. 
+> You can create a PDF version of a wiki page or page tree by printing to a PDF printer, such as **Microsoft Print to PDF**. This allows you to export wiki content to a PDF file without requiring additional tools.
 
-## Summary
+# Print a Wiki Page to a Word Document
 
-- ✅ Print single pages for free
-- ✅ Print subtrees for free
+To print a single wiki page:
+
+1. Select the wiki page.
+2. Open the **Print** menu.
+3. Select **Print page**.
+<img width="466" height="97" alt="Printing a wiki page" src="https://github.com/user-attachments/assets/a33520d8-3ff6-40e7-b531-464dcb8b7d96" />
+
+
+# Printing a Wiki Page Tree
+
+To Print a wiki page together with all of its subpages:
+
+1. Select the wiki page.
+2. Open the **Print** menu.
+3. Select **Print page tree**.
+<img width="466" height="97" alt="Printing a wiki page" src="https://github.com/user-attachments/assets/a33520d8-3ff6-40e7-b531-464dcb8b7d96" />
+
+When printing a page tree, each wiki page is printed as a separate section. A page break is inserted before the next page.
+
+
