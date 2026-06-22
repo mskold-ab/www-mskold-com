@@ -1,6 +1,8 @@
 ---
 layout: supportpage
-title: "Wiki PRO for Azure DevOps FAQ"
+nav_group: 4_Frekvently Asked Questions
+nav_order: 1000
+title:  "FAQ Wiki PRO for Azure DevOps, Rich Text Editor, Mermaid & DrawIO Charts and Enterprise Wiki Features"
 menu: "FAQ"
 toc: true
 ---
@@ -10,7 +12,7 @@ toc: true
 ## General
 
 ### What is WikiPRO?
-WikiPRO is an extension for Azure DevOps and Azure DevOps Server that enhances the native wiki with richer authoring and rendering features while using the same underlying wiki data and APIs. For more information, see [Getting started](./Getting-started.md#introduction).
+WikiPRO is an extension for Azure DevOps and Azure DevOps Server that enhances the native wiki with richer authoring and rendering features while using the same underlying wiki data and APIs. For more information, see [Getting started](./aboutWikiPRO.md#introduction).
 
 ### Does WikiPRO require data migration from the native Azure DevOps wiki?
 No. WikiPRO works side by side with the native Azure DevOps wiki and uses the same data source and API, so no data migration is needed. See [Getting started](./Getting-started.md#introduction).
