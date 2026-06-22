@@ -2,16 +2,16 @@
 layout: supportpage
 nav_group: 2_Free features
 nav_order: 99
-title: Mermaid Diagrams (including C4, ER, UML) in Azure DevOps Wiki 
-menu: Mermaid Diagrams 
+title: Mermaid Diagrams (including C4, ER, UML) in Azure DevOps Wiki
+menu: Mermaid Diagrams
 toc: true
 ---
 ## Introduction
-Mermaid is a text-based diagramming syntax that allows you to create different charts/diagrams. 
-Azure DevOps has limited support for mermaid diagrams , specially for onprem versions of Azure DevOps Server, covering between 4-11 of the 21+ diagrams availble in mermaid. 
+Mermaid is a text-based diagramming syntax that lets you create a wide range of charts and diagrams.
+Azure DevOps has limited support for Mermaid diagrams, especially in on-premises versions of Azure DevOps Server, where support typically covers only 4–11 of the 21+ diagram types available in Mermaid.
 
-WikiPRO supports the latest version of Mermaid and all 21+ diagrams availble for both Azure DevOps and Azure DevOps Server. 
-WikiPRO also supports a more modern markdown syntax for mermaid charts
+WikiPRO supports the latest version of Mermaid and all 21+ diagram types available in both Azure DevOps and Azure DevOps Server.
+WikiPRO also supports a more modern Markdown syntax for Mermaid charts.
 
 ````markdown
 ```mermaid
@@ -23,7 +23,7 @@ flowchart TD
 ```
 ````
 
-## Supported diagram types 
+## Supported diagram types
 WikiPRO supports the following diagram types:
 - Flowchart (`flowchart`)
 - Sequence Diagram (`sequenceDiagram`)
@@ -49,13 +49,12 @@ WikiPRO supports the following diagram types:
 - Radar Chart (`radar-beta`)
 - Treemap (`treemap`)
 
-By embedding Mermaid code blocks in your wiki content, diagrams can be maintained as source text, making them easier to version, review, and update.
-
+By embedding Mermaid code blocks in your wiki content, you can maintain diagrams as source text, making them easier to version, review, and update.
 
 ## Creating a Mermaid diagram in the rich text editor
-Click on the Mermaid icon in the toolbar and select edit on the inserted chart.
+Click the Mermaid icon in the toolbar, then select **Edit** on the inserted chart.
 
-## Creating a Mermaid Diagram in the markdown editor
+## Creating a Mermaid diagram in the Markdown editor
 To create a Mermaid diagram, add a fenced code block and specify `mermaid` as the language.
 
 ### Example: Flowchart
@@ -70,9 +69,7 @@ flowchart TD
 ```
 ````
 
-
-
-## Using Mermaid in Documentation
+## Using Mermaid in documentation
 
 Mermaid diagrams are particularly useful for:
 
@@ -99,7 +96,6 @@ flowchart LR
 
 ---
 
-
-## Additional Resources
+## Additional resources
 
 For advanced diagram syntax, consult the official Mermaid documentation.
