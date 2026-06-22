@@ -2,7 +2,7 @@
 layout: supportpage
 nav_group: 1_General 
 nav_order: 1000
-title:  "About Wiki PRO for Azure DevOps, Rich Text Editor, Mermaid & DrawIO Charts and Enterprise Wiki Features"
+title:  "About Wiki PRO for Azure DevOps"
 menu: "About Wiki PRO"
 toc: true
 ---
@@ -15,6 +15,29 @@ WikiPRO works both for Azure DevOps and Azure DevOps Server — just install the
 ## Freemium Model
 WikiPRO is offered as a freemium model. You can use the basic features for free.
 If you need advanced enterprise-focused features or guaranteed support, you can upgrade to a paid subscription.
+
+## Free Features
+- Wiki rendering
+- Markdown editor (with syntax support)
+- Latest Mermaid charts, including ZenUML, C4, Entity Relationship (total 23 charts)
+- Alerts/Admonitions
+- Other markdown improvements (underline, strikethrough, superscript, subscript, text color)
+- Better code blocks
+- Side panels showing TOC and revision history
+- My Pages — organisation-level summary of your favourites, followed, recently visited and edited pages
+- Organisation-level wikis: promote wikis for visibility at the Azure DevOps organisation level
+
+## Paid Features
+- Rich text editing — Word-style WYSIWYG for business users and stakeholders
+- Draw.io charts and other plugins
+- Export wikis to Word documents
+- Wiki page metadata
+- Tag & filter wiki pages
+- Page templates
+- Wiki templates
+- Wiki-level statistics (most viewed pages, top contributors)
+
+Investment in paid features focuses on enterprise capabilities like stakeholder collaboration, wiki analytics, and governance.
 
 ## Why use Wiki PRO instead of the native Azure DevOps Wiki
 
@@ -99,25 +122,4 @@ If you need advanced enterprise-focused features or guaranteed support, you can 
 |-----------|----------------|---------------|---------------|
 | Priority email support | Paid | ❌ | ✅ |
 
-## Free Features
-- Wiki rendering
-- Markdown editor (with syntax support)
-- Latest Mermaid charts, including ZenUML, C4, Entity Relationship (total 23 charts)
-- Alerts/Admonitions
-- Other markdown improvements (underline, strikethrough, superscript, subscript, text color)
-- Better code blocks
-- Side panels showing TOC and revision history
-- My Pages — organisation-level summary of your favourites, followed, recently visited and edited pages
-- Organisation-level wikis: promote wikis for visibility at the Azure DevOps organisation level
 
-## Paid Features
-- Rich text editing — Word-style WYSIWYG for business users and stakeholders
-- Draw.io charts and other plugins
-- Export wikis to Word documents
-- Wiki page metadata
-- Tag & filter wiki pages
-- Page templates
-- Wiki templates
-- Wiki-level statistics (most viewed pages, top contributors)
-
-Investment in paid features focuses on enterprise capabilities like stakeholder collaboration, wiki analytics, and governance.
