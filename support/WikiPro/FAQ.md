@@ -12,22 +12,22 @@ toc: true
 ## General
 
 ### What is WikiPRO?
-WikiPRO is an extension for Azure DevOps and Azure DevOps Server that enhances the native wiki with richer authoring and rendering features while using the same underlying wiki data and APIs. For more information, see [Getting started](./aboutWikiPRO.md#introduction).
+WikiPRO is an extension for Azure DevOps and Azure DevOps Server that enhances the native wiki with richer authoring and rendering features while using the same underlying wiki data and APIs. For more information, see [About WikiPRO](./About-WikiPRO.md#introduction).
 
 ### Does WikiPRO require data migration from the native Azure DevOps wiki?
-No. WikiPRO works side by side with the native Azure DevOps wiki and uses the same data source and API, so no data migration is needed. See [Getting started](./Getting-started.md#introduction).
+No. WikiPRO works side by side with the native Azure DevOps wiki and uses the same data source and API, so no data migration is needed. See [About WikiPRO](./About-WikiPRO.md#introduction).
 
 ### Does WikiPRO work with Azure DevOps Server?
-Yes. WikiPRO works with both Azure DevOps and Azure DevOps Server. See [Getting started](./Getting-started.md#introduction).
+Yes. WikiPRO works with both Azure DevOps and Azure DevOps Server. See [About WikiPRO](./About-WikiPRO.md#introduction).
 
 ### Is WikiPRO free or paid?
-WikiPRO uses a freemium model. Core functionality is available for free, while enterprise-oriented capabilities and guaranteed support are part of paid plans. See [Freemium Model](./Getting-started.md#freemium-model).
+WikiPRO uses a freemium model. Core functionality is available for free, while enterprise-oriented capabilities and guaranteed support are part of paid plans. See [Freemium Model](./About-WikiPRO.md#freemium-model).
 
 ### What features are included in the free version of WikiPRO?
-The free offering includes wiki rendering, a markdown editor, Mermaid charts, alerts/admonitions, markdown improvements, better code blocks, side panels such as TOC and revision history, My Pages, organisation-level wikis, and printing including subtree printing. See [Free Features](./Getting-started.md#free-features) and [Printing](./Print.md#printing).
+The free offering includes wiki rendering, a markdown editor, Mermaid charts, alerts/admonitions, markdown improvements, better code blocks, side panels such as TOC and revision history, My Pages, organization overview, printing, and more. See [Free Features](./About-WikiPRO.md#free-features).
 
 ### What features are included in the paid version of WikiPRO?
-🔒 Paid features include rich text editing, Draw.io charts and plugins, Word export, wiki page metadata, tags and filters, page templates, wiki templates, and wiki-level statistics. See [Paid Features](./Getting-started.md#paid-features).
+🔒 Paid features include rich text editing, Draw.io charts and plugins, Word export, wiki page metadata, tags and filters, page templates, wiki templates, and wiki-level statistics. See [Paid Features](./About-WikiPRO.md#paid-features).
 
 ### Does WikiPRO support printing?
 Yes. WikiPRO supports printing wiki content, including subtree printing, in the free version. See [Printing](./Print.md#printing).
@@ -44,7 +44,7 @@ Yes. WikiPRO supports printing wiki content, including subtree printing, in the 
 Yes. WikiPRO supports Mermaid diagrams in Azure DevOps Wiki pages, including a modern fenced-code-block syntax. See [Introduction](./f-mermaid.md#introduction).
 
 ### Which Mermaid diagram types are supported?
-WikiPRO supports flowcharts, sequence diagrams, class diagrams, state diagrams, ER diagrams, user journeys, gantt charts, pie charts, quadrant charts, requirement diagrams, git graphs, C4 diagrams, and more. See [Supported chart types](./f-mermaid.md#supported-chart-types).
+WikiPRO supports flowcharts, sequence diagrams, class diagrams, state diagrams, ER diagrams, user journeys, gantt charts, pie charts, quadrant charts, requirement diagrams, git graphs, C4 diagrams, and more. See [Supported Diagram Types](./f-mermaid.md#supported-diagram-types).
 
 ### How do I create a Mermaid diagram in the rich text editor?
 🔒 Use the Mermaid toolbar icon and then edit the inserted chart. See [Creating a Mermaid diagram in the rich text editor](./f-mermaid.md#creating-a-mermaid-diagram-in-the-rich-text-editor).
@@ -53,7 +53,7 @@ WikiPRO supports flowcharts, sequence diagrams, class diagrams, state diagrams, 
 Add a fenced code block and specify `mermaid` as the language. See [Creating a Mermaid Diagram in the markdown editor](./f-mermaid.md#creating-a-mermaid-diagram-in-the-markdown-editor).
 
 ### What can I use Mermaid diagrams for?
-Mermaid diagrams are useful for application architecture, deployment workflows, CI/CD pipelines, business processes, system integrations, database relationship diagrams, and project timelines. See [Use cases](./f-mermaid.md#use-cases).
+Mermaid diagrams are useful for application architecture, deployment workflows, CI/CD pipelines, business processes, system integrations, database relationship diagrams, and project timelines. See [Usage Scenarios](./f-mermaid.md#usage-scenarios).
 
 ## Draw.io diagrams
 
