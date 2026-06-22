@@ -11,7 +11,7 @@ toc: true
 
 Wiki PRO allows you to print individual wiki pages as well as entire page trees. Printing is available without a paid license.
 
-> [!TIP]
+>[!TIP]
 > You can create a PDF version of a wiki page or page tree by printing to a PDF printer, such as **Microsoft Print to PDF**. This allows you to export wiki content to a PDF file without requiring additional tools.
 
 # Print a Wiki Page to a Word Document
