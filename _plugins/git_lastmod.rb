@@ -32,23 +32,31 @@ module Jekyll
     end
 
     def source_relative_path(site, item)
-      path = if item.respond_to?(:relative_path) && item.relative_path
-               item.relative_path
-             elsif item.respond_to?(:path) && item.path
-               item.path
-             end
+      # Jekyll pages/documents expose enough path metadata to build a canonical source path.
+      if item.respond_to?(:path) && item.path
+        expanded = File.expand_path(item.path, site.source)
+        return relative_if_file(site.source, expanded)
+      end
 
-      return nil unless path
+      if item.respond_to?(:dir) && item.respond_to?(:name) && item.dir && item.name
+        expanded = File.expand_path(File.join(item.dir, item.name), site.source)
+        return relative_if_file(site.source, expanded)
+      end
 
-      absolute = if Pathname.new(path).absolute?
-                   path
-                 else
-                   File.expand_path(path, site.source)
-                 end
+      if item.respond_to?(:relative_path) && item.relative_path
+        expanded = File.expand_path(item.relative_path, site.source)
+        return relative_if_file(site.source, expanded)
+      end
 
-      return nil unless File.file?(absolute)
+      nil
+    rescue StandardError
+      nil
+    end
 
-      Pathname.new(absolute).relative_path_from(Pathname.new(site.source)).to_s
+    def relative_if_file(source, absolute_path)
+      return nil unless File.file?(absolute_path)
+
+      Pathname.new(absolute_path).relative_path_from(Pathname.new(source)).to_s
     rescue StandardError
       nil
     end
@@ -66,6 +74,7 @@ module Jekyll
         "log",
         "-1",
         "--format=%cI",
+        "--follow",
         "--",
         relative_path
       )

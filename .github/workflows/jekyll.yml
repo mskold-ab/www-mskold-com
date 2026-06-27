@@ -29,6 +29,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - name: Install Bundler
         run: gem install bundler --user-install
       - name: Add Ruby gems to PATH
