@@ -72,6 +72,8 @@ We don't run traditional infrastructure pen testing, since there's no infrastruc
 
 **What security headers do you use?**
 The delivery layer is controlled by your Azure DevOps instance — Microsoft for cloud customers, your own IT team for on-premises deployments. We have no infrastructure in that layer to configure.
-Have a specific security, compliance, or data-handling question? Contact us at **extension-support@mskold.com** — or request our full Security Whitepaper and Data Processing Agreement.
+
+## Further information
+Have a specific security, compliance, or data-handling question? Contact us at **sales@mskold.com** — or request our full Security Whitepaper.
 
 *Mattias Sköld, CEO, MSKOLD AB*
