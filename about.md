@@ -77,8 +77,12 @@ Byvägen 6
 781 60 Gustafs
 Sweden
 
+DUNS number: 350641730
+Swedish Organization number: 559204-7319
+
+
 General enquiries: [info@mskold.com](mailto:info@mskold.com)
 Extension support: [extension-support@mskold.com](mailto:extension-support@mskold.com)
 Sales & licensing: [sales@mskold.com](mailto:sales@mskold.com)
 
-Organisation number: 559204-7319
+
