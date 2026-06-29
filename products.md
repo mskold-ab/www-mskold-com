@@ -128,7 +128,7 @@ By default, purchases are made online from within the extension through our self
 
 For larger purchases above 1000 Euros, we can offer additional purchasing options:
 ## PO/Invoicing/Bank transfer payments
-If you want to make a purchase above 1000 Euros and don't want to use our self-service purchase, please reach out to [sales@mskold.com](mailto://sales@mskold.com)
+If you want to make a purchase above 1000 Euros and don't want to use our self-service purchase, please reach out to [sales@mskold.com](mailto:sales@mskold.com)
 
 ## Purchasing through 3rd party resellers 
 We also work with 3rd-party licensing partners and resellers such as SoftwareOne, SHI, QBS, ABDistribution, Insights, Ebusiness-design, and many others.
