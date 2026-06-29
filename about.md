@@ -83,8 +83,8 @@ Swedish Organization number: 559204-7319<br/>
 
 
 
-General enquiries: [info@mskold.com](mailto:info@mskold.com)
-Extension support: [extension-support@mskold.com](mailto:extension-support@mskold.com)
-Sales & licensing: [sales@mskold.com](mailto:sales@mskold.com)
+General enquiries: [info@mskold.com](mailto:info@mskold.com) <br/>
+Extension support: [extension-support@mskold.com](mailto:extension-support@mskold.com) <br/>
+Sales & licensing: [sales@mskold.com](mailto:sales@mskold.com) <br/>
 
 
