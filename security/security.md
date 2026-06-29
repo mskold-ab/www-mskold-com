@@ -7,7 +7,7 @@ permalink: /Security/
 
 # Security
 
-At MSkold AB, security is built into every stage of how we design, develop, and deliver Enhanced Export PRO. We're trusted by thousands of customers, including organizations in highly regulated industries such as banking, life sciences, and defense.
+At MSkold AB, security is built into every stage of how we design, develop, and deliver our Azure DevOps extensions Enhanced Export PRO, Query Tile PRO and Wiki PRO. We're trusted by thousands of customers, including organizations in highly regulated industries such as banking, life sciences, and defense.
 
 This page summarizes our approach. For full technical detail, Please requers our Security Whitepaper or [contact us](mailto:sales@mskold.com).
 
