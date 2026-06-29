@@ -72,18 +72,14 @@ Reach us at [info@mskold.com](mailto:info@mskold.com) to request any of these.
 
 We're a small, founder-led company — you'll often hear back from us directly.
 
-**MSkold AB**
+**MSkold AB** <br/>
+Byvägen 6 <br/>
+781 60 Gustafs <br/>
+Sweden <br/>
+<br/>
 
-Byvägen 6
-
-781 60 Gustafs
-
-Sweden
-
-
-DUNS number: 350641730
-
-Swedish Organization number: 559204-7319
+DUNS number: 350641730<br/>
+Swedish Organization number: 559204-7319<br/>
 
 
 
