@@ -104,7 +104,11 @@ We don't run traditional infrastructure pen testing, since there's no infrastruc
 The delivery layer is controlled by your Azure DevOps instance — Microsoft for cloud customers, your own IT team for on-premises deployments. We have no infrastructure in that layer to configure.
 
 ## Further information
-Have a specific security, compliance, or data-handling question? Contact us at **sales@mskold.com** — or request our full Security Whitepaper.
+Have a specific security, compliance, or data-handling question? 
+Contact us at **sales@mskold.com** — or request our full Security Whitepaper.
+
 
 *Mattias Sköld, CEO, MSKOLD AB*
+
+
 *Document last reviewed: {{ page.last_modified_at | date: '%Y-%m-%d'  }}*
