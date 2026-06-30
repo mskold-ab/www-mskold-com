@@ -6,34 +6,36 @@ permalink: /Security/
 
 
 # Security
+*Last updated: 2026-06-15 · Version 1.5 Revision 2*
+ 
 
 At MSkold AB, security is built into every stage of how we design, develop, and deliver our Azure DevOps extensions Enhanced Export PRO, Query Tile PRO and Wiki PRO. We're trusted by thousands of customers, including organizations in highly regulated industries such as banking, life sciences, and defense.
 
-This page summarizes our approach. For full technical detail, Please requers our Security Whitepaper or [contact us](mailto:sales@mskold.com).
+This page summarizes our approach. For full technical detail, Please request our Security Whitepaper or [contact us](mailto:sales@mskold.com).
 
 ## Your data stays in your environment
 
 Our core design principle: **customer production data is never transmitted outside your Azure DevOps environment.**
 
-Enhanced Export PRO runs entirely client-side, inside your browser. We do not operate vendor-hosted servers that process your production data — there's no backend of ours in the data path. This also means the extension works in fully air-gapped environments.
+Our extensions runs entirely client-side, inside your browser. We do not operate vendor-hosted servers that process your production data — there's no backend of ours in the data path. This also means the extension works in fully air-gapped environments.
 
 ## Built on Azure DevOps' security model
 
-Enhanced Export PRO runs inside Microsoft's Azure DevOps Extension framework, which provides:
+Our extensions runs inside Microsoft's Azure DevOps Extension framework, which provides:
 
 - A sandboxed, isolated execution environment (protected iframe, minimal permissions)
-- Authentication and authorization handled entirely by Azure DevOps — we never see or store your credentials
+- Authentication and authorization handled entirely by Azure DevOps — we never see or store your credentials. 
 - Access governed by your existing Azure DevOps token model and least-privilege permissions
 
-For license assignment, we associate a license with a non-identifiable, extension-provided user ID, stored as extension data within your own Azure DevOps organization. No license data leaves your Azure DevOps instance.
+For license assignment, we associate a license with a non-identifiable, extension-provided user ID, stored as extension data within your own Azure DevOps organization. Licenses validation is done in the client, No user/licenses assignemnt leaves your Azure DevOps instance.
 
 ## Secure development practices
 
-We follow a Secure Development Lifecycle, including:
+We follow a modern Secure Development Lifecycle, including:
 
 - Branch protection and mandatory pull request reviews
-- Automated static application security testing (SAST) and OWASP Top 10 validation, using SonarQube and Snyk
-- Continuous dependency vulnerability scanning (Snyk & Mend), with critical and high-severity issues prioritized for immediate remediation
+- Automated static application security testing (SAST) and OWASP Top 10 validation, using SonarQube and Snyk is done continously on each build.
+- Continuous dependency vulnerability scanning (Snyk & Mend), with critical and high-severity issues prioritized for immediate remediation.
 - A deliberately minimal set of third-party libraries, kept current and continuously monitored
 
 ## What data ever leaves your environment
@@ -50,17 +52,40 @@ All data in transit is encrypted via TLS. Our supporting infrastructure (subscri
 
 ## Compliance & privacy
 
-- We act as a data processor only for billing-related data handled by our third-party providers — we do not process or store your production data at all
-- PCI-DSS compliant via SAQ-A scope
-- A Data Processing Agreement (DPA) is available on request
+We do not process, transmit, or store your Azure DevOps production data under any circumstances — there is no data flow from your environment to us.
+
+For billing and account administration, MSKOLD AB acts as the data controller for the limited contact and billing information needed to manage your subscription (e.g., name, email, invoicing details). This data is processed on our behalf by our payment and subscription infrastructure providers, Chargebee and Stripe, acting as processors under their own compliance certifications (PCI-DSS L1, SOC 1 & 2, ISO 27001, GDPR).
+
+PCI-DSS compliance is maintained via SAQ-A scope, since card data is handled entirely by Stripe's embedded components and never touches our systems.
+A Data Processing Agreement (DPA), covering the limited data described above, is available on request.
 
 ## Incident response
 
-We maintain procedures to identify, investigate, and respond to security incidents. In the event of a confirmed breach affecting customer data, affected customers are notified without undue delay, in line with applicable regulations (including GDPR's 72-hour requirement where relevant).
+Given our architecture, the realistic incident surface is limited to: a compromise of our source code or build pipeline (e.g., GitHub, npm), a vulnerability in a shipped extension affecting client-side behavior, or unauthorized access to billing/contact data held by our processors (Chargebee, Stripe).
+
+**Reporting:**
+Suspected vulnerabilities or security concerns can be reported to security@mskold.com. We aim to acknowledge reports within 1 bussines day.
+
+**Triage & response**
+Reports are triaged by our CEO/security lead, who determines severity and coordinates remediation, including pulling or patching affected extension versions where applicable.
+
+**Customer notification:**
+If an incident is confirmed to affect customer data, we notify affected customers via the contact details on file, without undue delay and in any case within 3 business days of confirmation. Where GDPR applies, we separately meet our own obligation to notify the relevant supervisory authority within 72 hours of becoming aware of a qualifying breach.
 
 ## Internal security practices
 
-Despite being a small, focused team, we maintain formal Information Security, Privacy & Data Protection, Risk Assessment, Secure Development, and Business Continuity policies. Internal system access is restricted on a least-privilege basis and protected with multi-factor authentication.
+Being a small, focused team , our security program is lean by design but actively maintained.
+
+**Access control** 
+Access to internal systems — Our devops toolchain, cloud infrastructure, and billing tools (Chargebee, Stripe) — is granted on a least-privilege, role-based basis. Because our team is small, access is inherently limited to those who need it for their role.
+
+**Multi-factor authentication**
+MFA is required on all internal systems listed above.
+Access reviews: Access grants are revoked promptly upon role change or offboarding and reviewed on a yearly cadance.
+
+**Formal policies** 
+We maintain documented Information Security, Privacy & Data Protection, Risk Assessment, Secure Development, and Business Continuity policies, reviewed on a yearly cadance.
+
 
 ## Common questions
 
@@ -77,3 +102,4 @@ The delivery layer is controlled by your Azure DevOps instance — Microsoft for
 Have a specific security, compliance, or data-handling question? Contact us at **sales@mskold.com** — or request our full Security Whitepaper.
 
 *Mattias Sköld, CEO, MSKOLD AB*
+*Document last reviewed: 2026-06-15*
