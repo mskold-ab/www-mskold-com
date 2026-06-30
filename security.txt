@@ -1,0 +1,8 @@
+---
+layout: none
+permalink: .well-known/security.txt
+---
+Contact: mailto:security@mskold.com
+Expires: 2027-04-14T00:00:00Z
+Preferred-Languages: en
+Canonical: https://www.mskold.com/.well-known/security.txt
