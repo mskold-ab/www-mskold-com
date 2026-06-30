@@ -5,8 +5,11 @@ permalink: /Security/
 ---
 
 
-# Security
-*Last updated: {{ page.last_modified_at | date: '%Y-%m-%d'  }} · Version 1.5.3*
+# Security 
+Client-side by design — your data never leaves your Azure DevOps environment.
+
+
+*Last updated: {{ page.last_modified_at | date: '%Y-%m-%d'  }} · Version 1.5.4*
  
 
 At MSkold AB, security is built into every stage of how we design, develop, and deliver our Azure DevOps extensions Enhanced Export PRO, Query Tile PRO and Wiki PRO. We're trusted by thousands of customers, including organizations in highly regulated industries such as banking, life sciences, and defense.
@@ -18,6 +21,18 @@ This page summarizes our approach. For full technical detail, Please request our
 Our core design principle: **customer production data is never transmitted outside your Azure DevOps environment.**
 
 Our extensions runs entirely client-side, inside your browser. We do not operate vendor-hosted servers that process your production data — there's no backend of ours in the data path. This also means the extension works in fully air-gapped environments.
+
+## What data ever leaves your environment
+
+Almost none. The only exceptions:
+
+| Data | Purpose | Handled by |
+|---|---|---|
+| Billing & contact info | Invoicing, subscription management | Chargebee (PCI-DSS L1, SOC 1 & 2, ISO 27001, GDPR compliant) |
+| Payment card data | Payment processing | Stripe, via embedded secure components — we never see or store card data |
+| Anonymous usage/performance telemetry | Product improvement | No PII, no production data; auto-deleted after 180 days |
+
+All data in transit is encrypted via TLS. Our supporting infrastructure (subscription proxy, routing) runs on Microsoft Azure, which carries ISO 27001/27017/27018, SOC 1/2/3, and GDPR compliance.
 
 ## Built on Azure DevOps' security model
 
@@ -38,17 +53,21 @@ We follow a modern Secure Development Lifecycle, including:
 - Continuous dependency vulnerability scanning (Snyk & Mend), with critical and high-severity issues prioritized for immediate remediation.
 - A deliberately minimal set of third-party libraries, kept current and continuously monitored
 
-## What data ever leaves your environment
+## Internal security practices
 
-Almost none. The only exceptions:
+Being a small, focused team , our security program is lean by design but actively maintained.
 
-| Data | Purpose | Handled by |
-|---|---|---|
-| Billing & contact info | Invoicing, subscription management | Chargebee (PCI-DSS L1, SOC 1 & 2, ISO 27001, GDPR compliant) |
-| Payment card data | Payment processing | Stripe, via embedded secure components — we never see or store card data |
-| Anonymous usage/performance telemetry | Product improvement | No PII, no production data; auto-deleted after 180 days |
+**Access control** 
+Access to internal systems — Our devops toolchain, cloud infrastructure, and billing tools (Chargebee, Stripe) — is granted on a least-privilege, role-based basis. Because our team is small, access is inherently limited to those who need it for their role.
 
-All data in transit is encrypted via TLS. Our supporting infrastructure (subscription proxy, routing) runs on Microsoft Azure, which carries ISO 27001/27017/27018, SOC 1/2/3, and GDPR compliance.
+**Multi-factor authentication**
+MFA is required on all internal systems listed above.
+Access reviews: Access grants are revoked promptly upon role change or offboarding and reviewed on a yearly cadence.
+
+**Formal policies** 
+We maintain documented Information Security, Privacy & Data Protection, Risk Assessment, Secure Development, and Business Continuity policies, reviewed on a yearly cadence.
+
+
 
 ## Compliance & privacy
 
@@ -71,20 +90,6 @@ Reports are triaged by our CEO, who determines severity and coordinates remediat
 
 **Customer notification:**
 If an incident is confirmed to affect customer data, we notify affected customers via the contact details on file, without undue delay and in any case within 3 business days of confirmation. Where GDPR applies, we separately meet our own obligation to notify the relevant supervisory authority within 72 hours of becoming aware of a qualifying breach.
-
-## Internal security practices
-
-Being a small, focused team , our security program is lean by design but actively maintained.
-
-**Access control** 
-Access to internal systems — Our devops toolchain, cloud infrastructure, and billing tools (Chargebee, Stripe) — is granted on a least-privilege, role-based basis. Because our team is small, access is inherently limited to those who need it for their role.
-
-**Multi-factor authentication**
-MFA is required on all internal systems listed above.
-Access reviews: Access grants are revoked promptly upon role change or offboarding and reviewed on a yearly cadence.
-
-**Formal policies** 
-We maintain documented Information Security, Privacy & Data Protection, Risk Assessment, Secure Development, and Business Continuity policies, reviewed on a yearly cadence.
 
 
 ## Common questions
