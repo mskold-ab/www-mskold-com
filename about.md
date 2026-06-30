@@ -55,6 +55,8 @@ Customer production data is never transmitted, stored, or processed externally.
 Our development practices have a strong security focus, and we apply modern practices
 and tools like SAST and third-party package scans.
 
+You can read more on our [security page](/security/)
+
 ## Enterprise ready
 
 We meet the requirements of security-conscious organizations. On request, we provide:
@@ -86,5 +88,6 @@ Swedish Organization number: 559204-7319<br/>
 General enquiries: [info@mskold.com](mailto:info@mskold.com) <br/>
 Extension support: [extension-support@mskold.com](mailto:extension-support@mskold.com) <br/>
 Sales & licensing: [sales@mskold.com](mailto:sales@mskold.com) <br/>
+Security contact : [security@mskold.com](mailto:security@mskold.com) <br/>
 
 
