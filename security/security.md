@@ -6,7 +6,7 @@ permalink: /Security/
 
 
 # Security
-*Last updated: {{ page.last_modified_at }} · Version 1.5 Revision 2*
+*Last updated: {{ page.last_modified_at | date: %Y-%m-%d  }} · Version 1.5 Revision 2*
  
 
 At MSkold AB, security is built into every stage of how we design, develop, and deliver our Azure DevOps extensions Enhanced Export PRO, Query Tile PRO and Wiki PRO. We're trusted by thousands of customers, including organizations in highly regulated industries such as banking, life sciences, and defense.
@@ -102,4 +102,4 @@ The delivery layer is controlled by your Azure DevOps instance — Microsoft for
 Have a specific security, compliance, or data-handling question? Contact us at **sales@mskold.com** — or request our full Security Whitepaper.
 
 *Mattias Sköld, CEO, MSKOLD AB*
-*Document last reviewed: {{ page.last_modified_at }}*
+*Document last reviewed: {{ page.last_modified_at | date: %Y-%m-%d  }}*
