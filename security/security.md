@@ -6,7 +6,7 @@ permalink: /Security/
 
 
 # Security
-*Last updated: {{ page.last_modified_at | date: '%Y-%m-%d'  }} · Version 1.5 Revision 2*
+*Last updated: {{ page.last_modified_at | date: '%Y-%m-%d'  }} · Version 1.5.3*
  
 
 At MSkold AB, security is built into every stage of how we design, develop, and deliver our Azure DevOps extensions Enhanced Export PRO, Query Tile PRO and Wiki PRO. We're trusted by thousands of customers, including organizations in highly regulated industries such as banking, life sciences, and defense.
@@ -27,14 +27,14 @@ Our extensions runs inside Microsoft's Azure DevOps Extension framework, which p
 - Authentication and authorization handled entirely by Azure DevOps — we never see or store your credentials. 
 - Access governed by your existing Azure DevOps token model and least-privilege permissions
 
-For license assignment, we associate a license with a non-identifiable, extension-provided user ID, stored as extension data within your own Azure DevOps organization. Licenses validation is done in the client, No user/licenses assignemnt leaves your Azure DevOps instance.
+For license assignment, we associate a license with a non-identifiable, extension-provided user ID, stored as extension data within your own Azure DevOps organization. License validation occurs entirely client-side; no user or license assignment data leaves your Azure DevOps instance.
 
 ## Secure development practices
 
 We follow a modern Secure Development Lifecycle, including:
 
 - Branch protection and mandatory pull request reviews
-- Automated static application security testing (SAST) and OWASP Top 10 validation, using SonarQube and Snyk is done continously on each build.
+- Automated static application security testing (SAST) and OWASP Top 10 validation, using SonarQube and Snyk is done continuously on each build.
 - Continuous dependency vulnerability scanning (Snyk & Mend), with critical and high-severity issues prioritized for immediate remediation.
 - A deliberately minimal set of third-party libraries, kept current and continuously monitored
 
@@ -64,10 +64,10 @@ A Data Processing Agreement (DPA), covering the limited data described above, is
 Given our architecture, the realistic incident surface is limited to: a compromise of our source code or build pipeline (e.g., GitHub, npm), a vulnerability in a shipped extension affecting client-side behavior, or unauthorized access to billing/contact data held by our processors (Chargebee, Stripe).
 
 **Reporting:**
-Suspected vulnerabilities or security concerns can be reported to security@mskold.com. We aim to acknowledge reports within 1 bussines day.
+Suspected vulnerabilities or security concerns can be reported to security@mskold.com. We aim to acknowledge reports within 1 business day.
 
 **Triage & response**
-Reports are triaged by our CEO/security lead, who determines severity and coordinates remediation, including pulling or patching affected extension versions where applicable.
+Reports are triaged by our CEO, who determines severity and coordinates remediation, including pulling or patching affected extension versions where applicable.
 
 **Customer notification:**
 If an incident is confirmed to affect customer data, we notify affected customers via the contact details on file, without undue delay and in any case within 3 business days of confirmation. Where GDPR applies, we separately meet our own obligation to notify the relevant supervisory authority within 72 hours of becoming aware of a qualifying breach.
@@ -81,10 +81,10 @@ Access to internal systems — Our devops toolchain, cloud infrastructure, and b
 
 **Multi-factor authentication**
 MFA is required on all internal systems listed above.
-Access reviews: Access grants are revoked promptly upon role change or offboarding and reviewed on a yearly cadance.
+Access reviews: Access grants are revoked promptly upon role change or offboarding and reviewed on a yearly cadence.
 
 **Formal policies** 
-We maintain documented Information Security, Privacy & Data Protection, Risk Assessment, Secure Development, and Business Continuity policies, reviewed on a yearly cadance.
+We maintain documented Information Security, Privacy & Data Protection, Risk Assessment, Secure Development, and Business Continuity policies, reviewed on a yearly cadence.
 
 
 ## Common questions
