@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Our Founder
-description: "MSkold AB was founded in 2015, but the story behind it starts a decade earlier — in the trenches of software development, where a passion for tooling and…"
+description: "MSkold AB was founded in 2015, but the story behind it starts a decade earlier — in the trenches of software development, where a passion for tooling and developer experience quietly took shape."
 permalink: /founder/
 ---
 # The Founder

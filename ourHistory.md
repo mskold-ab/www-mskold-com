@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Our History
-description: "Our company was founded in 2015. In the ten years since, we have gone from shipping extensions under the Microsoft DevLabs brand — accumulating over 130,000 installs across…"
+description: "Our company was founded in 2015."
 permalink: /history/
 ---
 # Our history

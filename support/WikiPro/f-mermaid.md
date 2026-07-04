@@ -3,7 +3,7 @@ layout: supportpage
 nav_group: 2_Free features
 nav_order: 99
 title: Mermaid Diagrams (including C4, ER, UML) in Azure DevOps Wiki
-description: "Mermaid is a text-based diagramming syntax that lets you create a wide range of charts and diagrams. Azure DevOps has limited support for Mermaid diagrams, especially in on-premises…"
+description: "Mermaid is a text-based diagramming syntax that lets you create a wide range of charts and diagrams."
 menu: Mermaid Diagrams
 toc: true
 ---

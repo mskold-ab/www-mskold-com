@@ -1,7 +1,6 @@
 ---
-description: "Handlebars is a templating language. You write HTML and use special expressions wrapped in curly braces, like , to insert data or use a function."
+description: "Handlebars is a templating language."
 ---
-
 # Getting Started with Handlebars
 
 ## Introduction

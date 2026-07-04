@@ -2,7 +2,7 @@
 layout: supportpage
 nav_group: Paid features
 title: Global Data Sources 
-description: "If you are replicating or copying dashboards across team projects, copying and managing the underlying work item queries can become a short-term pain and a long-term administrative nightmare.…"
+description: "If you are replicating or copying dashboards across team projects, copying and managing the underlying work item queries can become a short-term pain and a long-term administrative nightmare."
 toc: true
 ---
 # Introduction 

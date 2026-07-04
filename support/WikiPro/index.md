@@ -1,7 +1,7 @@
 ---
 layout: redirect
 title:  "index"
-description: "WikiPRO FAQ - Printing - Exporting to Word."
+description: "Support articles and documentation for WikiPRO features in Azure DevOps."
 categories: General
 toc: true
 ---

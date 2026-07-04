@@ -3,7 +3,7 @@ layout: supportpage
 nav_group: How tos 
 nav_order: 99
 title: Generate requirements documentation  
-description: "Enhanced Export PRO makes it easy to generate professional requirements documentation from your project data. Whether you need documentation for stakeholders, developers, auditors, or customers, the export feature…"
+description: "Enhanced Export PRO makes it easy to generate professional requirements documentation from your project data."
 toc: true
 ---
 ## Introduction

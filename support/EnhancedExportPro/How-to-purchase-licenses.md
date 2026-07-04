@@ -1,7 +1,7 @@
 ---
 layout: supportpage
 title: Purchase licenses
-description: "Enhanced Export PRO is licensed through subscriptions. You can have multiple subscriptions side by side with separate billing and management. Each user who wants to use the extension…"
+description: "Enhanced Export PRO is licensed through subscriptions."
 nav_group: Licensing
 nav_order: 3
 toc: true

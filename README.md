@@ -1,6 +1,5 @@
 ---
-description: "www www.mskold.com."
+description: "Repository for the mskold.com website."
 ---
-
 # www
 www.mskold.com

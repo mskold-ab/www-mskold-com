@@ -2,7 +2,7 @@
 layout: supportpage
 nav_group: 3_Paid features
 title: "Documentation Templates"
-description: "Page Templates in WikiPRO help standardize content creation across your Azure DevOps Wikis. By defining reusable templates, teams can ensure consistency in documentation structure, formatting, and required content…"
+description: "Page Templates in WikiPRO help standardize content creation across your Azure DevOps Wikis."
 menu: "Documentation Templates"
 toc: true
 ---

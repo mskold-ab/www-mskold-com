@@ -1,7 +1,7 @@
 ---
 layout: redirect
 title:  "index"
-description: "Support articles for Enhanced Export PRO."
+description: "Support articles and documentation for Enhanced Export PRO."
 categories: General
 toc: true
 ---

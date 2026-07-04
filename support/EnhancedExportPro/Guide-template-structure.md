@@ -1,7 +1,6 @@
 ---
 description: "This guide explains how a Handlebars template is put together and where the data it displays comes from."
 ---
-
 # The Structure of a Handlebars Template
 
 ## Introduction
