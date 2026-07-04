@@ -1,10 +1,10 @@
 ---
 layout: supportpage
 title: How does Enhanced Export PRO work 
+description: "Enhanced Export PRO produces your document in 4 steps: 1. Fetching data 2. Rendering data to a report 3. Decorating the report with styles 4. Exporting the report…"
 nav_group: 1_General
 nav_order: 20
 ---
-
 ## Overview 
 Enhanced Export PRO produces your document in 4 steps:
 1. Fetching data 

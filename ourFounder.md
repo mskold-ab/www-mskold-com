@@ -1,10 +1,9 @@
 ---
 layout: page
 title: Our Founder
+description: "MSkold AB was founded in 2015, but the story behind it starts a decade earlier — in the trenches of software development, where a passion for tooling and…"
 permalink: /founder/
 ---
-
-
 # The Founder
 [about us](/about) | [our history](/history) | [our products](/products) 
 

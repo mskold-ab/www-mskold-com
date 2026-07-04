@@ -3,10 +3,10 @@ layout: supportpage
 nav_group: 1_General 
 nav_order: 1000
 title:  "About Wiki PRO for Azure DevOps"
+description: "Wiki PRO is built to help developers and business users collaborate more effectively. It works side by side with the native Azure DevOps wiki, using the same data…"
 menu: "About Wiki PRO"
 toc: true
 ---
-
 ## Introduction
 Wiki PRO is built to help developers and business users collaborate more effectively.
 It works side by side with the native Azure DevOps wiki, using the same data source and API while adding long-missing features such as the latest Mermaid diagrams, alerts/admonitions, and other markdown improvements.

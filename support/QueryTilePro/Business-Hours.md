@@ -2,9 +2,9 @@
 layout: supportpage
 nav_group: Paid features
 title: Business Hours
+description: "Standard date-time calculations measure all 24 hours—but your dashboards shouldn't. The Business Hours paid feature in Query Tile PRO calculates only the time your business is actually working…"
 toc: true
 ---
-
 # Introduction
 
 Standard date-time calculations measure all 24 hours—but your dashboards shouldn't. The **Business Hours** paid feature in Query Tile PRO calculates only the time your business is actually working, giving you accurate KPIs that matter.

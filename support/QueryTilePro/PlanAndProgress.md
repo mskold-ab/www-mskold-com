@@ -2,9 +2,9 @@
 layout: supportpage
 nav_group: Paid features
 title:  "Plan and Progress view"
+description: "The Plan & Progress view is built to provide a visualization like Delivery Plan, but for the dashboard. It simply takes a set of work items and puts…"
 toc: true
 ---
-
 ## Introduction 
 The Plan & Progress view is built to provide a visualization like Delivery Plan, but for the dashboard. It simply takes a set of work items and puts them on a timeline.
 

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: About us
+description: "MSkold AB is a Swedish software company with one focus: making the everyday work of development teams smoother. We build extensions for Azure DevOps that fill the small…"
 permalink: /about/
 ---
-
 # About Us
 [our founder](/founder) | [our history](/history) | [our products](/products) 
 

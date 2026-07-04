@@ -3,10 +3,10 @@ layout: supportpage
 nav_group: 4_Frekvently Asked Questions
 nav_order: 1000
 title:  "FAQ Wiki PRO for Azure DevOps, Rich Text Editor, Mermaid & DrawIO Charts and Enterprise Wiki Features"
+description: "WikiPRO is an extension for Azure DevOps and Azure DevOps Server that enhances the native wiki with richer authoring and rendering features while using the same underlying wiki…"
 menu: "FAQ"
 toc: true
 ---
-
 # Wiki PRO for Azure DevOps FAQ
 
 ## General

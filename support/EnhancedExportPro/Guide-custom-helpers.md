@@ -1,3 +1,7 @@
+---
+description: "Helpers are JavaScript functions that are called within a template. They let you do things that go beyond the basic conditionals and loops covered in Guide-getting-started-handlebars.md — formatting…"
+---
+
 # Custom Helpers
 
 ## Introduction

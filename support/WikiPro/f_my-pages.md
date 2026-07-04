@@ -3,6 +3,7 @@ layout: supportpage
 nav_group: 2_Free features
 nav_order: 99
 title: Quick Access to Favorite Wiki Pages 
+description: "My Pages is a personal workspace within WikiPRO that allows users to access and navigate pages of interest across all projects and wikis. The following filters are available…"
 menu: My Pages Quick Access 
 toc: true
 ---

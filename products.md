@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Products
+description: "For full product information, licensing details, and pricing, visit our product pages on the Azure DevOps Marketplace using the links for each product. The summaries below are for…"
 permalink: /products/
 ---
 <style>

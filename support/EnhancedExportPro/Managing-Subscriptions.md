@@ -1,11 +1,11 @@
 ---
 layout: supportpage
 title: Managing subscriptions
+description: "Once a subscription has been purchased, you can manage it by navigating to the subscription list page."
 nav_group: Licensing
 nav_order: 1
 toc: true
 ---
-
 ## Managing subscriptions 
 Once a subscription has been purchased, you can manage it by navigating to the subscription list page.
 
