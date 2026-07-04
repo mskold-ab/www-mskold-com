@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Support
+description: "We offer paying customers support on their use of our extensions, primarily by email."
 permalink: /support/
 ---
 # Support Policy

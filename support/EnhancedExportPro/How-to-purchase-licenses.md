@@ -1,6 +1,7 @@
 ---
 layout: supportpage
 title: Purchase licenses
+description: "Enhanced Export PRO is licensed through subscriptions."
 nav_group: Licensing
 nav_order: 3
 toc: true

@@ -2,10 +2,10 @@
 layout: supportpage
 nav_group: 3_Paid features
 title: "Exporting wikit pages or page trees to Word document"
+description: "Wiki PRO allows you to export individual wiki pages and page trees to Microsoft Word documents."
 menu: "Exporting to Word"
 toc: true
 ---
-
 # Overview
 
 Wiki PRO allows you to export individual wiki pages and page trees to Microsoft Word documents. This is useful for archiving, sharing, and creating documents that follow your organization's standards.

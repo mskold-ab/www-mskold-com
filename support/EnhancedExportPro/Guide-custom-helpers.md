@@ -1,3 +1,6 @@
+---
+description: "Helpers are JavaScript functions that are called within a template."
+---
 # Custom Helpers
 
 ## Introduction

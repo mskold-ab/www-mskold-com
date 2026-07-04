@@ -1,10 +1,9 @@
 ---
 layout: page
 title: Security
+description: "Client-side by design — your data never leaves your Azure DevOps environment."
 permalink: /Security/
 ---
-
-
 # Security 
 Client-side by design — your data never leaves your Azure DevOps environment.
 

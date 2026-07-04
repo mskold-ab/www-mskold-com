@@ -1,11 +1,11 @@
 ---
 layout: supportpage
 title: Export to Word documents
+description: "Creating an export is not worth much if you can’t share it with others."
 nav_group: 1_General
 nav_order: 30
 toc: true
 ---
-
 ## Introduction
 Creating an export is not worth much if you can’t share it with others. Enhanced Export PRO can save an export as a full-fledged Word document with a look and feel you can share across your organization.
 

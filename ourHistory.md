@@ -1,10 +1,9 @@
 ---
 layout: page
 title: Our History
+description: "Our company was founded in 2015."
 permalink: /history/
 ---
-
-
 # Our history
 [about us](/about) | [the founder](/founder) | [our products](/products)
 

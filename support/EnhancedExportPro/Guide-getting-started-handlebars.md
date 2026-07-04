@@ -1,3 +1,6 @@
+---
+description: "Handlebars is a templating language."
+---
 # Getting Started with Handlebars
 
 ## Introduction

@@ -3,9 +3,9 @@ layout: supportpage
 nav_group: 3_Paid features
 menu: Draw.IO diagrams
 title: How to add Draw.IO diagrams to wiki pages
+description: "Draw.io (also known as diagrams.net) enables teams to create and maintain diagrams directly within Azure DevOps WikiPRO pages."
 toc: true
 ---
-
 # Introduction 
 Draw.io (also known as diagrams.net) enables teams to create and maintain diagrams directly within Azure DevOps WikiPRO pages. By embedding diagrams into documentation, teams can visualize architectures, workflows, processes, and system designs while keeping technical documentation centralized and up to date.
 This article explains how to create, embed, edit, and manage Draw.io diagrams in Azure DevOps WikiPRO.

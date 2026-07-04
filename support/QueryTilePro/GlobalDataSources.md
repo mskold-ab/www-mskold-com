@@ -2,9 +2,9 @@
 layout: supportpage
 nav_group: Paid features
 title: Global Data Sources 
+description: "If you are replicating or copying dashboards across team projects, copying and managing the underlying work item queries can become a short-term pain and a long-term administrative nightmare."
 toc: true
 ---
-
 # Introduction 
 If you are replicating or copying dashboards across team projects, copying and managing the underlying work item queries can become a short-term pain and a long-term administrative nightmare. Global Data Sources solve that problem by handling your query definitions in one central place.  
 Global Data Sources can help you:

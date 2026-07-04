@@ -3,10 +3,10 @@ layout: supportpage
 nav_group: 2_Free features
 nav_order: 99
 title: "Printing a single wiki page or an entire page tree"
+description: "Wiki PRO allows you to print individual wiki pages as well as entire page trees."
 menu: "Printing"
 toc: true
 ---
-
 # Printing
 
 Wiki PRO allows you to print individual wiki pages as well as entire page trees. Printing is available without a paid license.

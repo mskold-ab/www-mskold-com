@@ -2,6 +2,7 @@
 layout: supportpage
 nav_group: 3_Paid features
 title: Rich Text Editor for Azure DevOps Wiki PRO (WYSIWYG)
+description: "Azure DevOps WikiPRO extends the standard Azure DevOps Wiki experience by providing a rich text editor that enables users to create, edit, and format documentation in a familiar word style experience, without requiring extensive Markdown knowledge."
 menu: Rich Text Editor
 toc: true
 ---

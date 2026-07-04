@@ -1,11 +1,11 @@
 ---
 layout: supportpage
 title: Guide - Adding a custom field to a template
+description: "This guide is focused on taking an existing template and adding a field to it."
 nav_group: 2_Customizing templates
 nav_order: 4
 toc: true
 ---
-
 ## Introduction
 This guide is focused on taking an existing template and adding a field to it.
 

@@ -3,9 +3,9 @@ layout: supportpage
 nav_group: 
 nav_order: 1
 title:  "Getting started"
+description: "Query Tile PRO is built to enable you to create dashboard tiles you can't get with the standard Query Tile."
 toc: true
 ---
-
 ## Introduction 
 Query Tile PRO is built to enable you to create dashboard tiles you can't get with the standard Query Tile.
 

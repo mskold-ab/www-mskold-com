@@ -1,10 +1,10 @@
 ---
+description: "We build extensions for Azure DevOps to help teams be successful in their everyday work."
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
 ---
-
 <br />
 <br />
           

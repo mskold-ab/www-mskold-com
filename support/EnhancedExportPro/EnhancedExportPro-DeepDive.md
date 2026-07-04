@@ -1,10 +1,10 @@
 ---
 layout: supportpage
 title: How does Enhanced Export PRO work 
+description: "Deep dive into how Enhanced Export PRO processes and renders documents in four stages."
 nav_group: 1_General
 nav_order: 20
 ---
-
 ## Overview 
 Enhanced Export PRO produces your document in 4 steps:
 1. Fetching data 
@@ -36,5 +36,4 @@ Export the HTML report with all images embedded as part of the document.
 **WORD**
 The Word driver inserts the report into an ordinary word document and saves it to a file. 
 Word HTML support is limited, so modern advanced styling might be lost. On the other hand, you can insert Word elements.
-
 

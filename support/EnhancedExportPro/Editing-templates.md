@@ -1,11 +1,11 @@
 ---
 layout: supportpage
 title: Editing templates
+description: "In Enhanced Export PRO, all settings are stored in templates that are accessible to all users."
 nav_group: 2_Customizing templates
 nav_order: 2
 toc: true
 ---
-
 ## Introduction
 In Enhanced Export PRO, all settings are stored in templates that are accessible to all users.
 The extension comes with a set of predefined templates out of the box, intended to showcase the capabilities and serve as a starting point for customers.
