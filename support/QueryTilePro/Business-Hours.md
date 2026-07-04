@@ -2,7 +2,7 @@
 layout: supportpage
 nav_group: Paid features
 title: Business Hours
-description: "Standard date-time calculations measure all 24 hours—but your dashboards shouldn't."
+description: "Query Tile PRO business hours: calculate Azure DevOps work item age and SLA using only working hours — exclude nights, weekends, and holidays from your dashboard metrics automatically."
 toc: true
 ---
 # Introduction

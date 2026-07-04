@@ -1,7 +1,7 @@
 ---
 layout: supportpage
 title: Editing templates
-description: "In Enhanced Export PRO, all settings are stored in templates that are accessible to all users."
+description: "Customize Enhanced Export PRO templates in Azure DevOps — create, copy, and edit Handlebars or XSLT templates in the Admin Hub to tailor every export to your team's exact needs."
 nav_group: 2_Customizing templates
 nav_order: 2
 toc: true

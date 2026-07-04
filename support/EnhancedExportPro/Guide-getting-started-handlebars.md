@@ -1,5 +1,5 @@
 ---
-description: "Handlebars is a templating language."
+description: "Handlebars templating in Enhanced Export PRO: learn syntax, expressions, helpers, and loops to create custom Azure DevOps export templates — no prior templating experience needed."
 ---
 # Getting Started with Handlebars
 

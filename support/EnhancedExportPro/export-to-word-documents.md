@@ -1,7 +1,7 @@
 ---
 layout: supportpage
 title: Export to Word documents
-description: "Creating an export is not worth much if you can’t share it with others."
+description: "Export Azure DevOps work items to Word with Enhanced Export PRO — use your own Word template, embed images, and produce professional reports you can share outside Azure DevOps."
 nav_group: 1_General
 nav_order: 30
 toc: true

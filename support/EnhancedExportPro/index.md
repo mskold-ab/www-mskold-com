@@ -1,7 +1,7 @@
 ---
 layout: redirect
 title:  "index"
-description: "Support articles and documentation for Enhanced Export PRO."
+description: "Enhanced Export PRO documentation hub — getting-started guides, template customization tutorials, export formats, licensing info, and how-to articles for Azure DevOps."
 categories: General
 toc: true
 ---

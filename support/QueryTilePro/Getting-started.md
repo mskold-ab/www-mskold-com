@@ -3,7 +3,7 @@ layout: supportpage
 nav_group: 
 nav_order: 1
 title:  "Getting started"
-description: "Query Tile PRO is built to enable you to create dashboard tiles you can't get with the standard Query Tile."
+description: "Get started with Query Tile PRO for Azure DevOps — create advanced dashboard tiles with SLA counters, color rules, and trend charts that the standard Query Tile simply can't do."
 toc: true
 ---
 ## Introduction 

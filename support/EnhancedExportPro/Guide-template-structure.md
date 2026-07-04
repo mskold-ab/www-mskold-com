@@ -1,5 +1,5 @@
 ---
-description: "This guide explains how a Handlebars template is put together and where the data it displays comes from."
+description: "Understand Enhanced Export PRO template structure — how Handlebars, data context, partials, and decorators combine to produce polished, professional Azure DevOps export documents."
 ---
 # The Structure of a Handlebars Template
 

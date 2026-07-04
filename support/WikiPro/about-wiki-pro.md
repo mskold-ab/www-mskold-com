@@ -3,7 +3,7 @@ layout: supportpage
 nav_group: 1_General 
 nav_order: 1000
 title:  "About Wiki PRO for Azure DevOps"
-description: "Wiki PRO is built to help developers and business users collaborate more effectively."
+description: "Wiki PRO for Azure DevOps — enhance your native wiki with rich text editing, Draw.io diagrams, Mermaid charts, page tags, and Word export. Trusted by teams at 30,000+ organizations."
 menu: "About Wiki PRO"
 toc: true
 ---

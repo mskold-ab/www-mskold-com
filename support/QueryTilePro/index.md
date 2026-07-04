@@ -1,7 +1,7 @@
 ---
 layout: redirect
 title:  "index"
-description: "Support articles and documentation for Query Tile PRO."
+description: "Query Tile PRO documentation: guides on business hours, global data sources, tile groups, Plan & Progress view, and subscription management for Azure DevOps dashboards."
 categories: General
 toc: true
 ---

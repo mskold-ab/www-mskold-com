@@ -1,5 +1,5 @@
 ---
-description: "We build extensions for Azure DevOps to help teams be successful in their everyday work."
+description: "Azure DevOps extensions by a certified Top Publisher, trusted by 30,000+ organizations. Fill the gaps that hold your team back — exports, dashboards, and wiki tools that just work."
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 

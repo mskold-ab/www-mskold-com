@@ -1,7 +1,7 @@
 ---
 layout: supportpage
 title: Managing subscriptions
-description: "Once a subscription has been purchased, you can manage it by navigating to the subscription list page."
+description: "Manage your Enhanced Export PRO subscription in Azure DevOps — add seats, change plans, view billing details, and handle renewals through the subscription management portal."
 nav_group: Licensing
 nav_order: 1
 toc: true

@@ -2,7 +2,7 @@
 layout: supportpage
 nav_group: 3_Paid features
 title: "Exporting wikit pages or page trees to Word document"
-description: "Wiki PRO allows you to export individual wiki pages and page trees to Microsoft Word documents."
+description: "Export Azure DevOps wiki pages to Word with Wiki PRO — export single pages or entire page trees as formatted Word documents, ready to share with anyone outside Azure DevOps."
 menu: "Exporting to Word"
 toc: true
 ---

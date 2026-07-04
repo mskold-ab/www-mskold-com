@@ -1,5 +1,5 @@
 ---
-description: "Helpers are JavaScript functions that are called within a template."
+description: "Build custom Handlebars helpers for Enhanced Export PRO — register JavaScript functions to format values, build links, compute totals, and extend any Azure DevOps export template."
 ---
 # Custom Helpers
 

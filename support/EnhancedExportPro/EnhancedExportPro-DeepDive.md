@@ -1,7 +1,7 @@
 ---
 layout: supportpage
 title: How does Enhanced Export PRO work 
-description: "Deep dive into how Enhanced Export PRO processes and renders documents in four stages."
+description: "How Enhanced Export PRO works: a four-stage deep dive — data fetching, template rendering, decorator styling, and Word/HTML export. Master every step to build the perfect Azure DevOps report."
 nav_group: 1_General
 nav_order: 20
 ---

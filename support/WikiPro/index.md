@@ -1,7 +1,7 @@
 ---
 layout: redirect
 title:  "index"
-description: "Support articles and documentation for WikiPRO features in Azure DevOps."
+description: "Wiki PRO documentation for Azure DevOps: rich text editing, Draw.io diagrams, Mermaid charts, page tags, print and export to Word, and more. Everything you need to get started."
 categories: General
 toc: true
 ---

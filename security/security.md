@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Security
-description: "Client-side by design — your data never leaves your Azure DevOps environment."
+description: "Azure DevOps extension security by MSkold AB — client-side by design, your data never leaves your environment. Trusted by banking, life sciences, and defense organizations worldwide."
 permalink: /Security/
 ---
 # Security 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Products
-description: "For full product information, licensing details, and pricing, visit our product pages on the Azure DevOps Marketplace using the links for each product."
+description: "Azure DevOps extensions by MSkold AB: export work items to Word, supercharge dashboard tiles, and enhance your wiki. Certified Top Publisher — free 30-day trial on every product."
 permalink: /products/
 ---
 <style>

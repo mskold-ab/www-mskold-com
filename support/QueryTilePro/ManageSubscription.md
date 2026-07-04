@@ -2,7 +2,7 @@
 layout: supportpage
 nav_group: 
 title: Managing subscriptions
-description: "Once a subscription has been purchased, you can manage it by navigating to the subscription list page."
+description: "Manage your Query Tile PRO subscription in Azure DevOps — add users, renew licenses, update billing, and access your organization's subscription settings from the management portal."
 nav_order: 2
 toc: true
 ---

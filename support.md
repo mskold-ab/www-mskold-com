@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Support
-description: "We offer paying customers support on their use of our extensions, primarily by email."
+description: "Get support for Enhanced Export PRO, Query Tile PRO, and Wiki PRO. Priority email support with 8-business-hour response — plus documentation, guides, and how-to articles."
 permalink: /support/
 ---
 # Support Policy
