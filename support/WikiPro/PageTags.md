@@ -2,7 +2,7 @@
 layout: supportpage
 nav_group: 3_Paid features
 title: "Organize Wiki Documentation with Page Tags"
-description: "WikiPRO allows authors to assign tags to wiki pages, making it easier to organize, categorize, search, and filter content across your Azure DevOps wiki."
+description: "Page tagging in Azure DevOps Wiki PRO — assign tags to wiki pages and filter or search by tag across all your project wikis. Organize documentation faster and find content instantly."
 menu: "Use Tags to organize pages"
 toc: true
 ---

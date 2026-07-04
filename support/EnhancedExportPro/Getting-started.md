@@ -1,7 +1,7 @@
 ---
 layout: supportpage
 title:  "Getting started"
-description: "Enhanced Export PRO is designed to be easy to use and yet powerful and flexible to create custom solutions to be able to meet all your requirements."
+description: "Get started with Enhanced Export PRO for Azure DevOps — export work item queries and test plans to Word with one click. No complex setup; full template customization in Admin Hub."
 nav_group: 1_General
 nav_order: 1
 toc: true

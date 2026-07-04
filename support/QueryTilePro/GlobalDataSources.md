@@ -2,7 +2,7 @@
 layout: supportpage
 nav_group: Paid features
 title: Global Data Sources 
-description: "If you are replicating or copying dashboards across team projects, copying and managing the underlying work item queries can become a short-term pain and a long-term administrative nightmare."
+description: "Query Tile PRO global data sources for Azure DevOps — reuse a single work item query across multiple dashboard tiles and projects. Update once, refresh everywhere. Built for multi-team setups."
 toc: true
 ---
 # Introduction 

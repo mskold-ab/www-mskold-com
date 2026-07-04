@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About us
-description: "MSkold AB is a Swedish software company with one focus: making the everyday work of development teams smoother."
+description: "MSkold AB builds Azure DevOps extensions trusted by 30,000+ organizations worldwide. Learn about the certified Top Publisher behind Enhanced Export PRO, Query Tile PRO, and Wiki PRO."
 permalink: /about/
 ---
 # About Us

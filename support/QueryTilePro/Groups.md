@@ -2,7 +2,7 @@
 layout: supportpage
 nav_group: Paid features
 title: Grouping tiles
-description: "If you are building dashboards with multiple tiles showing metrics that are computed the same way, but for different inputs or filters (such as team overview dashboards), or showing metrics across different categories, you should definitely look into groups."
+description: "Query Tile PRO groups for Azure DevOps dashboards — display metrics for multiple teams or categories in one tile. Ideal for sprint overviews, cross-team comparisons, and category breakdowns."
 toc: true
 ---
 # Introduction 

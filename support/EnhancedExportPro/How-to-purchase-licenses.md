@@ -1,7 +1,7 @@
 ---
 layout: supportpage
 title: Purchase licenses
-description: "Enhanced Export PRO is licensed through subscriptions."
+description: "Buy Enhanced Export PRO licenses for Azure DevOps — subscription-based, organization-wide pricing with a free 30-day trial. Step-by-step guide to purchasing through the Marketplace."
 nav_group: Licensing
 nav_order: 3
 toc: true

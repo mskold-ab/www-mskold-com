@@ -3,7 +3,7 @@ layout: supportpage
 nav_group: How tos 
 nav_order: 99
 title: Export complete test execution evidence
-description: "Enhanced Export PRO enables you to generate comprehensive test execution evidence directly from your Test Plans."
+description: "Export Azure DevOps test execution evidence to Word with Enhanced Export PRO — generate audit-ready test run reports directly from your Test Plans, with zero manual work."
 toc: true
 ---
 ## Introduction

@@ -3,7 +3,7 @@ layout: supportpage
 nav_group: 2_Free features
 nav_order: 99
 title: "Alerts and callouts"
-description: "Azure DevOps WikiPRO supports rich callout blocks that help authors highlight important information, warnings, tips, notes, and other contextual guidance within their documentation."
+description: "Callout blocks and alerts in Azure DevOps Wiki PRO — add info, warning, tip, and caution boxes to wiki pages with one click. Guide readers to what matters most, at a glance."
 menu: "Alerts and callouts"
 toc: true
 ---

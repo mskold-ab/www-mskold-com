@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Our Founder
-description: "MSkold AB was founded in 2015, but the story behind it starts a decade earlier — in the trenches of software development, where a passion for tooling and developer experience quietly took shape."
+description: "Meet Mattias Sköld — 20+ years building developer tooling, founder of MSkold AB, and the person behind Azure DevOps extensions trusted by 30,000+ organizations worldwide."
 permalink: /founder/
 ---
 # The Founder

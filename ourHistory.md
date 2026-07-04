@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Our History
-description: "Our company was founded in 2015."
+description: "From Microsoft DevLabs contributor to certified Top Publisher: the story of MSkold AB and how we built Azure DevOps extensions now used by 30,000+ organizations worldwide."
 permalink: /history/
 ---
 # Our history
