@@ -1,0 +1,59 @@
+## Build QueryTilePRO 1.0.1.108
+* **Completed**: Fri Jul 10 2026 11:23:07 GMT+0000 (Coordinated Universal Time)
+
+
+## Associated Pull Requests (1)
+* **[434](https://mskold.visualstudio.com/1b0d7449-cab3-4f7f-9607-574be2e25ef2/_git/34a345d0-523f-4153-a499-4e49496cb066/pullRequest/434)** QueryResult : Lazy loading for Query Selector 
+* Associated Work Items
+* Associated Commits (this includes commits on the PR source branch not associated directly with the build)
+    - [2a3792e764e6e68fdaef19fa94f5b328867cdea9](https://mskold.visualstudio.com/QueryTilePro/_git/QueryTilePro/commit/2a3792e764e6e68fdaef19fa94f5b328867cdea9) -  Refactored QuerySelector to a seperate control and used it in both Query Tile and Query Result widgets
+
+# Global list of WI with PRs, parents and children
+### WorkItems 
+*  **18958**  QueryResult - Query Selector doesnt do lazy loading
+   - **WIT** Bug
+   - **Tags** 
+   - **Assigned** 
+   - **Description** 
+   - **PRs**
+      - 434 - QueryResult : Lazy loading for Query Selector 
+   - **Parents**
+   - **Children**
+   - **Tested By**
+
+# Global list of CS (1)
+### Associated commits
+* ** ID8fe1407002c359c9826df1cebac948633b19c326**
+   -  **Message:** Merged PR 434: QueryResult : Lazy loading for Query Selector
+   -  **Commited by:** mattias_skold71 hotmail.com
+   -  **FileCount:** 8
+      -  **File path (TFVC or TfsGit):** /src
+      -  **File filename (GitHub):** 
+      -  **File path (TFVC or TfsGit):** /src/AdvancedQueryTileWidget
+      -  **File filename (GitHub):** 
+      -  **File path (TFVC or TfsGit):** /src/AdvancedQueryTileWidget/AdvancedQueryTile.csproj
+      -  **File filename (GitHub):** 
+      -  **File path (TFVC or TfsGit):** /src/AdvancedQueryTileWidget/PackageExtension.js
+      -  **File filename (GitHub):** 
+      -  **File path (TFVC or TfsGit):** /src/AdvancedQueryTileWidget/scripts
+      -  **File filename (GitHub):** 
+      -  **File path (TFVC or TfsGit):** /src/AdvancedQueryTileWidget/scripts/QueryResultPRO-configuration.ts
+      -  **File filename (GitHub):** 
+      -  **File path (TFVC or TfsGit):** /src/AdvancedQueryTileWidget/scripts/QuerySelectorCtrl.ts
+      -  **File filename (GitHub):** 
+      -  **File path (TFVC or TfsGit):** /src/AdvancedQueryTileWidget/scripts/QueryTilePRO-configuration.ts
+      -  **File filename (GitHub):** 
+
+## List of WI returned by WIQL (0)
+
+## Manual Test Plans
+| Run ID | Name | State | Total Tests | Passed Tests |
+| --- | --- | --- | --- | --- |
+
+## Global list of ConsumedArtifacts (0)
+| Category | Type | Version Name | Version Id | Commits | Workitems |
+|-|-|-|-|-|-|
+
+## Artifacts published by build (0)
+| Name| Type |
+|-|-|-|
