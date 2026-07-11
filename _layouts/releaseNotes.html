@@ -167,7 +167,7 @@ layout: default
         </div>
         <article id="pageContent" class="post" style="flex: 1 1 800px; max-width: 800px; min-width: 0; margin: 0 20px;">
         {% assign relNotesPath = page.path | append: '/releaseNotes/' %}
-        {% assign relNotes = site.pages | where_exp: "p", "p.path contains relNotesPath" %}        
+        {% assign relNotes = site.pages | where_exp: "p", "p.path contains relNotesPath"  | sort: "title" | reverse %}        
 
         <h1>Release Notes for {{page.product}}</h1>
             
