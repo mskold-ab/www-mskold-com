@@ -1,0 +1,193 @@
+---
+layout: default
+---
+
+
+<style>
+    .gh-alert {
+      padding: 1rem;
+      margin: 1rem 0;
+      border-left: 4px solid;
+      border-radius: 4px;
+    }
+    
+    .gh-alert-note      { border-color: #0969da; }
+    .gh-alert-tip       { border-color: #1a7f37; }
+    .gh-alert-tip::before{ content:"TIP";
+                          color: #1a7f37; 
+                          display:block;
+                          padding-left:30px;
+                          background-repeat:no-repeat;
+                          background-image: url("data:image/svg+xml;utf8,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27><path fill=%27%231a7f37%27 d=%27M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 0 1-1.484.211c-.04-.282-.163-.547-.37-.847a8.456 8.456 0 0 0-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.751.751 0 0 1-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75ZM5.75 12h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5ZM6 15.25a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 0 1.5h-2.5a.75.75 0 0 1-.75-.75Z%27/></svg>")
+                         }
+    .gh-alert-important { border-color: #8250df; }
+    .gh-alert-warning   { border-color: #bf8700; }
+    .gh-alert-caution   { border-color: #cf222e; }
+    .pageinfo {
+            background: ghostwhite;
+            font-size: small;
+            text-align: center;
+            height: 25px;
+            color: gray;
+            padding:6px;
+        }
+        .feedbackFooter{
+            background-color: ghostwhite;
+            padding:6px;
+            text-align: center;
+        }
+        .infoBar {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        .timetoRead{
+                float: left;
+        }
+
+        .improve {
+            text-align: right;
+            font-size: small;
+            color: gray !important;
+            float:right;
+        }
+
+        #content-dir ul li {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 180px;
+            display: block;
+        }
+</style>
+
+
+<script>
+  function SendHelpfullTelemetry(isHelpfull){
+    appInsights.trackEvent({name:isHelpfull?'Helpful':'Not-Helpful'});
+  }
+
+  function Printpage() {
+            let divContents = document.getElementById("pageContent").innerHTML;
+            let styles = "";
+                Array.from(document.querySelectorAll('link[rel="stylesheet"]')).forEach(styleNode => {
+                    styles = styleNode.outerHTML;
+                });
+
+            let printWindow = window.open('', '', 'height=${windows.height}, width=800');
+            printWindow.document.open();
+            printWindow.document.write(`
+                <html>
+                <head>
+                    ${styles}
+                    <style>
+                            .infoBar {
+                                margin-left: 10px;
+                                margin-right: 10px;
+                                }
+
+                                .timetoRead{
+                                    float: left;
+                                }
+
+                                .improve {
+                                text-align: right;
+                                font-size: small;
+                                color: gray !important;
+                                float:right;
+                                }
+          
+                        
+                    </style>
+                </head>
+                <body>
+                    ${divContents}
+                </body>
+                </html>
+            `);
+            printWindow.document.close();
+            printWindow.print();
+        }
+
+</script>
+
+
+<main class="page-content" aria-label="Content">
+    <div style="display: flex; flex-direction: row; justify-content: center; align-items: flex-start; position: relative; max-width: 1240px; margin: 0 auto;">
+        
+        
+        <div id="content-dir" style="max-height:80vh; overflow:auto; margin-right:20px; min-width:230px">
+            <div  style="height: 64px;">
+            {% if page.dir contains 'QueryTilePro' %}
+                <a href="https://marketplace.visualstudio.com/items?itemName=mskold.mskold-Query-Tile-PRO"><img src="{{ site.baseurl }}/img/QueryTilePRO-logo.png" alt="Support" width="60px"> Query Tile PRO</a>
+            {% elsif page.dir contains 'WikiPro' %}
+                <a href="https://marketplace.visualstudio.com/items?itemName=mskold.mskold-WikiPRO"><img src="{{ site.baseurl }}/img/wikipro-logo.png" alt="Support" width="60px"> Wiki PRO </a>
+            {% else %}
+                <a href="https://marketplace.visualstudio.com/items?itemName=mskold.mskold-PRO-EnhancedExport"><img src="{{ site.baseurl }}/img/EnhancedExportPRO-logo.png" alt="Support" width="60px"> Enhanced Export PRO</a>  
+            {% endif %}
+            </div>    
+            <div style=" max-height: 80vh; overflow: auto; border: 1px solid #ccc; padding: 5px; background-color: #f9f9f9;">
+                {% assign dir_pages = site.pages | where: "dir", page.dir %}
+
+{% comment %}
+  Group pages by nav_group, defaulting missing nav_group to "Other",
+  and exclude the index page from the sidebar.
+{% endcomment %}
+{% assign groups = dir_pages
+     | where_exp: "p", "p.title != 'index'"
+     | group_by_exp: "p", "p.nav_group | default: 'General'" 
+     | sort: "name" %}
+<ul style="margin-left:12px;">
+{% for g in groups %}
+  <li>
+      {% assign group_parts = g.name | split: '_' %}
+{% assign first_part = group_parts[0] %}
+
+{% if first_part == '0' or first_part == '1' or first_part == '2' or first_part == '3' or first_part == '4' or first_part == '5' or first_part == '6' or first_part == '7' or first_part == '8' or first_part == '9' %}
+  <b>{{ group_parts | slice: 1, 99 | join: '_' }}</b>
+{% else %}
+  <b>{{ g.name }}</b>
+{% endif %}
+      
+    
+    <ul style="margin-left:12px;">
+        {% assign items = g.items
+        | sort: "nav_order" 
+        | sort: "title" 
+        | sort_natural %}
+      {% for p in items %}
+        {% assign menuTxt = p.menu | default: p.title %}
+        <li style="max-width:220px;"><a href="{{ site.baseurl }}{{ p.url }}">{{ menuTxt }}</a></li>
+      {% endfor %}
+    </ul>
+  </li>
+{% endfor %}
+</ul>
+            </div>
+        </div>
+        <article id="pageContent" class="post" style="flex: 1 1 800px; max-width: 800px; min-width: 0; margin: 0 20px;">
+            <h1>{{ page.title }}    </h1>
+            
+            <div class="pageinfo">
+                <span class="timetoRead">This article will take {{ content |reading_time }} to read.</span> 
+                <a href="#" onclick="Printpage()"> <span class="print" >Print this page.</span> </a>
+
+                {% if page.dir contains 'QueryTilePro' %}
+                    <span class="improve"><a href="https://github.com/mskold-ab/QueryTilePro-documentation/blob/master/{{page.name}}">   <i class="ms-Icon ms-Icon--PageEdit" target="_blank"></i> &nbsp;Improve this page</a></span>
+                {% else %}
+                    <span class="improve"><a href="https://github.com/mskold-ab/EnhancedExportPro-documentation/blob/master/{{page.name}}">   <i class="ms-Icon ms-Icon--PageEdit" target="_blank"></i> &nbsp;Improve this page</a></span>
+                {% endif %}
+            </div>
+            
+             {{ content | inject_anchors }}
+            <div class="feedbackFooter"> 
+                <span style="margin-left: 50%;margin-right: 50%;white-space:nowrap;">Was this page helpful <a onclick="alert('Thnx');SendHelpfullTelemetry(true);" href="#">Yes</a>/ <a onclick="alert('Thnx Sorry to learn that');SendHelpfullTelemetry(false);" href="#">No</a></span>
+                </div>
+
+        </article>
+        <div id="article-toc" style="margin-top:64px; max-height: 80vh; overflow: auto; ">
+            <b>On this page</b>
+            {{ content | toc_only }}
+        </div>
+    </div>
+</main>
