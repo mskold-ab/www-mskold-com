@@ -166,20 +166,13 @@ layout: default
             </div>
         </div>
         <article id="pageContent" class="post" style="flex: 1 1 800px; max-width: 800px; min-width: 0; margin: 0 20px;">
-            {% assign guides = site.pages | where_exp: "p", "p.path contains 'releaseNotes/'" %}
+            {% assign relNotes = site.pages | where_exp: "p", "p.path contains 'releaseNotes/'" %}
 
-                {% for guide in guides %}
-                ## {{ guide.title }} HEJ
-                    {{ guide.content | markdownify }}
+                {% for relNote in relNotes %}
+                ## {{ relNote.title }} HEJ
+                    {{ relNote.content | markdownify }}
                 {% endfor %}
             
-        </article>
-        <div id="article-toc" style="margin-top:64px; max-height: 80vh; overflow: auto; ">
-            <b>On this page</b>
-            {{ content | toc_only }}
-        </div>
-    </div>
-</main>
         </article>
         <div id="article-toc" style="margin-top:64px; max-height: 80vh; overflow: auto; ">
             <b>On this page</b>
