@@ -168,8 +168,10 @@ layout: default
         <article id="pageContent" class="post" style="flex: 1 1 800px; max-width: 800px; min-width: 0; margin: 0 20px;">
             {% assign relNotes = site.pages | where_exp: "p", "p.path contains 'releaseNotes/'" %}
 
-                {% for relNote in relNotes %}
-                ## {{ relNote.title }} HEJ
+        <h1>Release Notes for Query Tile PRO</h1>
+            
+            {% for relNote in relNotes %}
+                <h2> {{ relNote.title }} {{ relNote.date }} </h2>
                     {{ relNote.content | markdownify }}
                 {% endfor %}
             
