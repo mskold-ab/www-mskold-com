@@ -1,6 +1,6 @@
 ---
 layout: supportpage
-nav_group: 
+nav_group: 1_General
 title: Managing subscriptions
 description: "Manage your Query Tile PRO subscription in Azure DevOps — add users, renew licenses, update billing, and access your organization's subscription settings from the management portal."
 nav_order: 2
