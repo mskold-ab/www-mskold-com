@@ -1,6 +1,6 @@
 ---
 layout: supportpage
-nav_group: Paid features
+nav_group: 3_Paid features
 title:  "Plan and Progress view"
 description: "Plan & Progress view in Query Tile PRO — visualize delivery timelines and sprint progress on your Azure DevOps dashboard, like Delivery Plan but embedded right in your dashboard widgets."
 toc: true
