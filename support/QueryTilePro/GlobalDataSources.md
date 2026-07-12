@@ -1,6 +1,6 @@
 ---
 layout: supportpage
-nav_group: Paid features
+nav_group: 3_Paid features
 title: Global Data Sources 
 description: "Query Tile PRO global data sources for Azure DevOps — reuse a single work item query across multiple dashboard tiles and projects. Update once, refresh everywhere. Built for multi-team setups."
 toc: true
