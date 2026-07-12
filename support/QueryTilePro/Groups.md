@@ -1,6 +1,6 @@
 ---
 layout: supportpage
-nav_group: Paid features
+nav_group: 3_Paid features
 title: Grouping tiles
 description: "Query Tile PRO groups for Azure DevOps dashboards — display metrics for multiple teams or categories in one tile. Ideal for sprint overviews, cross-team comparisons, and category breakdowns."
 toc: true
