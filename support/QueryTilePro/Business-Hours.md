@@ -1,6 +1,6 @@
 ---
 layout: supportpage
-nav_group: Paid features
+nav_group: 3_Paid features
 title: Business Hours
 description: "Query Tile PRO business hours: calculate Azure DevOps work item age and SLA using only working hours — exclude nights, weekends, and holidays from your dashboard metrics automatically."
 toc: true
