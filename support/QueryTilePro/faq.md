@@ -1,3 +1,13 @@
+---
+layout: supportpage
+nav_group: 4_Frequently Asked Questions
+nav_order: 1000
+title:  "FAQ - Query Tile PRO"
+description: "Query Tile PRO FAQ — frequently asked questions about features, Azure DevOps Server compatibility, licensing, and how Query Tile PRO."
+menu: "FAQ"
+toc: true
+---
+
 # Query Tile PRO Frequently Asked Questions
 
 ## Getting Started
