@@ -60,7 +60,7 @@ For full product information, licensing details, and pricing, visit our product 
 			A better wiki experience for both developers and business users. Rich text editing, Draw.IO integration, latest version and full support for all Mermaid charts.
 			Page tagging and filtering, print or export multiple wiki pages to Word, page and wiki analytics, and statistics.
 			
-			<div class="getExtension"><a  href="https://marketplace.visualstudio.com/items?itemName=mskold.mskold-WikiPRO">Read more and <b>start a free 30-day trial</b> at the Azure DevOps Marketplace...</a></div>
+			<div class="getExtension"><a href="/wiki-pro/">Learn more about Wiki PRO</a> &nbsp;|&nbsp; <a href="https://marketplace.visualstudio.com/items?itemName=mskold.mskold-WikiPRO"><b>Start a free 30-day trial</b> at the Azure DevOps Marketplace...</a></div>
 		</div>
 		<div class="license-cell" style="display: table-cell; vertical-align: top;">
 			<b>Paid<br /> Free 30 day trial </b><br />			
