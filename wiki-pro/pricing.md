@@ -108,7 +108,7 @@ Reach out to [sales@mskold.com](mailto:sales@mskold.com) to arrange a purchase o
 We work with third-party licensing partners including SoftwareOne, SHI, QBS, ABDistribution, Insights, Ebusiness-design, and many others.
 We are also open to working with your preferred partner.
 
-To purchase through a reseller, contact your reseller representative and ask them to fulfil a Wiki PRO subscription from MSkold AB.
+To purchase through a reseller, contact your reseller representative and ask them to fulfill a Wiki PRO subscription from MSkold AB.
 
 ---
 
