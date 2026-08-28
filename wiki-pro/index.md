@@ -117,7 +117,7 @@ permalink: /wiki-pro/
 
 <div class="wp-hero">
   <img src="{{ site.baseurl }}/img/wikipro-logo.png" alt="Wiki PRO logo" />
-  <div class="tagline">The wiki Azure DevOps should have shipped with.</div>
+  <div class="tagline">The Wiki experience you wished for</div>
   <a class="wp-cta-btn" href="https://marketplace.visualstudio.com/items?itemName=mskold.mskold-WikiPRO">Install Wiki PRO for free now →</a>
 </div>
 
@@ -147,12 +147,8 @@ the latest Mermaid diagrams, Draw.io integration, Word export, page tagging, tem
     A Word-style WYSIWYG editor so stakeholders and business users can contribute without knowing Markdown.
   </div>
   <div class="wp-benefit-card">
-    <h3>📊 Full Mermaid Support</h3>
-    All 23 Mermaid chart types — including ZenUML, C4, and ER diagrams — on any Azure DevOps version.
-  </div>
-  <div class="wp-benefit-card">
-    <h3>🖊 Draw.io Integration</h3>
-    Embed and edit Draw.io diagrams directly in wiki pages, stored alongside your content in Azure DevOps.
+    <h3>📊 Diagraming support</h3>
+    Create and maintain diagrams directly in your wiki with full Mermaid support and Draw.io integration.
   </div>
   <div class="wp-benefit-card">
     <h3>📄 Export to Word</h3>
