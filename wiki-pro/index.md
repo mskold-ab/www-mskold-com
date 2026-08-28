@@ -285,7 +285,7 @@ For years users have wished for a better Wiki Experience in Azure DevOps. We lis
 ## Pricing at a glance
 <div class="wp-pricing-cols">
   <div class="wp-pricing-col">
-    
+     <p class="wp-pricing-tag">&nbsp; </p>   
     <h3>Free</h3>
     
     <p>&nbsp;</p>
