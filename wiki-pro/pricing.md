@@ -82,10 +82,10 @@ Wiki PRO is freemium software: core features are free forever, and paid features
   </div>
   <div class="wp-pricing-col">
     <h3>Organization license</h3>
-    <p><strong>Enable the Organization</strong><br />Starting from €1,990/year, priced by organization size. Includes everything in the Selected Wikis license, enabled org-wide.</p>
+    <p><strong>Enable the Organization</strong><br />Starting from €1,990/year, priced by organization size. </p>
     <ul>
-      <li>Everything in Selected Wikis license, org-wide</li>
-      <li>Org-wide deployment, no per-wiki assignment needed</li>
+      <li>Everything in Selected Wikis license, org-wide</li>      
+      <li>Wiki templates </li>
       <li>Centralized billing based on organization size</li>
     </ul>
     <a class="wp-cta-btn" href="mailto:sales@mskold.com">Contact sales →</a>
