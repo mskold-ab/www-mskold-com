@@ -49,7 +49,7 @@ Wiki PRO is freemium software: core features are free forever, and paid features
 <div class="wp-pricing-cols">
   <div class="wp-pricing-col">
     <h3>Free</h3>
-    <p><strong>Core features, always free.</strong><br />No credit card required.</p>
+    <p><strong>Core features, free for all</strong><br />No registration or credit card required.</p>
     <ul>
       <li>Wiki rendering &amp; Markdown editor</li>
       <li>All 23 Mermaid chart types (latest engine)</li>
@@ -60,6 +60,7 @@ Wiki PRO is freemium software: core features are free forever, and paid features
       <li>My Pages personal dashboard</li>
       <li>Print page and subpages</li>
       <li>Organization-wide wiki promotion</li>
+      
     </ul>
     <a class="wp-cta-btn" href="https://marketplace.visualstudio.com/items?itemName=mskold.mskold-WikiPRO">Install Wiki PRO for free →</a>
   </div>
@@ -84,11 +85,9 @@ Wiki PRO is freemium software: core features are free forever, and paid features
     <h3>Organization license</h3>
     <p><strong>Best for teams and enterprises.</strong><br />Includes everything in the paid wiki license for one Azure DevOps organization.</p>
     <ul>
-      <li>Org-wide deployment</li>
-      <li>Centralized billing</li>
-      <li>Volume purchasing options</li>
-      <li>PO / invoicing / bank transfer available</li>
-      <li>Reseller purchasing supported</li>
+      <li>Wiki templates</li>
+      <li>Enable paid features Org-wide deployment</li>
+      <li>Centralized billing based on organization size</li>
     </ul>
     <a class="wp-cta-btn" href="mailto:sales@mskold.com">Contact sales →</a>
   </div>
