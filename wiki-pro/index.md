@@ -113,6 +113,12 @@ permalink: /wiki-pro/
   .wp-nav-links a {
     margin-right: 16px;
   }
+.wp-compare-tables td:first-child,
+.wp-compare-tables th:first-child {
+  width: 220px;
+  min-width: 220px;
+}
+  
 </style>
 
 <div class="wp-hero">
@@ -228,7 +234,7 @@ For years users have wished for a better Wiki Experience in Azure DevOps. We lis
 ## How it compares
 
 ### Editing &amp; Authoring
-
+<div class="wp-compare-tables">
 | Feature | Azure DevOps Wiki | Wiki PRO Free | Wiki PRO Paid |
 |---------|-------------------|---------------|---------------|
 | Markdown editing | ✅ | ✅ Enhanced | ✅ Enhanced |
@@ -258,31 +264,32 @@ For years users have wished for a better Wiki Experience in Azure DevOps. We lis
 |---------|-------------------|---------------|---------------|
 | Print page and subpages | ❌ | ✅ | ✅ |
 | Export to Word documents with your word template| ❌ | ❌ | ✅ |
-
+</div>
 [See the full comparison →](/support/WikiPro/about-wiki-pro)
 
 ---
 
 ## Pricing at a glance
-
 <div class="wp-pricing-cols">
   <div class="wp-pricing-col">
     <h3>Free</h3>
     <p>Core features, free for real.</p>
-    <p>No regristration, no card, no timelimit</p>
-
+    <p>No registration, no card, no time limit</p>
   </div>
   <div class="wp-pricing-col">
-    <h3>Pay for selected Wikis</h3>
-    <p>Starting from 99 Euros/year </p>
+    <h3>Per-Wiki licenses</h3>
+    <p>Pay only for the wikis you select</p>
+    <p>Starting from €99/year per wiki</p>
   </div>
   <div class="wp-pricing-col">
     <h3>Organization licenses</h3>
-    <p>Enable the whole organization </p>
+    <p>Enable the whole organization</p>
     <p>Priced based on organization size</p>
-    <p>Starting from 1990 Euros/year </p>
+    <p>Starting from €1,990/year</p>
   </div>
 </div>
+
+<p class="wp-pricing-note">Same paid features in both — choose the scope that fits.</p>
 
 [Full pricing &amp; licensing details →](/wiki-pro/pricing/)
 
