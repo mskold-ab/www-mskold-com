@@ -137,7 +137,7 @@ permalink: /wiki-pro/
 
 
 ## Why Wiki PRO?
-For years users users have wished for a better Wiki Experience in Azure DevOps. We listened to community feedback and feature requests and built an Wiki extension that works alongside the existing Azure DevOps Wiki while adding meaningful improvements and new capabilities. So far, we have delivered 6 of the top 10 Developer Community user requests for Azure DevOps Wiki, with 20+ items from the top 30 requests currently in our product roadmap.
+For years users have wished for a better Wiki Experience in Azure DevOps. We listened to community feedback and feature requests and built an Wiki extension that works alongside the existing Azure DevOps Wiki while adding meaningful improvements and new capabilities. So far, we have delivered 6 of the top 10 Developer Community user requests for Azure DevOps Wiki, with 20+ items from the top 30 requests currently in our product roadmap.
 
 + Wiki PRO works side by side with the native Azure DevOps wiki — same data, same API, no migration required.
 + Wiki PRO is freemium - core features are free for all to use, no registration, no card required.
@@ -268,32 +268,19 @@ For years users users have wished for a better Wiki Experience in Azure DevOps. 
 <div class="wp-pricing-cols">
   <div class="wp-pricing-col">
     <h3>Free</h3>
-    <p>Core features, forever free.</p>
-    <ul>
-      <li>Wiki rendering &amp; markdown editor</li>
-      <li>All 23 Mermaid chart types</li>
-      <li>Alerts &amp; admonitions</li>
-      <li>Enhanced code blocks</li>
-      <li>Table of contents &amp; revision history panels</li>
-      <li>My Pages personal dashboard</li>
-      <li>Print page and subpages</li>
-      <li>Organization-wide wiki promotion</li>
-    </ul>
+    <p>Core features, free for real.</p>
+    <p>No regristration, no card, no timelimit</p>
+
   </div>
   <div class="wp-pricing-col">
-    <h3>Paid — 30-day free trial</h3>
-    <p>Enterprise collaboration &amp; governance.</p>
-    <ul>
-      <li>WYSIWYG rich text editor</li>
-      <li>Draw.io diagrams &amp; plugins</li>
-      <li>Export wikis to Word</li>
-      <li>Page tags &amp; filtering</li>
-      <li>Page &amp; wiki templates</li>
-      <li>Wiki page metadata</li>
-      <li>Wiki analytics &amp; statistics</li>
-      <li>Priority email support</li>
-    </ul>
-    <a class="wp-cta-btn" href="https://marketplace.visualstudio.com/items?itemName=mskold.mskold-WikiPRO">Start free trial →</a>
+    <h3>Pay for selected Wikis</h3>
+    <p>Starting from 99 Euros/year </p>
+  </div>
+  <div class="wp-pricing-col">
+    <h3>Organization licenses</h3>
+    <p>Enable the whole organization </p>
+    <p>Priced based on organization size</p>
+    <p>Starting from 1990 Euros/year </p>
   </div>
 </div>
 
