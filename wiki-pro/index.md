@@ -118,7 +118,7 @@ permalink: /wiki-pro/
 <div class="wp-hero">
   <img src="{{ site.baseurl }}/img/wikipro-logo.png" alt="Wiki PRO logo" />
   <div class="tagline">The wiki Azure DevOps should have shipped with.</div>
-  <a class="wp-cta-btn" href="https://marketplace.visualstudio.com/items?itemName=mskold.mskold-WikiPRO">Start free 30-day trial →</a>
+  <a class="wp-cta-btn" href="https://marketplace.visualstudio.com/items?itemName=mskold.mskold-WikiPRO">Install Wiki PRO for free now →</a>
 </div>
 
 <div class="wp-social-proof">
