@@ -32,3 +32,9 @@
 .post-area a:hover {
   color: #0D0017;
 }
+
+.product-page-shell {
+  position: relative;
+  max-width: 1240px;
+  margin: 0 auto;
+}
