@@ -141,7 +141,8 @@ For years users users have wished for a better Wiki Experience in Azure DevOps. 
 
 + Wiki PRO works side by side with the native Azure DevOps wiki — same data, same API, no migration required.
 + Wiki PRO is freemium - core features are free for all to use, no registration, no card required.
-
++ Wiki PRO is built for developers, stakeholders, and business users alike. Easy-to-use editor or full Markdown editor, your choice.
+  
 <div class="wp-benefits">
   <div class="wp-benefit-card">
     <h3>📝 Rich Text Editing</h3>
@@ -241,7 +242,7 @@ For years users users have wished for a better Wiki Experience in Azure DevOps. 
 |---------|-------------------|---------------|---------------|
 | Mermaid diagrams types| Limited (4–11 types) | ✅ All 23 types | ✅ |
 | ZenUML &amp; C4 diagrams | ❌ | ✅ | ✅ |
-| Draw.io integration | ❌ | ❌ | ✅ |
+| Draw.io integration (diagrams stored in-page) | ❌ | ❌ | ✅ |
 
 ### Navigation &amp; Analytics
 
@@ -256,7 +257,7 @@ For years users users have wished for a better Wiki Experience in Azure DevOps. 
 | Feature | Azure DevOps Wiki | Wiki PRO Free | Wiki PRO Paid |
 |---------|-------------------|---------------|---------------|
 | Print page and subpages | ❌ | ✅ | ✅ |
-| Export to Word documents | ❌ | ❌ | ✅ |
+| Export to Word documents with your word template| ❌ | ❌ | ✅ |
 
 [See the full comparison →](/support/WikiPro/about-wiki-pro)
 
