@@ -60,13 +60,12 @@ Wiki PRO is freemium software: core features are free forever, and paid features
       <li>My Pages personal dashboard</li>
       <li>Print page and subpages</li>
       <li>Organization-wide wiki promotion</li>
-      
     </ul>
     <a class="wp-cta-btn" href="https://marketplace.visualstudio.com/items?itemName=mskold.mskold-WikiPRO">Install Wiki PRO for free →</a>
   </div>
   <div class="wp-pricing-col">
-    <h3>Paid subcription/wiki</h3>
-    <p><strong>Advanced wiki authoring &amp; collaboration.</strong><br />30-day free trial — no commitment needed.</p>
+    <h3>Selected Wikis license</h3>
+    <p><strong>Advanced wiki authoring &amp; collaboration.</strong><br />Starting from €120/year per wiki. 30-day free trial — no commitment needed.</p>
     <ul>
       <li>Everything in Free, plus:</li>
       <li>WYSIWYG rich text editor</li>
@@ -83,10 +82,10 @@ Wiki PRO is freemium software: core features are free forever, and paid features
   </div>
   <div class="wp-pricing-col">
     <h3>Organization license</h3>
-    <p><strong>Best for teams and enterprises.</strong><br />Includes everything in the paid wiki license for one Azure DevOps organization.</p>
+    <p><strong>Best for teams and enterprises.</strong><br />Starting from €1,990/year, priced by organization size. Includes everything in the Selected Wikis license, enabled org-wide.</p>
     <ul>
-      <li>Wiki templates</li>
-      <li>Enable paid features Org-wide deployment</li>
+      <li>Everything in Selected Wikis license, org-wide</li>
+      <li>Org-wide deployment, no per-wiki assignment needed</li>
       <li>Centralized billing based on organization size</li>
     </ul>
     <a class="wp-cta-btn" href="mailto:sales@mskold.com">Contact sales →</a>
@@ -95,7 +94,6 @@ Wiki PRO is freemium software: core features are free forever, and paid features
 
 For full pricing details and to start a subscription, visit the [Azure DevOps Marketplace](https://marketplace.visualstudio.com/items?itemName=mskold.mskold-WikiPRO).
 
----
 
 ## How to start a trial
 
@@ -104,7 +102,7 @@ For full pricing details and to start a subscription, visit the [Azure DevOps Ma
 3. Once installed, paid features automatically activate a 30-day free trial — no credit card required to start.
 4. Before the trial ends, you can subscribe through the in-extension self-service flow using a credit card.
 
----
+
 
 ## Volume &amp; enterprise purchasing
 
@@ -123,26 +121,6 @@ We are also open to working with your preferred partner.
 
 To purchase through a reseller, contact your reseller representative and ask them to fulfill a Wiki PRO subscription from MSkold AB.
 
----
-
-## Frequently asked questions
-
-<dl class="wp-faq">
-  <dt>Is my existing wiki data safe?</dt>
-  <dd>Yes. Wiki PRO reads and writes using the same Azure DevOps wiki API and data store as the native wiki. There is no separate data store and nothing is copied or moved. Your wiki data stays exactly where it is.</dd>
-
-  <dt>Do I need to migrate anything to start using Wiki PRO?</dt>
-  <dd>No migration is required. Install the extension and Wiki PRO works alongside the native wiki immediately. Existing pages render in Wiki PRO without any changes.</dd>
-
-  <dt>Does Wiki PRO work with Azure DevOps Server (on-premises)?</dt>
-  <dd>Yes. Wiki PRO supports both Azure DevOps (cloud) and Azure DevOps Server (on-premises), including older versions that lack native support for the latest Mermaid chart types.</dd>
-
-  <dt>What happens when the trial ends?</dt>
-  <dd>After the 30-day trial, paid features are no longer available until you subscribe. Your wiki data is unaffected — all content remains accessible through the native wiki and Wiki PRO free tier.</dd>
-
-  <dt>Can I use Wiki PRO on multiple organizations?</dt>
-  <dd>Each subscription covers one Azure DevOps organization. Contact <a href="mailto:sales@mskold.com">sales@mskold.com</a> if you need multi-organization licensing.</dd>
-</dl>
 
 ---
 
