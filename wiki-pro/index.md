@@ -122,7 +122,7 @@ permalink: /wiki-pro/
 </div>
 
 <div class="wp-social-proof">
-  Certified Top Publisher on the Azure DevOps Marketplace &nbsp;·&nbsp; Trusted by 30,000+ organizations &nbsp;·&nbsp; &nbsp;·&nbsp; Freemium — core features free, no registration no card.
+  Certified Top Publisher on the Azure DevOps Marketplace &nbsp;·&nbsp; Trusted by 30,000+ organizations &nbsp;·&nbsp;  Freemium — core features are free.
 </div>
 
 <div class="wp-nav-links">
@@ -135,10 +135,10 @@ permalink: /wiki-pro/
 ---
 
 ## Why Wiki PRO?
-For years users has wished for a better Wiki Experience in Azure DevOps. We listened to community feedback and feature requests and built an Wiki extension that works alongside the existing Azure DevOps Wiki while adding meaningful improvements and new capabilities. So far, we have delivered 6 of the top 10 Developer Community user requests for Azure DevOps Wiki, with 20+ items from the top 30 requests currently in our product roadmap.
+For years users users have wished for a better Wiki Experience in Azure DevOps. We listened to community feedback and feature requests and built an Wiki extension that works alongside the existing Azure DevOps Wiki while adding meaningful improvements and new capabilities. So far, we have delivered 6 of the top 10 Developer Community user requests for Azure DevOps Wiki, with 20+ items from the top 30 requests currently in our product roadmap.
 
-Wiki PRO works side by side with the native Azure DevOps wiki — same data, same API, no migration required.
-Wiki PRO is freemium - core features are free for all to use, no registration, no card required.
++ Wiki PRO works side by side with the native Azure DevOps wiki — same data, same API, no migration required.
++ Wiki PRO is freemium - core features are free for all to use, no registration, no card required.
 
 <div class="wp-benefits">
   <div class="wp-benefit-card">
