@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: productPage
 title: "Wiki PRO Features"
 description: "All Wiki PRO features for Azure DevOps: rich text editing, Draw.io diagrams, Mermaid charts, page tags, templates, My Pages, export to Word, and more."
 permalink: /wiki-pro/features/
@@ -49,7 +49,7 @@ Changes are automatically converted to Markdown-compatible format on save, keepi
 
 ## Mermaid Diagrams <span class="wf-tier-badge wf-tier-free">Free</span>
 
-Wiki PRO ships with the latest Mermaid rendering engine, supporting all 23 diagram types including flowcharts, sequence diagrams, class diagrams, state diagrams, ER diagrams, C4 architecture diagrams, ZenUML, Git graphs, and more.
+Wiki PRO ships with the latest Mermaid rendering engine, supporting all 23 diagram types including flowcharts, sequence diagrams, class diagrams, state diagrams, ER diagrams, C4 architecture diagrams, ZenUML, and Git graphs.
 The native Azure DevOps wiki supports only a limited subset (4–11 types depending on the version), so Wiki PRO unlocks modern diagramming on any Azure DevOps version.
 
 <div class="wf-cta"><a href="/support/WikiPro/f-mermaid">Learn more about Mermaid Diagrams →</a></div>
@@ -144,6 +144,6 @@ Promote any project wiki to be visible across the entire Azure DevOps organizati
 
 ## Ready to try it?
 
-<a href="https://marketplace.visualstudio.com/items?itemName=mskold.mskold-WikiPRO" style="display:inline-block;background:#0078d4;color:#fff;padding:10px 24px;border-radius:4px;font-weight:bold;text-decoration:none;">Start free 30-day trial on the Marketplace →</a>
+<a href="https://marketplace.visualstudio.com/items?itemName=mskold.mskold-WikiPRO" style="display:inline-block;background:#0078d4;color:#fff;padding:10px 24px;border-radius:4px;font-weight:bold;text-decoration:none;">Install Wiki PRO now →</a>
 &nbsp; &nbsp;
 <a href="/wiki-pro/pricing/">View pricing &amp; licensing</a>

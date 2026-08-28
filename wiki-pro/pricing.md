@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: productPage
 title: "Wiki PRO — Pricing & Licensing"
 description: "Wiki PRO pricing: freemium software with a free tier and paid wiki + organization licenses. Volume purchasing, PO/invoicing, and reseller options available."
 permalink: /wiki-pro/pricing/
@@ -138,7 +138,7 @@ To purchase through a reseller, contact your reseller representative and ask the
   <dd>Yes. Wiki PRO supports both Azure DevOps (cloud) and Azure DevOps Server (on-premises), including older versions that lack native support for the latest Mermaid chart types.</dd>
 
   <dt>What happens when the trial ends?</dt>
-  <dd>After the 30-day trial, paid features are no longer available until you subscribe. Your wiki data is unaffected — all content remains accessible through the native wiki and Wiki PRO free features.</dd>
+  <dd>After the 30-day trial, paid features are no longer available until you subscribe. Your wiki data is unaffected — all content remains accessible through the native wiki and Wiki PRO free tier.</dd>
 
   <dt>Can I use Wiki PRO on multiple organizations?</dt>
   <dd>Each subscription covers one Azure DevOps organization. Contact <a href="mailto:sales@mskold.com">sales@mskold.com</a> if you need multi-organization licensing.</dd>
