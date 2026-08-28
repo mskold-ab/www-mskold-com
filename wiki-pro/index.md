@@ -133,7 +133,7 @@ permalink: /wiki-pro/
 </div>
 
 ---
-<img width="1868" height="1174" alt="image" src="https://github.com/user-attachments/assets/1c491454-ca97-4e7d-b723-ec046c93aa17" />
+<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/1c491454-ca97-4e7d-b723-ec046c93aa17" />
 
 ## Why Wiki PRO?
 For years users users have wished for a better Wiki Experience in Azure DevOps. We listened to community feedback and feature requests and built an Wiki extension that works alongside the existing Azure DevOps Wiki while adding meaningful improvements and new capabilities. So far, we have delivered 6 of the top 10 Developer Community user requests for Azure DevOps Wiki, with 20+ items from the top 30 requests currently in our product roadmap.
