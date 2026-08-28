@@ -65,7 +65,7 @@ Wiki PRO is freemium software: core features are free forever, and paid features
     <a class="wp-cta-btn" href="https://marketplace.visualstudio.com/items?itemName=mskold.mskold-WikiPRO">Install Wiki PRO for free →</a>
   </div>
   <div class="wp-pricing-col">
-    <h3>Paid wiki license</h3>
+    <h3>Paid subcription/wiki</h3>
     <p><strong>Advanced wiki authoring &amp; collaboration.</strong><br />30-day free trial — no commitment needed.</p>
     <ul>
       <li>Everything in Free, plus:</li>
