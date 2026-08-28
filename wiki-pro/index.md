@@ -234,13 +234,16 @@ For years users have wished for a better Wiki Experience in Azure DevOps. We lis
 ## How it compares
 
 ### Editing &amp; Authoring
-<div class="wp-compare-tables">
+
+
+  
 | Feature | Azure DevOps Wiki | Wiki PRO Free | Wiki PRO Paid |
 |---------|-------------------|---------------|---------------|
 | Markdown editing | ✅ | ✅ Enhanced | ✅ Enhanced |
 | Rich text (WYSIWYG) editor | ❌ | ❌ | ✅ Word-style editor |
 | Business-user-friendly editing | ❌ | ❌ | ✅ |
 | Modern Markdown compatibility | Limited | ✅ | ✅ |
+{: .wp-compare-tables }
 
 ### Diagrams &amp; Visualization
 
@@ -249,6 +252,7 @@ For years users have wished for a better Wiki Experience in Azure DevOps. We lis
 | Mermaid diagrams types| Limited (4–11 types) | ✅ All 23 types | ✅ |
 | ZenUML &amp; C4 diagrams | ❌ | ✅ | ✅ |
 | Draw.io integration (diagrams stored in-page) | ❌ | ❌ | ✅ |
+{: .wp-compare-tables }
 
 ### Navigation &amp; Analytics
 
@@ -257,6 +261,7 @@ For years users have wished for a better Wiki Experience in Azure DevOps. We lis
 | Table of contents side panel | ❌ | ✅ | ✅ |
 | Favorite &amp; recently viewed pages | ❌ | ✅ | ✅ |
 | Wiki statistics &amp; analytics | ❌ | ❌ | ✅ |
+{: .wp-compare-tables }
 
 ### Export &amp; Publishing
 
@@ -264,7 +269,9 @@ For years users have wished for a better Wiki Experience in Azure DevOps. We lis
 |---------|-------------------|---------------|---------------|
 | Print page and subpages | ❌ | ✅ | ✅ |
 | Export to Word documents with your word template| ❌ | ❌ | ✅ |
-</div>
+{: .wp-compare-tables }
+
+
 [See the full comparison →](/support/WikiPro/about-wiki-pro)
 
 ---
@@ -274,11 +281,13 @@ For years users have wished for a better Wiki Experience in Azure DevOps. We lis
   <div class="wp-pricing-col">
     <h3>Free</h3>
     <p>Core features, free for real.</p>
+    <p></p>
     <p>No registration, no card, no time limit</p>
   </div>
   <div class="wp-pricing-col">
     <h3>Per-Wiki licenses</h3>
     <p>Pay only for the wikis you select</p>
+    <p>Assign and re-assign at any time</p>
     <p>Starting from €99/year per wiki</p>
   </div>
   <div class="wp-pricing-col">
