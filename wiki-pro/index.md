@@ -133,6 +133,7 @@ permalink: /wiki-pro/
 </div>
 
 ---
+<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/823b82b2-4acf-4b65-b943-808b5780b432" />
 <img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/1c491454-ca97-4e7d-b723-ec046c93aa17" />
 <img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/d3b1c088-138b-4765-ab8c-393373169d9c" />
 
