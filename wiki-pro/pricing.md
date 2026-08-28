@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Wiki PRO — Pricing & Licensing"
-description: "Wiki PRO pricing: free tier available forever, paid subscription with a 30-day free trial. Volume purchasing, PO/invoicing, and reseller options available."
+description: "Wiki PRO pricing: freemium software with a free tier and paid wiki + organization licenses. Volume purchasing, PO/invoicing, and reseller options available."
 permalink: /wiki-pro/pricing/
 ---
 <style>
@@ -44,6 +44,8 @@ permalink: /wiki-pro/pricing/
 
 ## Plans
 
+Wiki PRO is freemium software: core features are free forever, and paid features are available via subscription.
+
 <div class="wp-pricing-cols">
   <div class="wp-pricing-col">
     <h3>Free</h3>
@@ -59,11 +61,11 @@ permalink: /wiki-pro/pricing/
       <li>Print page and subpages</li>
       <li>Organization-wide wiki promotion</li>
     </ul>
-    <a class="wp-cta-btn" href="https://marketplace.visualstudio.com/items?itemName=mskold.mskold-WikiPRO">Install for free →</a>
+    <a class="wp-cta-btn" href="https://marketplace.visualstudio.com/items?itemName=mskold.mskold-WikiPRO">Install Wiki PRO for free →</a>
   </div>
   <div class="wp-pricing-col">
-    <h3>Paid</h3>
-    <p><strong>Enterprise collaboration &amp; governance.</strong><br />30-day free trial — no commitment needed.</p>
+    <h3>Paid wiki license</h3>
+    <p><strong>Advanced wiki authoring &amp; collaboration.</strong><br />30-day free trial — no commitment needed.</p>
     <ul>
       <li>Everything in Free, plus:</li>
       <li>WYSIWYG rich text editor</li>
@@ -77,6 +79,18 @@ permalink: /wiki-pro/pricing/
       <li>Priority email support</li>
     </ul>
     <a class="wp-cta-btn" href="https://marketplace.visualstudio.com/items?itemName=mskold.mskold-WikiPRO">Start free 30-day trial →</a>
+  </div>
+  <div class="wp-pricing-col">
+    <h3>Organization license</h3>
+    <p><strong>Best for teams and enterprises.</strong><br />Includes everything in the paid wiki license for one Azure DevOps organization.</p>
+    <ul>
+      <li>Org-wide deployment</li>
+      <li>Centralized billing</li>
+      <li>Volume purchasing options</li>
+      <li>PO / invoicing / bank transfer available</li>
+      <li>Reseller purchasing supported</li>
+    </ul>
+    <a class="wp-cta-btn" href="mailto:sales@mskold.com">Contact sales →</a>
   </div>
 </div>
 
@@ -135,7 +149,7 @@ To purchase through a reseller, contact your reseller representative and ask the
 
 <div style="text-align:center; background:#f0f7ff; border-radius:6px; padding:28px 20px; margin-top:32px;">
   <strong>Ready to get started?</strong><br /><br />
-  <a class="wp-cta-btn" href="https://marketplace.visualstudio.com/items?itemName=mskold.mskold-WikiPRO">Start free 30-day trial on the Marketplace →</a>
+  <a class="wp-cta-btn" href="https://marketplace.visualstudio.com/items?itemName=mskold.mskold-WikiPRO">Install Wiki PRO for free on the Marketplace →</a>
   <br /><br />
   Questions? <a href="/support/WikiPro/">Visit the support &amp; documentation hub</a> or email <a href="mailto:sales@mskold.com">sales@mskold.com</a>
 </div>

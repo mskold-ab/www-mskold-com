@@ -48,7 +48,7 @@ permalink: /products/
 </style>
 
 # Our products 
-For full product information, licensing details, and pricing, visit our product pages on the [Azure DevOps Marketplace](https://marketplace.visualstudio.com) using the links for each product. The summaries below are for quick reference.
+For full product information, licensing details, and pricing, visit our product pages on the [Azure DevOps Marketplace](https://marketplace.visualstudio.com) using the links for each product. The product pages explain each product’s free and paid options in detail.
 
 <div class="products-table" style="display: table; width: 100%; border-collapse: separate; border-spacing: 0 20px;">
 	<div class="products-row" style="display: table-row;">
@@ -60,11 +60,11 @@ For full product information, licensing details, and pricing, visit our product 
 			A better wiki experience for both developers and business users. Rich text editing, Draw.IO integration, latest version and full support for all Mermaid charts.
 			Page tagging and filtering, print or export multiple wiki pages to Word, page and wiki analytics, and statistics.
 			
-			<div class="getExtension"><a href="/wiki-pro/">Learn more about Wiki PRO</a> &nbsp;|&nbsp; <a href="https://marketplace.visualstudio.com/items?itemName=mskold.mskold-WikiPRO"><b>Start a free 30-day trial</b> at the Azure DevOps Marketplace...</a></div>	
-			<div class="getExtension"><a  href="https://marketplace.visualstudio.com/items?itemName=mskold.mskold-WikiPRO">Read more and <b>start a free 30-day trial</b> at the Azure DevOps Marketplace...</a></div>
+			<div class="getExtension"><a href="/wiki-pro/">Learn more about Wiki PRO</a> &nbsp;|&nbsp; <a href="https://marketplace.visualstudio.com/items?itemName=mskold.mskold-WikiPRO"><b>Install Wiki PRO for free</b></a></div>
+			<div class="getExtension"><a  href="https://marketplace.visualstudio.com/items?itemName=mskold.mskold-WikiPRO">Read more and <b>install Wiki PRO for free</b> at the Azure DevOps Marketplace...</a></div>
 		</div>
 		<div class="license-cell" style="display: table-cell; vertical-align: top;">
-			<b>Paid<br /> Free 30 day trial </b><br />			
+			<b>Freemium<br /> Free 30 day trial for paid features</b><br />			
 		</div>
 		<div class="review-cell" style="display: table-cell; vertical-align: top;">
 			WikiPRO is a new product and hasn't had any reviews yet.
@@ -77,7 +77,7 @@ For full product information, licensing details, and pricing, visit our product 
 		<div class="products-cell" style="display: table-cell; vertical-align: top;">
 			<h3>Enhanced Export PRO </h3>
 			Report on work item queries and test plans using customizable templates. Export the report to your standard word document template. Add visual effects at runtime.
-			<div class="getExtension"><a  href="https://marketplace.visualstudio.com/items?itemName=mskold.mskold-PRO-EnhancedExport">Read more and <b>start a free 30-day trial</b> at the Azure DevOps Marketplace...</a></div>
+			<div class="getExtension"><a  href="https://marketplace.visualstudio.com/items?itemName=mskold.mskold-PRO-EnhancedExport">Read more and <b>start a free 30-day trial</b> at the Azure DevOps Marketplace</a></div>
 		</div>
 		<div class="license-cell" style="display: table-cell; vertical-align: top;">
 			<b>Paid<br /> Free 30 day trial </b><br />			
