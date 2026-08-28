@@ -297,7 +297,7 @@ For years users have wished for a better Wiki Experience in Azure DevOps. We lis
   <div class="wp-pricing-col">
     <p class="wp-pricing-tag">Scale as your needs grows </p>   
     <h3>Selected Wikis license</h3>
-    <p class="wp-pricing-price">€120/year per wiki</p>
+    <p class="wp-pricing-price">Starting from €120/year per wiki</p>
     <p>Pay only for the wikis you select</p>
     
   </div>
