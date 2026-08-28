@@ -13,6 +13,8 @@ It works side by side with the native Azure DevOps wiki, using the same data sou
 
 Wiki PRO works with both Azure DevOps and Azure DevOps Server — just install the extension to unlock modern diagrams and enhanced wiki capabilities, even on older versions of Azure DevOps Server.
 
+For the product overview, pricing, and installation, visit the [Wiki PRO product page](/wiki-pro/).
+
 ## Freemium Model
 Wiki PRO follows a freemium model. You can use the core features for free.
 If you need advanced enterprise-focused capabilities or guaranteed support, you can upgrade to a paid subscription.
