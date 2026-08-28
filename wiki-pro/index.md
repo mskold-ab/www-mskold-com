@@ -137,6 +137,7 @@ permalink: /wiki-pro/
 ## Why Wiki PRO?
 
 Wiki PRO works side by side with the native Azure DevOps wiki — same data, same API, no migration required.
+We listened to community feedback and feature requests and built an extension that works alongside the existing Azure DevOps Wiki while adding meaningful improvements and new capabilities. So far, we have delivered 6 of the top 10 Developer Community user requests for Azure DevOps Wiki, with 20+ items from the top 30 requests currently in our product roadmap.
 It adds the features that are missing from the built-in experience: a WYSIWYG editor for business users,
 the latest Mermaid diagrams, Draw.io integration, Word export, page tagging, templates, and analytics.
 
