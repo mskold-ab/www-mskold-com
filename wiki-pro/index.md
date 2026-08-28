@@ -120,8 +120,9 @@ permalink: /wiki-pro/
   min-width: 450px;
 }
 .wp-pricing-tag {
-    font-size:10px;
+    font-size:15px;
     font-weight:500;
+    height:23px;
   }
   
 </style>
