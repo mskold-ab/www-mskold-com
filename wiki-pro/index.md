@@ -287,8 +287,6 @@ For years users have wished for a better Wiki Experience in Azure DevOps. We lis
   <div class="wp-pricing-col">
      <p class="wp-pricing-tag">&nbsp; </p>   
     <h3>Free</h3>
-    
-    <p>&nbsp;</p>
     <p class="wp-pricing-price">Free, for real</p>
      
     <p>No registration, no card, no time limit</p>
