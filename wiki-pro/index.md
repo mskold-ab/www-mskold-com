@@ -122,7 +122,7 @@ permalink: /wiki-pro/
 </style>
 
 <div class="wp-hero">
-  <img src="{{ site.baseurl }}/img/wikipro-logo.png" alt="Wiki PRO logo" />
+  <img src="{{ site.baseurl }}/img/wikipro-logo.png" alt="Wiki PRO logo" /> <span style="font-size:36px;"> Wiki PRO</span>
   <div class="tagline">The Wiki experience you wished for</div>
   <a class="wp-cta-btn" href="https://marketplace.visualstudio.com/items?itemName=mskold.mskold-WikiPRO">Install Wiki PRO for free now →</a>
 </div>
