@@ -122,7 +122,7 @@ permalink: /wiki-pro/
 </div>
 
 <div class="wp-social-proof">
-  Trusted by 30,000+ organizations &nbsp;·&nbsp; Certified Top Publisher on the Azure DevOps Marketplace &nbsp;·&nbsp; Freemium — free forever for core features
+  Certified Top Publisher on the Azure DevOps Marketplace &nbsp;·&nbsp; Trusted by 30,000+ organizations &nbsp;·&nbsp; &nbsp;·&nbsp; Freemium — core features free, no registration no card.
 </div>
 
 <div class="wp-nav-links">
@@ -135,11 +135,10 @@ permalink: /wiki-pro/
 ---
 
 ## Why Wiki PRO?
+For years users has wished for a better Wiki Experience in Azure DevOps. We listened to community feedback and feature requests and built an Wiki extension that works alongside the existing Azure DevOps Wiki while adding meaningful improvements and new capabilities. So far, we have delivered 6 of the top 10 Developer Community user requests for Azure DevOps Wiki, with 20+ items from the top 30 requests currently in our product roadmap.
 
 Wiki PRO works side by side with the native Azure DevOps wiki — same data, same API, no migration required.
-We listened to community feedback and feature requests and built an extension that works alongside the existing Azure DevOps Wiki while adding meaningful improvements and new capabilities. So far, we have delivered 6 of the top 10 Developer Community user requests for Azure DevOps Wiki, with 20+ items from the top 30 requests currently in our product roadmap.
-It adds the features that are missing from the built-in experience: a WYSIWYG editor for business users,
-the latest Mermaid diagrams, Draw.io integration, Word export, page tagging, templates, and analytics.
+Wiki PRO is freemium - core features are free for all to use, no registration, no card required.
 
 <div class="wp-benefits">
   <div class="wp-benefit-card">
@@ -149,6 +148,10 @@ the latest Mermaid diagrams, Draw.io integration, Word export, page tagging, tem
   <div class="wp-benefit-card">
     <h3>📊 Diagraming support</h3>
     Create and maintain diagrams directly in your wiki with full Mermaid support and Draw.io integration.
+  </div>
+  <div class="wp-benefit-card">
+    <h3>📄 Efficiency and consistency  </h3>
+    Save time and keep consistency by using page and wiki templates. 
   </div>
   <div class="wp-benefit-card">
     <h3>📄 Export to Word</h3>
