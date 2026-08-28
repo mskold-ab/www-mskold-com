@@ -115,8 +115,8 @@ permalink: /wiki-pro/
   }
 .wp-compare-tables td:first-child,
 .wp-compare-tables th:first-child {
-  width: 220px;
-  min-width: 220px;
+  width: 550px;
+  min-width: 450px;
 }
   
 </style>
