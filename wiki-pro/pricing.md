@@ -65,7 +65,7 @@ Wiki PRO is freemium software: core features are free forever, and paid features
   </div>
   <div class="wp-pricing-col">
     <h3>Selected Wikis license</h3>
-    <p><strong>Advanced wiki authoring &amp; collaboration.</strong><br />Starting from €120/year per wiki. 30-day free trial — no commitment needed.</p>
+    <p><strong>Enhanced collaboration.</strong><br />Starting from €120/year per wiki. </p>
     <ul>
       <li>Everything in Free, plus:</li>
       <li>WYSIWYG rich text editor</li>
@@ -82,7 +82,7 @@ Wiki PRO is freemium software: core features are free forever, and paid features
   </div>
   <div class="wp-pricing-col">
     <h3>Organization license</h3>
-    <p><strong>Best for teams and enterprises.</strong><br />Starting from €1,990/year, priced by organization size. Includes everything in the Selected Wikis license, enabled org-wide.</p>
+    <p><strong>Enable the Organization</strong><br />Starting from €1,990/year, priced by organization size. Includes everything in the Selected Wikis license, enabled org-wide.</p>
     <ul>
       <li>Everything in Selected Wikis license, org-wide</li>
       <li>Org-wide deployment, no per-wiki assignment needed</li>
