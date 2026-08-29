@@ -88,9 +88,11 @@ This makes it easy to highlight critical information in a visually distinct way,
 
 Wiki PRO supporting both GitHub Alerts and Docusaurus Admonitions. 
 <div class="wf-cta"><a href="/support/WikiPro/f_alerts">Learn more about Alerts &amp; Admonitions →</a></div>
+
 <img width="742" height="269" alt="image" src="https://github.com/user-attachments/assets/25ef0d6e-b13a-4fc2-8926-2fa84e751b46" />
 
 Wiki PRO also supports underscored, strike through & Colorized text 
+
 <img width="416" height="77" alt="image" src="https://github.com/user-attachments/assets/eecdf6d5-279f-4e3c-a8db-9ac308e6d63e" />
 
 </div>
@@ -100,6 +102,7 @@ Wiki PRO also supports underscored, strike through & Colorized text
 
 Wiki PRO ships with the latest Mermaid rendering engine, supporting all 28 diagram types including flowcharts, sequence diagrams, class diagrams, state diagrams, ER diagrams, C4 architecture diagrams, ZenUML, and Git graphs.
 The native Azure DevOps wiki supports only a limited subset (4–11 types depending on the version), so Wiki PRO unlocks modern diagramming on any Azure DevOps version.
+
 <img width="396" height="662" alt="image" src="https://github.com/user-attachments/assets/8bb4677d-66cf-4297-9709-eabcc89c9d72" />
 
 <div class="wf-cta"><a href="/support/WikiPro/f-mermaid">Learn more about Mermaid Diagrams →</a></div>
@@ -149,6 +152,7 @@ It includes four filters — Favorites, Last Viewed, Last Edited, and Followed �
 ### Table of Contents Side Panel <span class="wf-tier-badge wf-tier-free">Free</span>
 
 Provides a persistent page navigation panel based on the headings within the current wiki page, so you can navigate long wiki pages more efficiently.
+
 <img width="813" height="373" alt="image" src="https://github.com/user-attachments/assets/37f986a5-cdb2-4985-a5fb-918fb4af97c2" />
 
 </div>
@@ -186,6 +190,8 @@ Standardize documentation across your organization with reusable page templates.
 Templates are available when creating a new page, and administrators can create, edit, delete, and organize templates — as well as set a default.
 Common use cases include Architecture Decision Records (ADRs), runbooks, release notes, retrospective notes, meeting notes, and team pages.
 
+<img width="568" height="561" alt="image" src="https://github.com/user-attachments/assets/f7f1e7d8-509a-4d5e-8289-c3c3d8c0529f" />
+
 <div class="wf-cta"><a href="/support/WikiPro/PageTemplates">Learn more about Page Templates →</a></div>
 </div>
 
@@ -214,10 +220,24 @@ Analytics are available at the wiki level, giving team leads and wiki administra
 </div>
 
 <div class="wf-feature"  markdown="1">
+### Page Metadata <span class="wf-tier-badge wf-tier-paid">Paid</span>
+In Wiki PRO you can define and collect different types on meta data. You can also make metadata requires so you can not save a page without providing it. 
+<img width="1043" height="206" alt="image" src="https://github.com/user-attachments/assets/2689c29f-e237-4b3f-aca8-87102e5ba63b" />
 
-### Page Metadata / Tagging <span class="wf-tier-badge wf-tier-paid">Paid</span>
 
 Add structured metadata and tags to wiki pages to improve organization and governance, adding structure and governance to large documentation sets.
+
+</div>
+<div class="wf-feature"  markdown="1">
+### Page Tagging <span class="wf-tier-badge wf-tier-paid">Paid</span>
+In Wiki PRO You can create and tag all wiki pages. Tags are shown both at the page header, and in the navigation tree. 
+
+  <img width="283" height="202" alt="image" src="https://github.com/user-attachments/assets/153f9a25-f96b-42ca-ac51-150b0877e512" />
+
+Wiki PRO can also filter pages for specific tags
+<img width="281" height="292" alt="image" src="https://github.com/user-attachments/assets/4ca5f59d-4a2e-4b2c-b02c-faf49199fa1b" />
+
+  
 
 </div>
 
