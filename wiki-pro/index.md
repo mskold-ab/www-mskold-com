@@ -302,7 +302,7 @@ So far, we have delivered 6 of the top 10 Developer Community requests for Azure
 
   <div class="wp-benefit-card">
     <h3>🔎 Help people find information faster</h3>
-    <p>Make important content easier to discover with My Pages, including favorites, recently viewed, contributed, and followed pages. Organization wikis also make important wikis easier to find across your organization.</p>
+    <p>Make important content easier to discover with My Pages, including favorites, recently viewed, contributed, and followed pages. Organization level wikis also make important wikis easier to find across your organization.</p>
   </div>
 
   <div class="wp-benefit-card">
@@ -342,7 +342,7 @@ The comparison below is organized around the same six benefits as the sections a
 | Feature                 | Azure DevOps Wiki | Wiki PRO Free                 | Wiki PRO Paid |
 | ----------------------- | ----------------- | ----------------------------- | ------------- |
 | Modern Markdown support (Alerts & admonitions)| Limited           | ✅                             | ✅             |
-| Mermaid diagrams        | ✅ Limited (4-11 diagrams)     | ✅ All supported diagram types (23 incluiding ZenUML, C4, Architecture) | ✅             |
+| Mermaid diagrams        | ✅ Limited (4-11 diagrams)     | ✅ All supported diagram types (23 including ZenUML, C4, Architecture) | ✅             |
 | Draw.io integration     | ❌                 | ❌                             | ✅             |
 {: .wp-compare-tables }
 
@@ -361,15 +361,15 @@ The comparison below is organized around the same six benefits as the sections a
 
 | Feature                           | Azure DevOps Wiki | Wiki PRO Free | Wiki PRO Paid |
 | --------------------------------- | ----------------- | ------------- | ------------- |
-| Page templates                    | ❌                 | ✅ Limited  | ✅             |
-| Wiki templates                    | ❌                 | ❌             | ✅             |
+| Page templates                    | ❌                | ❌           | ✅           |
+| Wiki templates                    | ❌                | ❌           | ✅           |
 {: .wp-compare-tables }
 
 ### 📈 Understand and govern documentation
 
 | Feature                          | Azure DevOps Wiki | Wiki PRO Free | Wiki PRO Paid |
 | -------------------------------- | ----------------- | ------------- | ------------- |
-| Page metadata                    | ❌                 | ✅             | ✅             |
+| Page metadata                    | ❌                 | ❌             | ✅             |
 | Page analytics                   | Very limited       | ✅             | ✅             |
 | Wiki Analytics (Page views,Contributor & engagement insights )                   | ❌                 | ❌             | ✅             |
 {: .wp-compare-tables }
