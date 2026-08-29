@@ -22,7 +22,7 @@ If you need advanced enterprise-focused capabilities or guaranteed support, you 
 ## Free Features
 - Wiki rendering
 - Markdown editor with syntax support
-- Latest Mermaid charts, including ZenUML, C4, and Entity Relationship diagrams (23 chart types in total)
+- Latest Mermaid charts, including ZenUML, C4, and Entity Relationship diagrams (28 diagrams in total)
 - Alerts/admonitions
 - Additional markdown enhancements, including underline, strikethrough, superscript, subscript, and text color
 - Improved code blocks
@@ -58,7 +58,7 @@ Investment in paid features focuses on enterprise capabilities such as stakehold
 
 | Feature | Azure DevOps Wiki | Wiki PRO Free | Wiki PRO Paid |
 |-----------|-------------------|---------------|----------------|
-| Mermaid diagrams | Limited support (4–11 diagram types) | ✅ Latest Mermaid support (all 21 diagram types) | ✅ |
+| Mermaid diagrams | Limited support (4–11 diagram types) | ✅ Latest Mermaid support (all 28 diagrams) | ✅ |
 | ZenUML diagrams | ❌ | ✅ | ✅ |
 | Draw.io integration | ❌ | ❌ | ✅ |
 | Additional plugins | ❌ | ❌ | ✅ |
