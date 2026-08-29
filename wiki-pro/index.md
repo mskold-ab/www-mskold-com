@@ -268,8 +268,7 @@ permalink: /wiki-pro/
 
 <div class="wp-nav-links">
   <a href="/wiki-pro/features/">All features</a>
-  <a href="/wiki-pro/pricing/">Pricing &amp; licensing</a>
-  <a href="/wiki-pro/release-notes/">Release notes</a>
+  <a href="/wiki-pro/pricing/">Pricing &amp; licensing</a>  
   <a href="/support/WikiPro/">Support &amp; docs</a>
 </div>
 
