@@ -373,7 +373,7 @@ The comparison below is organized around the same six benefits as the sections a
 | Page metadata                    | ❌                 | ✅             | ✅             |
 | Page analytics                   | Very limited       | ✅             | ✅             |
 | Wiki Analytics (Page views,Contributor & engagement insights )                   | ❌                 | ❌             | ✅             |
-| {: .wp-compare-tables }          |                   |               |               |
+{: .wp-compare-tables }
 
 ### 📄 Publish and share professionally
 
