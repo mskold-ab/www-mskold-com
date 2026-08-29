@@ -36,11 +36,11 @@ Features marked **Free** are available at no cost. Features marked **Paid** requ
 
 ---
 
-<div class="wf-outcome">
+<div class="wf-outcome" markdown="1">
 
 ## 📝 Make everyone a contributor
 
-<div class="wf-feature">
+<div class="wf-feature"markdown="1">
 
 ### Rich Text Editing <span class="wf-tier-badge wf-tier-paid">Paid</span>
 
@@ -51,7 +51,7 @@ Changes are automatically converted to Markdown-compatible format on save, keepi
 <div class="wf-cta"><a href="/support/WikiPro/RichTextEditing">Learn more about Rich Text Editing →</a></div>
 </div>
 
-<div class="wf-feature">
+<div class="wf-feature" markdown="1">>
 
 ### Markdown Editing as a First-Class Experience <span class="wf-tier-badge wf-tier-free">Free</span>
 
