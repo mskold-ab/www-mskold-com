@@ -126,7 +126,7 @@ permalink: /wiki-pro/
     color: grey;
   }
   .wp-pricing-price{
-    font-size: 26px;
+    font-size: 24px;
     color: darkblue;
     margin-bottom: 6px; 
   }
