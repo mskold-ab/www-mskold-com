@@ -205,85 +205,41 @@ For years users have wished for a better Wiki Experience in Azure DevOps. We lis
   
 <div class="wp-benefits">
   <div class="wp-benefit-card">
-    <h3>📝 Rich Text Editing</h3>
-    A Word-style WYSIWYG editor so stakeholders and business users can contribute without knowing Markdown.
+    <h3>📝 Make everyone a contributior </h3>
+    A rich text editor so stakeholders and business users can contribute comfortable.
+    Markdown as a first class experience, for thoose who wants contrkeeps devlopers and  
   </div>
   <div class="wp-benefit-card">
-    <h3>📊 Diagraming support</h3>
+    <h3>📊 Create better documentation</h3>
+    Modern markdown support with alerts and Admonitions 
     Create and maintain diagrams directly in your wiki with full Mermaid support and Draw.io integration.
   </div>
   <div class="wp-benefit-card">
-    <h3>📄 Efficiency and consistency  </h3>
+    <h3>📄 Help people find information faster</h3>
+    **My pages** a quick way to favourites, recently viewed, contributed and followed pages.  
+    **Organization wikis** Promotes wikis on the organization level 
+    
+    
+  </div>
+    <div class="wp-benefit-card">
+    <h3>📄 Efficient and consistent documentation  </h3>
     Save time and keep consistency by using page and wiki templates. 
   </div>
   <div class="wp-benefit-card">
-    <h3>📄 Export to Word</h3>
-    Export single pages or entire wiki trees to Word documents with custom templates.
+    <h3>📄 Understand and govern documentation</h3>
+    **Page metadata** and **tagging** add structure and governance.
+    **Wiki Analytics** See most-viewed pages, top contributors and engagement trends.
+  </div>
+  
+  <div class="wp-benefit-card">
+    <h3>📄 Publish and share professionally</h3>
+    Export single pages or entire wiki trees to organization styled Word documents.
   </div>
 </div>
 
----
-
-## Feature Highlights
-
-<div class="wp-features-grid">
-  <div class="wp-feature-item">
-    <span class="wp-tier-badge wp-tier-paid">Paid</span>
-    <h3>WYSIWYG Rich Text Editor</h3>
-    A familiar toolbar-based editor that converts content to Markdown automatically — no syntax knowledge needed. Ideal for non-technical contributors and stakeholders.
-    <br /><a href="/support/WikiPro/RichTextEditing">Learn more →</a>
-  </div>
-  <div class="wp-feature-item">
-    <span class="wp-tier-badge wp-tier-free">Free</span>
-    <h3>Mermaid Diagrams</h3>
-    Render all 23 Mermaid chart types including flowcharts, sequence diagrams, C4 architecture, ER diagrams, ZenUML, and Git graphs — far beyond the native Azure DevOps support.
-    <br /><a href="/support/WikiPro/f-mermaid">Learn more →</a>
-  </div>
-  <div class="wp-feature-item">
-    <span class="wp-tier-badge wp-tier-paid">Paid</span>
-    <h3>Draw.io Diagrams</h3>
-    Create and edit professional diagrams with the full Draw.io editor directly inside your wiki pages. Diagrams are version-controlled as part of the wiki page.
-    <br /><a href="/support/WikiPro/DrawIO">Learn more →</a>
-  </div>
-  <div class="wp-feature-item">
-    <span class="wp-tier-badge wp-tier-free">Free</span>
-    <h3>Alerts &amp; Admonitions</h3>
-    GitHub-style and Docusaurus-style callout blocks (Note, Tip, Warning, Caution, Important) rendered beautifully in any wiki page.
-    <br /><a href="/support/WikiPro/f_alerts">Learn more →</a>
-  </div>
-  <div class="wp-feature-item">
-    <span class="wp-tier-badge wp-tier-free">Free</span>
-    <h3>My Pages</h3>
-    A personal dashboard across all wikis in the organization — favorites, recently viewed, recently edited, and followed pages in one place.
-    <br /><a href="/support/WikiPro/f_my-pages">Learn more →</a>
-  </div>
-  <div class="wp-feature-item">
-    <span class="wp-tier-badge wp-tier-paid">Paid</span>
-    <h3>Page Tags &amp; Filtering</h3>
-    Tag any wiki page and filter by tag across the whole wiki — great for cross-team navigation and governance.
-    <br /><a href="/support/WikiPro/PageTags">Learn more →</a>
-  </div>
-  <div class="wp-feature-item">
-    <span class="wp-tier-badge wp-tier-paid">Paid</span>
-    <h3>Page Templates</h3>
-    Standardize documentation with reusable templates — ADR, runbooks, meeting notes, release notes, and more.
-    <br /><a href="/support/WikiPro/PageTemplates">Learn more →</a>
-  </div>
-  <div class="wp-feature-item">
-    <span class="wp-tier-badge wp-tier-paid">Paid</span>
-    <h3>Export to Word</h3>
-    Export any wiki page or page tree to a Word document, optionally using your organization's custom Word template.
-    <br /><a href="/support/WikiPro/Export">Learn more →</a>
-  </div>
-  <div class="wp-feature-item">
-    <span class="wp-tier-badge wp-tier-paid">Paid</span>
-    <h3>Wiki Analytics</h3>
-    See which pages are most viewed, who the top contributors are, and track engagement trends over time.
-    <br /><a href="/support/WikiPro/about-wiki-pro#analytics--insights">Learn more →</a>
-  </div>
-</div>
 
 ---
+
 
 ## How it compares
 
