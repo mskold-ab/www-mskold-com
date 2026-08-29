@@ -279,6 +279,8 @@ permalink: /wiki-pro/
 
 ## Why Wiki PRO?
 
+Wiki PRO takes Azure DevOps Wiki further and brings a better Wiki experience both for developers and stakeholders. Developers can continue writing in Markdown. Business stakeholders use familiar Word-style rich text editing. Everyone contributes — no compromises, no migration, no retraining. Wiki PRO bridges the gap between developer-first tools and full collaboration suites, purpose-built for development teams and their stakeholders.
+
 For years, users have asked for a better wiki experience in Azure DevOps. We listened to community feedback and feature requests and built a wiki extension that works alongside the existing Azure DevOps Wiki while adding meaningful improvements and new capabilities.
 
 So far, we have delivered 6 of the top 10 Developer Community requests for Azure DevOps Wiki, with 20+ items from the top 30 requests currently on our product roadmap.
@@ -333,7 +335,7 @@ The comparison below is organized around the same six benefits as the sections a
 | ------------------------------ | ----------------- | ------------- | ------------------- |
 | Markdown editing               | ✅                 | ✅ Enhanced | ✅ Enhanced          |
 | Rich text Business-user-friendly editing     | ❌                  | ❌             | ✅ Word-style editor |
-| Draw.io diagram editor         | ❌                 | ✅          | ✅             |
+| Draw.io diagram editor         | ❌                 | ❌           | ✅             |
 {: .wp-compare-tables }
 
 ### 📊 Create better documentation
@@ -350,7 +352,7 @@ The comparison below is organized around the same six benefits as the sections a
 | Feature                      | Azure DevOps Wiki | Wiki PRO Free | Wiki PRO Paid |
 | ---------------------------- | ----------------- | ------------- | ------------- |
 | My pages hub (Favorites, recently viewed,followed)               | ❌                 | ✅             | ✅             |
-| Page tagging                     | ❌                 | ✅             | ✅             |
+| Page tagging                     | ❌                 | ❌              | ✅             |
 | Enhanced search              | ❌                 | ✅             | ✅             |
 | Table of contents side panel | ❌                 | ✅             | ✅             |
 | Organization level wikis     | ❌                 | ✅             | ✅             |
