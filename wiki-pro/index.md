@@ -123,6 +123,7 @@ permalink: /wiki-pro/
     font-size:15px;
     font-weight:500;
     height:23px;
+    colour: grey;
   }
   
 </style>
@@ -284,29 +285,31 @@ For years users have wished for a better Wiki Experience in Azure DevOps. We lis
 
 ## Pricing at a glance
 <div class="wp-pricing-cols">
-  <div class="wp-pricing-col">
-     <p class="wp-pricing-tag">&nbsp; </p>   
+  <div class="wp-pricing-col">  
+    <p class="wp-pricing-tag">Start risk free</p>   
     <h3>Free</h3>
-    <p class="wp-pricing-price">Free, for real</p>
-     
-    <p>No registration, no card, no time limit</p>
+    <p class="wp-pricing-price">Free, for real</p>     
+    <p class="wp-pricing-price-sub">No registration, no card, no time limit</p>
+    <p class="wp-pricing-content">Core featues</p>
+    <p class="wp-pricing-support">Best effort community support</p>
   </div>
   
   <div class="wp-pricing-col">
     <p class="wp-pricing-tag">Scale as your needs grows </p>   
     <h3>Selected Wikis license</h3>
     <p class="wp-pricing-price">Starting from €120/year per wiki</p>
-    <p>Pay only for the wikis you select</p>
+    <p class="wp-pricing-price-sub">Pay only for the wikis you select</p>
+    <p class="wp-pricing-content">Extended collaboration features </p>
+    <p class="wp-pricing-support">Email support with SLA </p>
     
   </div>
   <div class="wp-pricing-col">
     <p class="wp-pricing-tag">Enable the whole organization</p>
     <h3>Organization license</h3>
-    
-
-    <p class="wp-pricing-price">Starting from €1,990/year </p>
-    
-    <p>Enable the whole organization</p>
+    <p class="wp-pricing-price">Starting from €1,990/year </p> 
+    <p class="wp-pricing-price-sub">Enable the whole organization</p>
+    <p class="wp-pricing-content">Enterprise and governance features </p>
+    <p class="wp-pricing-support">Priority support</p>
     
   </div>
 </div>
