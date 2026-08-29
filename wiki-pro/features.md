@@ -102,7 +102,7 @@ Wiki PRO also supports underscored, strike through & Colorized text
 Wiki PRO ships with the latest Mermaid rendering engine, supporting all 28 diagram types including flowcharts, sequence diagrams, class diagrams, state diagrams, ER diagrams, C4 architecture diagrams, ZenUML, and Git graphs.
 The native Azure DevOps wiki supports only a limited subset (4–11 types depending on the version), so Wiki PRO unlocks modern diagramming on any Azure DevOps version.
 
-<img width="396" height="662" alt="image" src="https://github.com/user-attachments/assets/8bb4677d-66cf-4297-9709-eabcc89c9d72" />
+<img width="889" height="716" alt="image" src="https://github.com/user-attachments/assets/6f7dbee1-f20f-4c6d-8e21-c4a191bfaac0" />
 
 <div class="wf-cta"><a href="/support/WikiPro/f-mermaid">Learn more about Mermaid Diagrams →</a></div>
 </div>
