@@ -3,7 +3,7 @@ layout: productPage
 title: "Wiki PRO for Azure DevOps"
 description: "Wiki PRO enhances the Azure DevOps wiki with rich text editing, Draw.io diagrams, Mermaid charts, page tags, Word export, and more. Free tier available — 30-day trial for paid features."
 permalink: /wiki-pro/
-----
+---
 
 <style>
   .wp-hero {
