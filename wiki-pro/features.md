@@ -59,7 +59,7 @@ An enhanced Markdown editing experience that preserves the workflow developers a
 
 </div>
 
-<div class="wf-feature"  markdown="1">>
+<div class="wf-feature"  markdown="1">
 
 ### Draw.io Diagrams Editor <span class="wf-tier-badge wf-tier-paid">Paid</span>
 
@@ -70,11 +70,11 @@ A fully integrated Draw.io editor that lets users create and edit visual diagram
 
 </div>
 
-<div class="wf-outcome">
+<div class="wf-outcome"  markdown="1">
 
 ## 📊 Create better documentation
 
-<div class="wf-feature">
+<div class="wf-feature"  markdown="1">
 
 ### Mermaid Diagrams <span class="wf-tier-badge wf-tier-free">Free</span>
 
@@ -84,7 +84,7 @@ The native Azure DevOps wiki supports only a limited subset (4–11 types depend
 <div class="wf-cta"><a href="/support/WikiPro/f-mermaid">Learn more about Mermaid Diagrams →</a></div>
 </div>
 
-<div class="wf-feature">
+<div class="wf-feature"  markdown="1">
 
 ### Draw.io Integration <span class="wf-tier-badge wf-tier-paid">Paid</span>
 
@@ -95,7 +95,7 @@ Existing Draw.io diagrams can be migrated by importing the exported XML into a `
 <div class="wf-cta"><a href="/support/WikiPro/DrawIO">Learn more about Draw.io Integration →</a></div>
 </div>
 
-<div class="wf-feature">
+<div class="wf-feature"  markdown="1">
 
 ### Version-Controlled Diagrams <span class="wf-tier-badge wf-tier-paid">Paid</span>
 
@@ -103,7 +103,7 @@ Draw.io diagrams are stored with the wiki content, allowing them to be managed a
 
 </div>
 
-<div class="wf-feature">
+<div class="wf-feature"  markdown="1">
 
 ### Alerts &amp; Admonitions <span class="wf-tier-badge wf-tier-free">Free</span>
 
@@ -115,11 +115,11 @@ This makes it easy to highlight critical information in a visually distinct way,
 
 </div>
 
-<div class="wf-outcome">
+<div class="wf-outcome"  markdown="1">
 
 ## 🔎 Help people find information faster
 
-<div class="wf-feature">
+<div class="wf-feature"  markdown="1">
 
 ### My Pages <span class="wf-tier-badge wf-tier-free">Free</span>
 
@@ -129,7 +129,7 @@ It includes four filters — Favorites, Last Viewed, Last Edited, and Followed �
 <div class="wf-cta"><a href="/support/WikiPro/f_my-pages">Learn more about My Pages →</a></div>
 </div>
 
-<div class="wf-feature">
+<div class="wf-feature"  markdown="1">
 
 ### Table of Contents Side Panel <span class="wf-tier-badge wf-tier-free">Free</span>
 
@@ -137,7 +137,7 @@ Provides a persistent page navigation panel based on the headings within the cur
 
 </div>
 
-<div class="wf-feature">
+<div class="wf-feature"  markdown="1">
 
 ### Page Tags &amp; Filtering <span class="wf-tier-badge wf-tier-paid">Paid</span>
 
@@ -148,7 +148,7 @@ Tags can be added, edited, and removed at any time without affecting the page co
 <div class="wf-cta"><a href="/support/WikiPro/PageTags">Learn more about Page Tags &amp; Filtering →</a></div>
 </div>
 
-<div class="wf-feature">
+<div class="wf-feature"  markdown="1">
 
 ### Organization-wide Wiki Promotion <span class="wf-tier-badge wf-tier-free">Free</span>
 
@@ -158,11 +158,11 @@ Promote any project wiki to be visible across the entire Azure DevOps organizati
 
 </div>
 
-<div class="wf-outcome">
+<div class="wf-outcome"  markdown="1">
 
 ## 📋 Keep documentation efficient and consistent
 
-<div class="wf-feature">
+<div class="wf-feature"  markdown="1">
 
 ### Page Templates <span class="wf-tier-badge wf-tier-paid">Paid</span>
 
@@ -173,7 +173,7 @@ Common use cases include Architecture Decision Records (ADRs), runbooks, release
 <div class="wf-cta"><a href="/support/WikiPro/PageTemplates">Learn more about Page Templates →</a></div>
 </div>
 
-<div class="wf-feature">
+<div class="wf-feature"  markdown="1">
 
 ### Wiki Templates <span class="wf-tier-badge wf-tier-paid">Paid</span>
 
@@ -183,11 +183,11 @@ Create standardized starting structures for new wikis, helping teams follow a co
 
 </div>
 
-<div class="wf-outcome">
+<div class="wf-outcome"  markdown="1">
 
 ## 📈 Understand and govern documentation
 
-<div class="wf-feature">
+<div class="wf-feature"  markdown="1">
 
 ### Wiki Analytics <span class="wf-tier-badge wf-tier-paid">Paid</span>
 
@@ -197,7 +197,7 @@ Analytics are available at the wiki level, giving team leads and wiki administra
 <div class="wf-cta"><a href="/support/WikiPro/about-wiki-pro#analytics--insights">Learn more about Analytics →</a></div>
 </div>
 
-<div class="wf-feature">
+<div class="wf-feature"  markdown="1">
 
 ### Page Metadata / Tagging <span class="wf-tier-badge wf-tier-paid">Paid</span>
 
@@ -207,11 +207,11 @@ Add structured metadata and tags to wiki pages to improve organization and gover
 
 </div>
 
-<div class="wf-outcome">
+<div class="wf-outcome"  markdown="1">
 
 ## 📄 Publish and share professionally
 
-<div class="wf-feature">
+<div class="wf-feature"  markdown="1">
 
 ### Print Pages &amp; Subpages <span class="wf-tier-badge wf-tier-free">Free</span>
 
@@ -221,7 +221,7 @@ Wiki PRO free also adds the ability to print a page and all its subpages in one 
 <div class="wf-cta"><a href="/support/WikiPro/f_Print">Learn more about Printing →</a></div>
 </div>
 
-<div class="wf-feature">
+<div class="wf-feature"  markdown="1">
 
 ### Export to Word <span class="wf-tier-badge wf-tier-paid">Paid</span>
 
