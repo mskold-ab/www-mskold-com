@@ -22,6 +22,10 @@ permalink: /wiki-pro/features/
   .wf-tier-paid  { background: #fff0c8; color: #7a5200; }
   .wf-cta { margin-top: 8px; font-size: 0.95em; }
   .wf-see-also { margin-top: 8px; font-size: 0.9em; color: #555; }
+
+  .wf-feature{
+    margin-left:100px;
+  }
 </style>
 
 <div class="wf-nav">
