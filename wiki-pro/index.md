@@ -125,7 +125,12 @@ permalink: /wiki-pro/
     height:23px;
     colour: grey;
   }
-  
+  .wp-pricing-price{
+   font-size:28px;
+    font-weight:500;   
+    colour: darkblue;
+  } 
+  }
 </style>
 
 <div class="wp-hero">
@@ -295,7 +300,7 @@ For years users have wished for a better Wiki Experience in Azure DevOps. We lis
   </div>
   
   <div class="wp-pricing-col">
-    <p class="wp-pricing-tag">Scale as your needs grows </p>   
+    <p class="wp-pricing-tag">Scale as you grow </p>   
     <h3>Selected Wikis license</h3>
     <p class="wp-pricing-price">Starting from €120/year per wiki</p>
     <p class="wp-pricing-price-sub">Pay only for the wikis you select</p>
@@ -304,7 +309,7 @@ For years users have wished for a better Wiki Experience in Azure DevOps. We lis
     
   </div>
   <div class="wp-pricing-col">
-    <p class="wp-pricing-tag">Enable the whole organization</p>
+    <p class="wp-pricing-tag">Enable everyone</p>
     <h3>Organization license</h3>
     <p class="wp-pricing-price">Starting from €1,990/year </p> 
     <p class="wp-pricing-price-sub">Enable the whole organization</p>
