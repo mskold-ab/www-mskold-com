@@ -44,17 +44,6 @@ Features marked **Free** are available at no cost. Features marked **Paid** requ
 
 ## 📝 Make everyone a contributor
 
-<div class="wf-feature" markdown="1">
-
-### Rich Text Editing <span class="wf-tier-badge wf-tier-paid">Paid</span>
-
-Wiki PRO provides a Word-style WYSIWYG editor for Azure DevOps wiki pages.
-Authors can format text, insert tables, images, and code blocks using a familiar toolbar — without writing a single line of Markdown.
-Changes are automatically converted to Markdown-compatible format on save, keeping full compatibility with the rest of the Azure DevOps wiki.
-
-<div class="wf-cta"><a href="/support/WikiPro/RichTextEditing">Learn more about Rich Text Editing →</a></div>
-</div>
-
 <div class="wf-feature" markdown="1">>
 
 ### Markdown Editing as a First-Class Experience <span class="wf-tier-badge wf-tier-free">Free</span>
@@ -62,6 +51,18 @@ Changes are automatically converted to Markdown-compatible format on save, keepi
 An enhanced Markdown editing experience that preserves the workflow developers already know, giving modern Markdown compatibility while preserving the developer workflow.
 
 </div>
+
+<div class="wf-feature" markdown="1">
+### Rich text Business-user-friendly editing <span class="wf-tier-badge wf-tier-paid">Paid</span>
+
+Wiki PRO provides a Word-style WYSIWYG editor for Azure DevOps wiki pages.
+Authors can format text, insert tables, images, and code blocks using a familiar toolbar — without writing a single line of Markdown.
+Changes are automatically converted to Markdown-compatible format on save, keeping full compatibility with the rest of the Azure DevOps wiki.
+
+<div class="wf-cta"><a href="/support/WikiPro/RichTextEditing">Learn more about Rich Text Editing →</a></div>
+
+</div>
+
 
 <div class="wf-feature"  markdown="1">
 
@@ -80,10 +81,26 @@ A fully integrated Draw.io editor that lets users create and edit visual diagram
 
 <div class="wf-feature"  markdown="1">
 
+### Modern Markdown support (Alerts & admonitions) <span class="wf-tier-badge wf-tier-free">Free</span>
+
+With Wiki PRO you can enrich your documentation with callout blocks for notes, tips, warnings, important notices, and cautions. 
+This makes it easy to highlight critical information in a visually distinct way, consistent with modern documentation standards.
+
+Wiki PRO supporting both GitHub Alerts and Docusaurus Admonitions. 
+<div class="wf-cta"><a href="/support/WikiPro/f_alerts">Learn more about Alerts &amp; Admonitions →</a></div>
+<img width="742" height="269" alt="image" src="https://github.com/user-attachments/assets/25ef0d6e-b13a-4fc2-8926-2fa84e751b46" />
+
+Wiki PRO also supports underscored, strike through & Colorized text 
+<img width="416" height="77" alt="image" src="https://github.com/user-attachments/assets/eecdf6d5-279f-4e3c-a8db-9ac308e6d63e" />
+
+</div>
+<div class="wf-feature"  markdown="1">
+
 ### Mermaid Diagrams <span class="wf-tier-badge wf-tier-free">Free</span>
 
-Wiki PRO ships with the latest Mermaid rendering engine, supporting all 23 diagram types including flowcharts, sequence diagrams, class diagrams, state diagrams, ER diagrams, C4 architecture diagrams, ZenUML, and Git graphs.
+Wiki PRO ships with the latest Mermaid rendering engine, supporting all 28 diagram types including flowcharts, sequence diagrams, class diagrams, state diagrams, ER diagrams, C4 architecture diagrams, ZenUML, and Git graphs.
 The native Azure DevOps wiki supports only a limited subset (4–11 types depending on the version), so Wiki PRO unlocks modern diagramming on any Azure DevOps version.
+<img width="396" height="662" alt="image" src="https://github.com/user-attachments/assets/8bb4677d-66cf-4297-9709-eabcc89c9d72" />
 
 <div class="wf-cta"><a href="/support/WikiPro/f-mermaid">Learn more about Mermaid Diagrams →</a></div>
 </div>
@@ -107,15 +124,7 @@ Draw.io diagrams are stored with the wiki content, allowing them to be managed a
 
 </div>
 
-<div class="wf-feature"  markdown="1">
 
-### Alerts &amp; Admonitions <span class="wf-tier-badge wf-tier-free">Free</span>
-
-Wiki PRO renders rich callout blocks for notes, tips, warnings, important notices, and cautions — supporting both GitHub Alerts syntax and Docusaurus Admonitions syntax.
-This makes it easy to highlight critical information in a visually distinct way, consistent with modern documentation standards.
-
-<div class="wf-cta"><a href="/support/WikiPro/f_alerts">Learn more about Alerts &amp; Admonitions →</a></div>
-</div>
 
 </div>
 
@@ -129,6 +138,8 @@ This makes it easy to highlight critical information in a visually distinct way,
 
 My Pages is a personal workspace that gives each user a consolidated view of their wiki activity across all projects and wikis in the organization.
 It includes four filters — Favorites, Last Viewed, Last Edited, and Followed — so you can always find the pages that matter most to you without navigating through each project separately.
+<img width="803" height="181" alt="image" src="https://github.com/user-attachments/assets/3a215890-7061-4149-9e5a-2b3260e5c88c" />
+<img width="866" height="201" alt="image" src="https://github.com/user-attachments/assets/83376aff-51c4-437a-b5c2-00b03c889d54" />
 
 <div class="wf-cta"><a href="/support/WikiPro/f_my-pages">Learn more about My Pages →</a></div>
 </div>
@@ -138,9 +149,16 @@ It includes four filters — Favorites, Last Viewed, Last Edited, and Followed �
 ### Table of Contents Side Panel <span class="wf-tier-badge wf-tier-free">Free</span>
 
 Provides a persistent page navigation panel based on the headings within the current wiki page, so you can navigate long wiki pages more efficiently.
+<img width="813" height="373" alt="image" src="https://github.com/user-attachments/assets/37f986a5-cdb2-4985-a5fb-918fb4af97c2" />
 
 </div>
+<div class="wf-feature"  markdown="1">
 
+### Organization-wide Wiki Promotion <span class="wf-tier-badge wf-tier-free">Free</span>
+
+Promote any project wiki to be visible across the entire Azure DevOps organization, so important knowledge bases are discoverable by everyone — not just members of that project.
+
+</div>
 <div class="wf-feature"  markdown="1">
 
 ### Page Tags &amp; Filtering <span class="wf-tier-badge wf-tier-paid">Paid</span>
@@ -152,13 +170,7 @@ Tags can be added, edited, and removed at any time without affecting the page co
 <div class="wf-cta"><a href="/support/WikiPro/PageTags">Learn more about Page Tags &amp; Filtering →</a></div>
 </div>
 
-<div class="wf-feature"  markdown="1">
 
-### Organization-wide Wiki Promotion <span class="wf-tier-badge wf-tier-free">Free</span>
-
-Promote any project wiki to be visible across the entire Azure DevOps organization, so important knowledge bases are discoverable by everyone — not just members of that project.
-
-</div>
 
 </div>
 
