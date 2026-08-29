@@ -219,22 +219,21 @@ Analytics are available at the wiki level, giving team leads and wiki administra
 <div class="wf-cta"><a href="/support/WikiPro/about-wiki-pro#analytics--insights">Learn more about Analytics →</a></div>
 </div>
 
-<div class="wf-feature"  markdown="1">
+<div class="wf-feature" markdown="1">
 ### Page Metadata <span class="wf-tier-badge wf-tier-paid">Paid</span>
 In Wiki PRO you can define and collect different types on meta data. You can also make metadata requires so you can not save a page without providing it. 
+  
 <img width="1043" height="206" alt="image" src="https://github.com/user-attachments/assets/2689c29f-e237-4b3f-aca8-87102e5ba63b" />
 
-
-Add structured metadata and tags to wiki pages to improve organization and governance, adding structure and governance to large documentation sets.
-
 </div>
-<div class="wf-feature"  markdown="1">
+<div class="wf-feature" markdown="1">
 ### Page Tagging <span class="wf-tier-badge wf-tier-paid">Paid</span>
 In Wiki PRO You can create and tag all wiki pages. Tags are shown both at the page header, and in the navigation tree. 
 
   <img width="283" height="202" alt="image" src="https://github.com/user-attachments/assets/153f9a25-f96b-42ca-ac51-150b0877e512" />
 
 Wiki PRO can also filter pages for specific tags
+
 <img width="281" height="292" alt="image" src="https://github.com/user-attachments/assets/4ca5f59d-4a2e-4b2c-b02c-faf49199fa1b" />
 
   
