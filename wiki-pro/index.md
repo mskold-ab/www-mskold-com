@@ -153,6 +153,25 @@ permalink: /wiki-pro/
 .wp-pricing-content i {
   color: #0078d4;
 }
+  .wp-pricing-price-sub {
+  font-size: 13px;
+  color: #666;
+  margin: 0 0 14px;
+}
+.wp-pricing-note {
+  text-align: center;
+  font-size: 13px;
+  color: #666;
+  margin: 16px 0;
+}
+.wp-icon {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  vertical-align: -3px;
+}
+.wp-pricing-content .wp-icon { color: #0078d4; }
+.wp-pricing-support .wp-icon { color: #666; }
   
 </style>
 
@@ -318,8 +337,14 @@ For years users have wished for a better Wiki Experience in Azure DevOps. We lis
     <h3>Free</h3>
     <p class="wp-pricing-price">Free, for real</p>     
     <p class="wp-pricing-price-sub">No registration, no card, no time limit</p>
-    <p class="wp-pricing-content"><i class="ti ti-check"></i>Core features</p>
-    <p class="wp-pricing-support"><i class="ti ti-headset"></i>Best effort community support</p>
+    <p class="wp-pricing-content">
+      <svg class="wp-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+      Core features
+    </p>
+    <p class="wp-pricing-support">
+      <svg class="wp-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18v-6a9 9 0 0 1 18 0v6"></path><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"></path></svg>
+      Best effort community support
+    </p>
   </div>
   
   <div class="wp-pricing-col">
@@ -327,16 +352,28 @@ For years users have wished for a better Wiki Experience in Azure DevOps. We lis
     <h3>Selected Wikis license</h3>
     <p class="wp-pricing-price">Starting from €120/year per wiki</p>
     <p class="wp-pricing-price-sub">Pay only for the wikis you select</p>
-    <p class="wp-pricing-content"><i class="ti ti-check"></i>Extended collaboration features</p>
-    <p class="wp-pricing-support"><i class="ti ti-headset"></i>Email support with SLA</p>
+    <p class="wp-pricing-content">
+      <svg class="wp-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+      Extended collaboration features
+    </p>
+    <p class="wp-pricing-support">
+      <svg class="wp-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m2 7 10 6 10-6"></path></svg>
+      Email support with SLA
+    </p>
   </div>
   <div class="wp-pricing-col">
     <p class="wp-pricing-tag">Enable everyone</p>
     <h3>Organization license</h3>
     <p class="wp-pricing-price">Starting from €1,990/year</p> 
     <p class="wp-pricing-price-sub">Enable the whole organization</p>
-    <p class="wp-pricing-content"><i class="ti ti-check"></i>Enterprise and governance features</p>
-    <p class="wp-pricing-support"><i class="ti ti-headset"></i>Priority support</p>
+    <p class="wp-pricing-content">
+      <svg class="wp-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+      Enterprise and governance features
+    </p>
+    <p class="wp-pricing-support">
+      <svg class="wp-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+      Priority support
+    </p>
   </div>
 </div>
 
