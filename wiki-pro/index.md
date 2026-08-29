@@ -331,64 +331,56 @@ The comparison below is organized around the same six benefits as the sections a
 
 | Feature                        | Azure DevOps Wiki | Wiki PRO Free | Wiki PRO Paid       |
 | ------------------------------ | ----------------- | ------------- | ------------------- |
-| Markdown editing               | ✅                 | ✅ Enhanced    | ✅ Enhanced          |
-| Rich text (WYSIWYG) editor     | ❌                 | ❌             | ✅ Word-style editor |
-| Business-user-friendly editing | ❌                 | ❌             | ✅                   |
-| Modern Markdown compatibility  | Limited           | ✅             | ✅                   |
-| {: .wp-compare-tables }        |                   |               |                     |
+| Markdown editing               | ✅                 | ✅ Enhanced | ✅ Enhanced          |
+| Rich text Business-user-friendly editing     | ❌                  | ❌             | ✅ Word-style editor |
+| Draw.io diagram editor         | ❌                 | ✅          | ✅             |
+{: .wp-compare-tables }
 
 ### 📊 Create better documentation
 
 | Feature                 | Azure DevOps Wiki | Wiki PRO Free                 | Wiki PRO Paid |
 | ----------------------- | ----------------- | ----------------------------- | ------------- |
-| Mermaid diagrams        | Limited           | ✅ All supported diagram types | ✅             |
-| ZenUML & C4 diagrams    | ❌                 | ✅                             | ✅             |
+| Modern Markdown support (Alerts & admonitions)| Limited           | ✅                             | ✅             |
+| Mermaid diagrams        | ✅ Limited (4-11 diagrams)     | ✅ All supported diagram types (23 incluiding ZenUML, C4, Architecture) | ✅             |
 | Draw.io integration     | ❌                 | ❌                             | ✅             |
-| Alerts & admonitions    | ❌                 | ✅                             | ✅             |
-| Modern Markdown support | Limited           | ✅                             | ✅             |
-| {: .wp-compare-tables } |                   |                               |               |
+{: .wp-compare-tables }
 
 ### 🔎 Help people find information faster
 
 | Feature                      | Azure DevOps Wiki | Wiki PRO Free | Wiki PRO Paid |
 | ---------------------------- | ----------------- | ------------- | ------------- |
+| My pages hub (Favorites, recently viewed,followed)               | ❌                 | ✅             | ✅             |
+| Page tagging                     | ❌                 | ✅             | ✅             |
+| Enhanced search              | ❌                 | ✅             | ✅             |
 | Table of contents side panel | ❌                 | ✅             | ✅             |
-| Favorite pages               | ❌                 | ✅             | ✅             |
-| Recently viewed pages        | ❌                 | ✅             | ✅             |
-| Followed & contributed pages | ❌                 | ✅             | ✅             |
-| Organization wikis           | ❌                 | ✅             | ✅             |
-| {: .wp-compare-tables }      |                   |               |               |
+| Organization level wikis     | ❌                 | ✅             | ✅             |
+{: .wp-compare-tables }
 
 ### 📋 Keep documentation efficient and consistent
 
 | Feature                           | Azure DevOps Wiki | Wiki PRO Free | Wiki PRO Paid |
 | --------------------------------- | ----------------- | ------------- | ------------- |
-| Page templates                    | ❌                 | ✅             | ✅             |
-| Wiki templates                    | ❌                 | ✅             | ✅             |
-| Reusable documentation structures | ❌                 | ✅             | ✅             |
-| {: .wp-compare-tables }           |                   |               |               |
+| Page templates                    | ❌                 | ✅ Limited  | ✅             |
+| Wiki templates                    | ❌                 | ❌             | ✅             |
+{: .wp-compare-tables }
 
 ### 📈 Understand and govern documentation
 
 | Feature                          | Azure DevOps Wiki | Wiki PRO Free | Wiki PRO Paid |
 | -------------------------------- | ----------------- | ------------- | ------------- |
 | Page metadata                    | ❌                 | ✅             | ✅             |
-| Page tagging                     | ❌                 | ✅             | ✅             |
-| Wiki Analytics                   | ❌                 | ❌             | ✅             |
-| Page views & engagement insights | ❌                 | ❌             | ✅             |
-| Contributor insights             | ❌                 | ❌             | ✅             |
+| Page analytics                   | Very limited       | ✅             | ✅             |
+| Wiki Analytics (Page views,Contributor & engagement insights )                   | ❌                 | ❌             | ✅             |
 | {: .wp-compare-tables }          |                   |               |               |
 
 ### 📄 Publish and share professionally
 
 | Feature                         | Azure DevOps Wiki | Wiki PRO Free | Wiki PRO Paid |
 | ------------------------------- | ----------------- | ------------- | ------------- |
-| Print pages                     | ❌                 | ✅             | ✅             |
-| Print pages and subpages        | ❌                 | ✅             | ✅             |
+| Print pages                     | ✅                 | ✅             | ✅             |
+| Print pagetrees                 | ❌                 | ✅             | ✅             |
 | Export to Word                  | ❌                 | ❌             | ✅             |
-| Use organization Word templates | ❌                 | ❌             | ✅             |
-| Export entire wiki trees        | ❌                 | ❌             | ✅             |
-| {: .wp-compare-tables }         |                   |               |               |
+{: .wp-compare-tables }
 
 [See the full comparison →](/support/WikiPro/about-wiki-pro)
 
