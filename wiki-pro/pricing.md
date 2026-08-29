@@ -40,23 +40,47 @@ permalink: /wiki-pro/pricing/
     color: #666;
     margin: 2px 0 16px;
   }
-  .wp-pricing-content,
+  .wp-pricing-features,
   .wp-pricing-support {
+    list-style: none;
+    padding: 0;
+    margin: 8px 0;
+  }
+
+  .wp-pricing-features li,
+  .wp-pricing-support li {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 8px;
     margin: 8px 0;
     font-size: 0.95em;
   }
-  .wp-pricing-support { color: #555; }
-  .wp-icon {
+
+  .wp-pricing-features li::before,
+  .wp-pricing-support li::before {
+    display: inline-block;
+    flex: 0 0 18px;
     width: 18px;
     height: 18px;
-    flex-shrink: 0;
     color: #0078d4;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: bold;
+    text-align: center;
   }
+
+  .wp-pricing-features li::before {
+    content: "✓";
+  }
+
   .wp-pricing-support {
+    color: #555;
     margin-bottom: 0;
+  }
+
+  .wp-pricing-support li::before {
+    content: "◉";
+    font-size: 13px;
   }
   .wp-cta-btn {
     display: inline-block;
@@ -101,90 +125,64 @@ You can use the basic features of Wiki PRO freely, without registering or purcha
     <h3>Free</h3>
     <p class="wp-pricing-price">Free, for real</p>
     <p class="wp-pricing-price-sub">No registration, no card, no time limit</p>
-    <p class="wp-pricing-content">
-      <svg class="wp-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-      Markdown editor
-    </p>
-    <p class="wp-pricing-content">
-      <svg class="wp-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-      Modern markdown support (Alerts, Admonitions, Colored text)
-      Full Mermaid support
-      My Pages
-      Organization wikis
-    </p>
-        <p class="wp-pricing-content">
-      <svg class="wp-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-      Better code blocks       
-    </p>
-            <p class="wp-pricing-content">
-      <svg class="wp-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-      Print page trees
-    </p>
-    
-    <p class="wp-pricing-support">
-      <svg class="wp-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18v-6a9 9 0 0 1 18 0v6"></path><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"></path></svg>
-      Best effort community support
-    </p>
+
+    <ul class="wp-pricing-features">
+      <li>Markdown editor</li>
+      <li>Modern markdown support (Alerts, Admonitions, Colored text)</li>
+      <li>Full Mermaid support</li>
+      <li>My Pages</li>
+      <li>Organization wikis</li>
+      <li>Better code blocks</li>
+      <li>Print page trees</li>
+    </ul>
+
+    <ul class="wp-pricing-support">
+      <li>Best effort community support</li>
+    </ul>
+
     <a class="wp-cta-btn" href="https://marketplace.visualstudio.com/items?itemName=mskold.mskold-WikiPRO">Install Wiki PRO for free →</a>
   </div>
+
   <div class="wp-pricing-col">
     <p class="wp-pricing-tag">Scale as you grow</p>
     <h3>Selected Wikis license</h3>
     <p class="wp-pricing-price">Starting from €120/year per wiki</p>
     <p class="wp-pricing-price-sub">Pay only for the wikis you select</p>
-    
-    <p class="wp-pricing-content">
-      <svg class="wp-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-      Business-user-friendly rich text editor
-    </p>
-    
-    <p class="wp-pricing-content">
-      <svg class="wp-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-      Draw.io diagrams, stored in-page
-    </p>
-    <p class="wp-pricing-content">
-      <svg class="wp-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-      Page metadata and Tags
-    </p>
-        <p class="wp-pricing-content">
-      <svg class="wp-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-      Page Templates
-    </p>
-    <p class="wp-pricing-content">
-      <svg class="wp-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-      Export to Word with your own template
-    </p>
-    <p class="wp-pricing-content">
-      <svg class="wp-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-      Wiki statistics &amp; analytics
-    </p>
-    <p class="wp-pricing-support">
-      <svg class="wp-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18v-6a9 9 0 0 1 18 0v6"></path><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"></path></svg>
-      Email support with SLA
-    </p>
+
+    <ul class="wp-pricing-features">
+      <li>Business-user-friendly rich text editor</li>
+      <li>Draw.io diagrams, stored in-page</li>
+      <li>Page metadata and Tags</li>
+      <li>Page Templates</li>
+      <li>Export to Word with your own template</li>
+      <li>Wiki statistics &amp; analytics</li>
+    </ul>
+
+    <ul class="wp-pricing-support">
+      <li>Email support with SLA</li>
+    </ul>
+
     <a class="wp-cta-btn" href="https://marketplace.visualstudio.com/items?itemName=mskold.mskold-WikiPRO">Start free 30-day trial →</a>
   </div>
+
   <div class="wp-pricing-col">
     <p class="wp-pricing-tag">Enable everyone</p>
     <h3>Organization license</h3>
     <p class="wp-pricing-price">Starting from €1,990/year</p>
     <p class="wp-pricing-price-sub">Enable the whole organization</p>
-    <p class="wp-pricing-content">
-      <svg class="wp-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-      Everything in Selected Wikis, org-wide
-    </p>
-    <p class="wp-pricing-content">
-      <svg class="wp-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-      Centralized billing by organization
-    </p>
-    <p class="wp-pricing-support">
-      <svg class="wp-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18v-6a9 9 0 0 1 18 0v6"></path><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"></path></svg>
-      Priority support
-    </p>
+
+    <ul class="wp-pricing-features">
+      <li>Everything in Selected Wikis, org-wide</li>
+      <li>Centralized billing by organization</li>
+    </ul>
+
+    <ul class="wp-pricing-support">
+      <li>Priority support</li>
+    </ul>
+
     <a class="wp-cta-btn" href="mailto:sales@mskold.com">Contact sales →</a>
   </div>
 </div>
-
 Looking for the full feature breakdown by plan? See [All features](/wiki-pro/features/), or view live pricing on the [Azure DevOps Marketplace](https://marketplace.visualstudio.com/items?itemName=mskold.mskold-WikiPRO&ssr=false#pricing).
 
 
