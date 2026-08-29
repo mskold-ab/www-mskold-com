@@ -40,7 +40,7 @@ Features marked **Free** are available at no cost. Features marked **Paid** requ
 
 ## 📝 Make everyone a contributor
 
-<div class="wf-feature"markdown="1">
+<div class="wf-feature" markdown="1">
 
 ### Rich Text Editing <span class="wf-tier-badge wf-tier-paid">Paid</span>
 
@@ -59,7 +59,7 @@ An enhanced Markdown editing experience that preserves the workflow developers a
 
 </div>
 
-<div class="wf-feature">
+<div class="wf-feature"  markdown="1">>
 
 ### Draw.io Diagrams Editor <span class="wf-tier-badge wf-tier-paid">Paid</span>
 
