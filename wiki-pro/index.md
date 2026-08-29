@@ -323,29 +323,26 @@ For years users have wished for a better Wiki Experience in Azure DevOps. We lis
   </div>
   
   <div class="wp-pricing-col">
-    <p class="wp-pricing-tag">Scale as you grow </p>   
+    <p class="wp-pricing-tag">Scale as you grow</p>   
     <h3>Selected Wikis license</h3>
     <p class="wp-pricing-price">Starting from €120/year per wiki</p>
     <p class="wp-pricing-price-sub">Pay only for the wikis you select</p>
-    <p class="wp-pricing-content"><i class="ti ti-check">Extended collaboration features </p>
-    <p class="wp-pricing-content"><i class="ti ti-headset">Email support with SLA </p>
-    
+    <p class="wp-pricing-content"><i class="ti ti-check"></i>Extended collaboration features</p>
+    <p class="wp-pricing-support"><i class="ti ti-headset"></i>Email support with SLA</p>
   </div>
   <div class="wp-pricing-col">
     <p class="wp-pricing-tag">Enable everyone</p>
     <h3>Organization license</h3>
-    <p class="wp-pricing-price">Starting from €1,990/year </p> 
+    <p class="wp-pricing-price">Starting from €1,990/year</p> 
     <p class="wp-pricing-price-sub">Enable the whole organization</p>
-    <p class="wp-pricing-content"><i class="ti ti-check">Enterprise and governance features </p>
-    <p class="wp-pricing-content"><i class="ti ti-headset">Priority support</p>
-    
+    <p class="wp-pricing-content"><i class="ti ti-check"></i>Enterprise and governance features</p>
+    <p class="wp-pricing-support"><i class="ti ti-headset"></i>Priority support</p>
   </div>
 </div>
 
 <p class="wp-pricing-note">Same paid features in both — choose the scope that fits.</p>
 
 [Full pricing &amp; licensing details →](/wiki-pro/pricing/)
-
 ---
 
 <div class="wp-cta-footer">
