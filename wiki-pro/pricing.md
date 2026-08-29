@@ -107,8 +107,10 @@ You can use the basic features of Wiki PRO freely, without registering or purcha
     </p>
     <p class="wp-pricing-content">
       <svg class="wp-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-      Modern markdown support (Alerts, Anotations, Colored text )
-      
+      Modern markdown support (Alerts, Admonitions, Colored text)
+      Full Mermaid support
+      My Pages
+      Organization wikis
     </p>
         <p class="wp-pricing-content">
       <svg class="wp-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
