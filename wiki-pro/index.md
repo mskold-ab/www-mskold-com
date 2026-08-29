@@ -123,14 +123,37 @@ permalink: /wiki-pro/
     font-size:15px;
     font-weight:500;
     height:23px;
-    colour: grey;
+    color: grey;
   }
   .wp-pricing-price{
-   font-size:28px;
-    font-weight:500;   
-    colour: darkblue;
-  } 
+    font-size: 26px;
+    color: darkblue;
+    margin-bottom: 6px; 
   }
+.wp-pricing-content,
+.wp-pricing-support {
+  font-size: 13px;
+  margin: 0 0 6px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.wp-pricing-content {
+  color: #222;
+}
+.wp-pricing-support {
+  color: #666;
+  margin-bottom: 0;
+}
+.wp-pricing-content i,
+.wp-pricing-support i {
+  font-size: 16px;
+  flex-shrink: 0;
+}
+.wp-pricing-content i {
+  color: #0078d4;
+}
+  
 </style>
 
 <div class="wp-hero">
@@ -295,8 +318,8 @@ For years users have wished for a better Wiki Experience in Azure DevOps. We lis
     <h3>Free</h3>
     <p class="wp-pricing-price">Free, for real</p>     
     <p class="wp-pricing-price-sub">No registration, no card, no time limit</p>
-    <p class="wp-pricing-content">Core featues</p>
-    <p class="wp-pricing-support">Best effort community support</p>
+    <p class="wp-pricing-content"><i class="ti ti-check"></i>Core features</p>
+    <p class="wp-pricing-support"><i class="ti ti-headset"></i>Best effort community support</p>
   </div>
   
   <div class="wp-pricing-col">
@@ -304,8 +327,8 @@ For years users have wished for a better Wiki Experience in Azure DevOps. We lis
     <h3>Selected Wikis license</h3>
     <p class="wp-pricing-price">Starting from €120/year per wiki</p>
     <p class="wp-pricing-price-sub">Pay only for the wikis you select</p>
-    <p class="wp-pricing-content">Extended collaboration features </p>
-    <p class="wp-pricing-support">Email support with SLA </p>
+    <p class="wp-pricing-content"><i class="ti ti-check">Extended collaboration features </p>
+    <p class="wp-pricing-content"><i class="ti ti-headset">Email support with SLA </p>
     
   </div>
   <div class="wp-pricing-col">
@@ -313,8 +336,8 @@ For years users have wished for a better Wiki Experience in Azure DevOps. We lis
     <h3>Organization license</h3>
     <p class="wp-pricing-price">Starting from €1,990/year </p> 
     <p class="wp-pricing-price-sub">Enable the whole organization</p>
-    <p class="wp-pricing-content">Enterprise and governance features </p>
-    <p class="wp-pricing-support">Priority support</p>
+    <p class="wp-pricing-content"><i class="ti ti-check">Enterprise and governance features </p>
+    <p class="wp-pricing-content"><i class="ti ti-headset">Priority support</p>
     
   </div>
 </div>
