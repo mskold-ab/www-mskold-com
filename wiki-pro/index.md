@@ -377,8 +377,6 @@ For years users have wished for a better Wiki Experience in Azure DevOps. We lis
   </div>
 </div>
 
-<p class="wp-pricing-note">Same paid features in both — choose the scope that fits.</p>
-
 [Full pricing &amp; licensing details →](/wiki-pro/pricing/)
 ---
 
