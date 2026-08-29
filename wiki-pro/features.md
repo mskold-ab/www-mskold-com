@@ -87,10 +87,9 @@ With Wiki PRO you can enrich your documentation with callout blocks for notes, t
 This makes it easy to highlight critical information in a visually distinct way, consistent with modern documentation standards.
 
 Wiki PRO supporting both GitHub Alerts and Docusaurus Admonitions. 
-<div class="wf-cta"><a href="/support/WikiPro/f_alerts">Learn more about Alerts &amp; Admonitions →</a></div>
 
 <img width="742" height="269" alt="image" src="https://github.com/user-attachments/assets/25ef0d6e-b13a-4fc2-8926-2fa84e751b46" />
-
+<div class="wf-cta"><a href="/support/WikiPro/f_alerts">Learn more about Alerts &amp; Admonitions →</a></div>
 Wiki PRO also supports underscored, strike through & Colorized text 
 
 <img width="416" height="77" alt="image" src="https://github.com/user-attachments/assets/eecdf6d5-279f-4e3c-a8db-9ac308e6d63e" />
@@ -119,13 +118,7 @@ Existing Draw.io diagrams can be migrated by importing the exported XML into a `
 <div class="wf-cta"><a href="/support/WikiPro/DrawIO">Learn more about Draw.io Integration →</a></div>
 </div>
 
-<div class="wf-feature"  markdown="1">
 
-### Version-Controlled Diagrams <span class="wf-tier-badge wf-tier-paid">Paid</span>
-
-Draw.io diagrams are stored with the wiki content, allowing them to be managed and versioned together with the documentation — keeping diagrams with the wiki content they belong to.
-
-</div>
 
 
 
@@ -141,6 +134,7 @@ Draw.io diagrams are stored with the wiki content, allowing them to be managed a
 
 My Pages is a personal workspace that gives each user a consolidated view of their wiki activity across all projects and wikis in the organization.
 It includes four filters — Favorites, Last Viewed, Last Edited, and Followed — so you can always find the pages that matter most to you without navigating through each project separately.
+
 <img width="803" height="181" alt="image" src="https://github.com/user-attachments/assets/3a215890-7061-4149-9e5a-2b3260e5c88c" />
 <img width="866" height="201" alt="image" src="https://github.com/user-attachments/assets/83376aff-51c4-437a-b5c2-00b03c889d54" />
 
@@ -169,7 +163,9 @@ Promote any project wiki to be visible across the entire Azure DevOps organizati
 
 Assign tags to any wiki page to improve discoverability, topic-based navigation, and governance reporting.
 Users can filter pages by tag across the entire wiki, making it easy to find related content regardless of where it sits in the page hierarchy.
-Tags can be added, edited, and removed at any time without affecting the page content.
+
+<img width="283" height="202" alt="image" src="https://github.com/user-attachments/assets/153f9a25-f96b-42ca-ac51-150b0877e512" />
+<img width="281" height="292" alt="image" src="https://github.com/user-attachments/assets/4ca5f59d-4a2e-4b2c-b02c-faf49199fa1b" />
 
 <div class="wf-cta"><a href="/support/WikiPro/PageTags">Learn more about Page Tags &amp; Filtering →</a></div>
 </div>
