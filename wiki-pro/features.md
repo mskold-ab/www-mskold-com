@@ -155,6 +155,7 @@ Provides a persistent page navigation panel based on the headings within the cur
 ### Organization-wide Wiki Promotion <span class="wf-tier-badge wf-tier-free">Free</span>
 
 Promote any project wiki to be visible across the entire Azure DevOps organization, so important knowledge bases are discoverable by everyone — not just members of that project.
+<img width="1097" height="427" alt="image" src="https://github.com/user-attachments/assets/4321729e-6cc2-4186-9280-befe0902aae6" />
 
 </div>
 <div class="wf-feature"  markdown="1">
