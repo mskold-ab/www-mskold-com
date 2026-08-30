@@ -273,7 +273,15 @@ permalink: /wiki-pro/
 </div>
 
 ---
+## The problem
 
+When Microsoft released Azure DevOps Wiki, developers were thrilled — now they had a great and easy place to keep documentation, and it did work well for developers loving to write Markdown. But that's where it froze.
+
+The rest of the team can't contribute comfortably, since there's no rich text editor. Creating visualizations was limited to a few Mermaid charts and requires writing advanced Mermaid syntax.
+
+Markdown evolved — Azure DevOps Wiki didn't keep up. For years, users have asked Microsoft for a better wiki experience in Azure DevOps. The lack of development has pushed teams toward full collaboration suites — a bigger switch than most teams actually want to make, and one that disconnected developers from their work.
+
+---
 <img width="1200" height="800" alt="Wiki PRO rich text editor with Draw.io integration" src="https://github.com/user-attachments/assets/4e110471-48f4-471b-a71e-62d9f7858972" />
 
 ## Why Wiki PRO?
