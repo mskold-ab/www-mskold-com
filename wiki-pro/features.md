@@ -33,8 +33,6 @@ toc: true
 This page covers all features included in Wiki PRO for Azure DevOps, organized around the same six outcomes as the product overview.
 Features marked **Free** are available at no cost. Features marked **Paid** require a subscription (free 30-day trial available).
 
----
-
 <div class="wf-outcome" markdown="1">
 
 ## 📝 Make everyone a contributor
