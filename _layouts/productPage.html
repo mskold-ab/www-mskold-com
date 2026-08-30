@@ -264,6 +264,41 @@ layout: default
       grid-template-columns: 1fr;
     }
   }
+
+  .wp-three-col {
+  display: grid;
+  grid-template-columns: 220px minmax(0, 1fr) 260px;
+  gap: 32px;
+  align-items: start;
+}
+
+.wp-nav-links {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  position: sticky;
+  top: 24px;
+}
+
+.wp-col-content {
+  min-width: 0; /* prevents content overflow from breaking the grid */
+}
+
+.wp-col-toc {
+  position: sticky;
+  top: 24px;
+}
+
+/* Stack on smaller screens */
+@media (max-width: 960px) {
+  .wp-three-col {
+    grid-template-columns: 1fr;
+  }
+  .wp-col-nav,
+  .wp-col-toc {
+    position: static;
+  }
+}
 </style>
 
 <main class="page-content" aria-label="Content">
@@ -282,21 +317,25 @@ layout: default
   Freemium — core features are free
 </div>
 
-    <div>
-      <div class="wp-nav-links">
-        <a href="/wiki-pro/">Overview</a>
-        <a href="/wiki-pro/features/">Features Higlight</a>
-        <a href="/wiki-pro/pricing/">Pricing &amp; licensing</a>  
-        <a href="/support/WikiPro/">Support &amp; docs</a>
-      </div>
+    <div class="wp-three-col">
+  <div class="wp-col-nav">
+    <div class="wp-nav-links">
+      <a href="/wiki-pro/">Overview</a>
+      <a href="/wiki-pro/features/">Features Higlight</a>
+      <a href="/wiki-pro/pricing/">Pricing &amp; licensing</a>  
+      <a href="/support/WikiPro/">Support &amp; docs</a>
     </div>
-    <div>
-      {{ content }}
-    </div>
-    <div id="article-toc" style="margin-top:64px; max-height: 80vh; overflow: auto; ">
-            <b>On this page</b>
-            {{ content | toc_only }}
-    </div>
+  </div>
+
+  <div class="wp-col-content">
+    {{ content }}
+  </div>
+
+  <div id="article-toc" class="wp-col-toc" style="margin-top:64px; max-height: 80vh; overflow: auto;">
+    <b>On this page</b>
+    {{ content | toc_only }}
+  </div>
+</div>
     
   </div>
 </main>
