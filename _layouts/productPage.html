@@ -289,6 +289,36 @@ layout: default
   top: 24px;
 }
 
+.wp-col-toc ul,
+.wp-col-toc ol {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+  list-style: none;
+  padding: 0;
+  margin: 8px 0 0;
+}
+
+.wp-col-toc li {
+  margin: 0;
+}
+
+.wp-col-toc a {
+  display: inline-block;
+  padding: 6px 10px;
+  background: #f5f5f5;
+  border-radius: 999px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.wp-col-toc ul ul,
+.wp-col-toc ol ol,
+.wp-col-toc ul ol,
+.wp-col-toc ol ul {
+  display: none;
+}
+
 /* Stack on smaller screens */
 @media (max-width: 960px) {
   .wp-three-col {
@@ -331,7 +361,7 @@ layout: default
     {{ content }}
   </div>
 
-  <div id="article-toc" class="wp-col-toc" style="margin-top:64px; max-height: 80vh; overflow: auto;">
+  <div id="article-toc" class="wp-col-toc" style="margin-top:64px;">
     <b>On this page</b>
     {{ content | toc_only }}
   </div>
