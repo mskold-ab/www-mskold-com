@@ -293,10 +293,11 @@ layout: default
 .wp-col-toc ol {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px 12px;
+  flex-direction:row
+  
   list-style: none;
   padding: 0;
-  margin: 8px 0 0;
+  
 }
 
 .wp-col-toc li {
@@ -304,11 +305,7 @@ layout: default
 }
 
 .wp-col-toc a {
-  display: inline-block;
-  padding: 6px 10px;
-  background: #f5f5f5;
-  border-radius: 999px;
-  text-decoration: none;
+  display: inline-block;  
   white-space: nowrap;
 }
 
@@ -365,13 +362,13 @@ layout: default
   </div>
 
   <div class="wp-col-content">
+      <div id="article-toc" class="wp-col-toc" style="margin-top:64px;">    
+        {{ content | toc_only }}
+      </div>
     {{ content }}
   </div>
 
-  <div id="article-toc" class="wp-col-toc" style="margin-top:64px;">
-    <b>On this page</b>
-    {{ content | toc_only }}
-  </div>
+
 </div>
     
   </div>
