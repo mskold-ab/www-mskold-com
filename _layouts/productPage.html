@@ -92,6 +92,251 @@ layout: default
     margin: 30px 0;
   }
 
+  .wp-feature-item {
+    flex: 1 1 260px;
+  }
+
+  .wp-feature-item h3 {
+    font-size: 1em;
+    margin-bottom: 4px;
+  }
+
+  /* Tier badges */
+  .wp-tier-badge {
+    display: inline-block;
+    font-size: 0.75em;
+    font-weight: bold;
+    padding: 2px 8px;
+    border-radius: 10px;
+    margin-bottom: 6px;
+  }
+
+  .wp-tier-free {
+    background: #e6f4ea;
+    color: #1a7f37;
+  }
+
+  .wp-tier-paid {
+    background: #fff0c8;
+    color: #7a5200;
+  }
+
+  /* Comparison tables */
+  .wp-compare-tables {
+    width: 100%;
+  }
+
+  .wp-compare-tables td:first-child,
+  .wp-compare-tables th:first-child {
+    width: 550px;
+    min-width: 300px;
+  }
+  .wp-compare-tables th:nth-child(2),
+  .wp-compare-tables td:nth-child(2),
+  .wp-compare-tables th:nth-child(3),
+  .wp-compare-tables td:nth-child(3),
+  .wp-compare-tables th:nth-child(4),
+  .wp-compare-tables td:nth-child(4)
+  {
+    width: 200px;
+    min-width: 200px;
+  }
+
+  /* Pricing */
+  .wp-pricing-cols {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin: 20px 0;
+  }
+
+  .wp-pricing-col {
+    flex: 1 1 260px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 20px;
+  }
+
+  .wp-pricing-col h3 {
+    margin-top: 0;
+    font-weight: 500;
+  }
+
+  .wp-pricing-tag {
+    font-size: 15px;
+    font-weight: 500;
+    height: 23px;
+    color: grey;
+  }
+
+  .wp-pricing-price {
+    font-size: 24px;
+    color: darkblue;
+    margin-bottom: 6px;
+  }
+
+  .wp-pricing-price-sub {
+    font-size: 13px;
+    color: #666;
+    margin: 0 0 14px;
+  }
+
+  .wp-pricing-content,
+  .wp-pricing-support {
+    font-size: 13px;
+    margin: 0 0 6px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .wp-pricing-content {
+    color: #222;
+  }
+
+  .wp-pricing-support {
+    color: #666;
+    margin-bottom: 0;
+  }
+
+  .wp-pricing-content i,
+  .wp-pricing-support i {
+    font-size: 16px;
+    flex-shrink: 0;
+  }
+
+  .wp-pricing-content i {
+    color: #0078d4;
+  }
+
+  .wp-pricing-support i {
+    color: #666;
+  }
+
+  .wp-pricing-note {
+    text-align: center;
+    font-size: 13px;
+    color: #666;
+    margin: 16px 0;
+  }
+
+  .wp-icon {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    vertical-align: -3px;
+  }
+
+  .wp-pricing-content .wp-icon {
+    color: #0078d4;
+  }
+
+  .wp-pricing-support .wp-icon {
+    color: #666;
+  }
+
+  /* Footer CTA */
+  .wp-cta-footer {
+    text-align: center;
+    background: #f0f7ff;
+    border-radius: 6px;
+    padding: 30px 20px;
+    margin-top: 40px;
+  }
+
+  .wp-nav-links {
+    margin: 20px 0;
+    font-size: 0.95em;
+  }
+
+  .wp-nav-links a {
+    margin-right: 16px;
+  }
+
+  @media (max-width: 900px) {
+    .wp-benefits {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 600px) {
+    .wp-benefits {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  /* FIX #2: removed the orphaned 3rd (150px) grid column — only 2 children exist */
+  .wp-three-col {
+    display: grid;
+    grid-template-columns: 150px minmax(0, 1fr);
+    gap: 32px;
+    align-items: start;
+  }
+
+  .wp-nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: sticky;
+    top: 24px;
+  }
+
+  .wp-col-content {
+    min-width: 0; /* prevents content overflow from breaking the grid */
+  }
+
+  /* FIX #3: removed position: sticky / top so TOC sits inline, not overlaying content */
+  .wp-col-toc {
+    margin-bottom: 24px;
+  }
+
+  /* FIX #1: force-strip markers, guard against a global list-style override */
+  .wp-col-toc ul,
+  .wp-col-toc ol {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    list-style: none !important;
+    margin: 0;
+    padding: 0;
+  }
+
+  .wp-col-toc li {
+    list-style: none;
+    margin: 0;
+  }
+
+  .wp-col-toc a {
+    display: inline-block;
+    white-space: nowrap;
+  }
+
+  .wp-col-toc a:hover,
+  .wp-col-toc a:focus {
+    background: #e0e0e0;
+    outline: 2px solid #0078d4;
+    outline-offset: 1px;
+  }
+
+  .wp-col-toc ul ul,
+  .wp-col-toc ol ol,
+  .wp-col-toc ul ol,
+  .wp-col-toc ol ul {
+    display: none;
+  }
+
+  /* Stack on smaller screens */
+  @media (max-width: 960px) {
+    .wp-three-col {
+      grid-template-columns: 1fr;
+    }
+    .wp-col-nav,
+    .wp-col-toc {
+      position: static;
+    }
+  }
+</style>
+
 <main class="page-content" aria-label="Content">
   <div class="product-page-shell">
 
