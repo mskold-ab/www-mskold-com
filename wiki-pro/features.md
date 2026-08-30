@@ -3,8 +3,9 @@ layout: productPage
 title: "Wiki PRO Features"
 description: "All Wiki PRO features for Azure DevOps: rich text editing, Draw.io diagrams, Mermaid charts, page tags, templates, My Pages, export to Word, and more."
 permalink: /wiki-pro/features/
-toc:true
+toc: true
 ---
+
 <style>
   .wf-nav { margin-bottom: 24px; font-size: 0.95em; }
   .wf-nav a { margin-right: 16px; }
