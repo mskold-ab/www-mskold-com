@@ -371,9 +371,10 @@ The comparison below is organized around the same six benefits as the sections a
 
 | Feature                 | Azure DevOps Wiki | Wiki PRO Free                 | Wiki PRO Paid |
 | ----------------------- | ----------------- | ----------------------------- | ------------- |
-| Modern Markdown support (Alerts & admonitions)| Limited           | ✅                             | ✅             |
-| Mermaid diagrams        | ✅ Limited (4-11 diagrams)     | ✅ All supported diagram types (28 diagrams) | ✅             |
-| Draw.io integration     | ❌                 | ❌                             | ✅             |
+| Mermaid diagrams                              | ✅ Limited (4-11 diagrams)     | ✅ All supported diagram types (28 diagrams) | ✅             |
+| Modern Markdown support (Alerts & admonitions)| Limited (specially for onprem)  | ✅                             | ✅             |
+| Extend/Integrate external resources            | ❌                          | ✅                              | ✅             |
+| Draw.io integration                           | ❌                           | ❌                             | ✅             |
 {: .wp-compare-tables }
 
 ### 🔎 Help people find information faster
