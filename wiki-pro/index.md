@@ -12,7 +12,7 @@ When Microsoft released Azure DevOps Wiki, developers were thrilled — now they
 
 The rest of the team can't contribute comfortably, since there's no rich text editor. Creating visualizations was limited to a few Mermaid charts and requires writing advanced Mermaid syntax.
 
-Markdown evolved - Azure DevOps Wiki didn't keep up. For years, users have asked Microsoft for a better wiki experience in Azure DevOps. The lack of development has pushed teams toward full collaboration suites- a bigger switch than most teams actually want to make. The end result is disconnected teams, workflows and frustrated developers. 
+Markdown evolved - Azure DevOps Wiki didn't keep up. For years, users have asked Microsoft for a better wiki experience in Azure DevOps. The lack of development has pushed teams toward full collaboration suites - a bigger switch than most teams actually want to make. The end result is disconnected teams, workflows and frustrated developers. 
 
 ---
 
@@ -66,7 +66,7 @@ We listened to community feedback and feature requests and built a wiki extensio
 
 ## How it works
 
-Wiki PRO is an Azure DevOps extensions that only consist of static web resources hosted by Microsoft (or your own server if you run onprem) and executes in you browser, just like the Azure DevOps website. 
+Wiki PRO is an Azure DevOps extension that only consist of static web resources hosted by Microsoft (or your own server if you run onprem) and executes in you browser, just like the Azure DevOps website. 
 
 * Reads and writes through the same Azure DevOps Wiki data and API as the native wiki — nothing is duplicated or stored elsewhere.
 * No migration step — your existing pages, history, and links stay exactly where they are, new pages and edits show up in the native wiki.
@@ -95,7 +95,7 @@ The comparison below is organized around the same six benefits as the sections a
 | Feature                 | Azure DevOps Wiki | Wiki PRO Free                 | Wiki PRO Paid |
 | ----------------------- | ----------------- | ----------------------------- | ------------- |
 | Mermaid diagrams                              | ✅ Limited (4-11 diagrams)     | ✅ All supported diagram types (28 diagrams) | ✅             |
-| Modern Markdown support (Alerts & admonitions)| Limited (specially for onprem)  | ✅                             | ✅             |
+| Modern Markdown support (Alerts & admonitions)| Limited (especially for onprem)  | ✅                             | ✅             |
 | Extend/Integrate external resources            | ❌                          | ✅                              | ✅             |
 | Draw.io integration                           | ❌                           | ❌                             | ✅             |
 {: .wp-compare-tables }
@@ -125,7 +125,7 @@ The comparison below is organized around the same six benefits as the sections a
 | -------------------------------- | ----------------- | ------------- | ------------- |
 | Page metadata                    | ❌                 | ❌             | ✅             |
 | Page analytics                   | Very limited       | ✅             | ✅             |
-| Wiki Analytics (Page views,Contributor & engagement insights )                   | ❌                 | ❌             | ✅             |
+| Wiki Analytics (Page views, Contributor & engagement insights )                   | ❌                 | ❌             | ✅             |
 {: .wp-compare-tables }
 
 ### 📄 Publish and share professionally
@@ -133,7 +133,7 @@ The comparison below is organized around the same six benefits as the sections a
 | Feature                         | Azure DevOps Wiki | Wiki PRO Free | Wiki PRO Paid |
 | ------------------------------- | ----------------- | ------------- | ------------- |
 | Print pages                     | ✅                 | ✅             | ✅             |
-| Print pagetrees                 | ❌                 | ✅             | ✅             |
+| Print page trees                 | ❌                 | ✅             | ✅             |
 | Export to Word                  | ❌                 | ❌             | ✅             |
 {: .wp-compare-tables }
 
