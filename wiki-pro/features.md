@@ -28,13 +28,6 @@ permalink: /wiki-pro/features/
   }
 </style>
 
-<div class="wf-nav">
-  <a href="/wiki-pro/">← Wiki PRO home</a>
-  <a href="/wiki-pro/pricing/">Pricing &amp; licensing</a>
-  <a href="/wiki-pro/release-notes/">Release notes</a>
-  <a href="/support/WikiPro/">Support &amp; docs</a>
-</div>
-
 This page covers all features included in Wiki PRO for Azure DevOps, organized around the same six outcomes as the product overview.
 Features marked **Free** are available at no cost. Features marked **Paid** require a subscription (free 30-day trial available).
 
