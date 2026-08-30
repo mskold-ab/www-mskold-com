@@ -128,6 +128,16 @@ permalink: /wiki-pro/
     width: 550px;
     min-width: 300px;
   }
+  .wp-compare-tables th:nth-child(2),
+  .wp-compare-tables td:nth-child(2),
+  .wp-compare-tables th:nth-child(3),
+  .wp-compare-tables td:nth-child(3),
+  .wp-compare-tables th:nth-child(4),
+  .wp-compare-tables td:nth-child(4)
+  {
+    width: 200px;
+    min-width: 200px;
+  }
 
   /* Pricing */
   .wp-pricing-cols {
