@@ -72,6 +72,7 @@ A fully integrated Draw.io editor that lets users create and edit visual diagram
 
 <div class="wf-see-also">See Draw.io Integration below ↓ for how diagrams are stored and version-controlled.</div>
 </div>
+<img width="1200" height="800" alt="Wiki PRO rich text editor with Draw.io integration" src="https://github.com/user-attachments/assets/4e110471-48f4-471b-a71e-62d9f7858972" />
 
 </div>
 
