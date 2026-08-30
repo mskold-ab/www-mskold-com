@@ -120,6 +120,18 @@ Existing Draw.io diagrams can be migrated by importing the exported XML into a `
 </div>
 
 
+<div class="wf-feature"  markdown="1">
+
+### Extend/Integrate external resources <span class="wf-tier-badge wf-tier-paid">Paid</span>
+
+Wiki PRO can embed external resources and services through embedding them in an iframe in the page. This can, for example, be used for integration/easy access to: 
++ Miro 
++ Mural 
++ Gliffy
++ Internal systems
+<img width="768" height="921" alt="image" src="https://github.com/user-attachments/assets/fe0292d5-2e83-404e-be71-31194f4dd7f3" />
+
+</div>
 
 
 
