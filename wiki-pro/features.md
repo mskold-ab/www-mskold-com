@@ -110,19 +110,7 @@ The native Azure DevOps wiki supports only a limited subset (4–11 types depend
 
 <div class="wf-feature"  markdown="1">
 
-### Draw.io Integration <span class="wf-tier-badge wf-tier-paid">Paid</span>
-
-Embed and edit Draw.io diagrams directly inside wiki pages using the full Draw.io editor — no need to export or upload files manually.
-Diagrams are stored as part of the wiki page in Azure DevOps, so they are version-controlled alongside your content and visible in diff views.
-Existing Draw.io diagrams can be migrated by importing the exported XML into a `drawio` code block.
-
-<div class="wf-cta"><a href="/support/WikiPro/DrawIO">Learn more about Draw.io Integration →</a></div>
-</div>
-
-
-<div class="wf-feature"  markdown="1">
-
-### Extend/Integrate external resources <span class="wf-tier-badge wf-tier-paid">Paid</span>
+### Extend/Integrate external resources <span class="wf-tier-badge wf-tier-paid">Free</span>
 
 Wiki PRO can embed external resources and services through embedding them in an iframe in the page. This can, for example, be used for integration/easy access to: 
 + Miro 
@@ -133,7 +121,16 @@ Wiki PRO can embed external resources and services through embedding them in an 
 
 </div>
 
+<div class="wf-feature"  markdown="1">
 
+### Draw.io Integration <span class="wf-tier-badge wf-tier-paid">Paid</span>
+
+Embed and edit Draw.io diagrams directly inside wiki pages using the full Draw.io editor — no need to export or upload files manually.
+Diagrams are stored as part of the wiki page in Azure DevOps, so they are version-controlled alongside your content and visible in diff views.
+Existing Draw.io diagrams can be migrated by importing the exported XML into a `drawio` code block.
+
+<div class="wf-cta"><a href="/support/WikiPro/DrawIO">Learn more about Draw.io Integration →</a></div>
+</div>
 
 </div>
 
