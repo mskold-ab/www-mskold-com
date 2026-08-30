@@ -102,12 +102,7 @@ permalink: /wiki-pro/pricing/
   .wp-faq dd { margin-left: 0; color: #333; }
 </style>
 
-<div class="wp-nav">
-  <a href="/wiki-pro/">← Wiki PRO home</a>
-  <a href="/wiki-pro/features/">All features</a>
-  <a href="/wiki-pro/release-notes/">Release notes</a>
-  <a href="/support/WikiPro/">Support &amp; docs</a>
-</div>
+
 
 ## Plans
 
