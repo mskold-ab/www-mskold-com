@@ -261,7 +261,7 @@ permalink: /wiki-pro/
 </div>
 
 <div class="wp-social-proof">
-  Certified Top Publisher on the Azure DevOps Marketplace &nbsp;·&nbsp;
+  Built by MSkold AB · Certified Top Publisher on the Azure DevOps Marketplace &nbsp;·&nbsp;
   Trusted by 30,000+ organizations &nbsp;·&nbsp;
   Freemium — core features are free
 </div>
