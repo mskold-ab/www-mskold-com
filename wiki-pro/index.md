@@ -292,7 +292,6 @@ The rest of the team can't contribute comfortably, since there's no rich text ed
 Markdown evolved - Azure DevOps Wiki didn't keep up. For years, users have asked Microsoft for a better wiki experience in Azure DevOps. The lack of development has pushed teams toward full collaboration suites- a bigger switch than most teams actually want to make. The end result is disconnected teams, workflows and frustrated developers. 
 
 ---
-<img width="1200" height="800" alt="Wiki PRO rich text editor with Draw.io integration" src="https://github.com/user-attachments/assets/4e110471-48f4-471b-a71e-62d9f7858972" />
 
 ## Why Wiki PRO?
 
@@ -337,6 +336,8 @@ We listened to community feedback and feature requests and built a wiki extensio
   </div>
 
 </div>
+
+<img width="1200" height="800" alt="Wiki PRO rich text editor with Draw.io integration" src="https://github.com/user-attachments/assets/4e110471-48f4-471b-a71e-62d9f7858972" />
 
 ---
 
