@@ -256,7 +256,7 @@ permalink: /wiki-pro/
 <div class="wp-hero">
   <img src="{{ site.baseurl }}/img/wikipro-logo.png" alt="Wiki PRO logo" />
   <span style="font-size:82px;font-weight:600;vertical-align: bottom;"> Wiki PRO</span>
-  <div class="tagline">The wiki experience you have been waiting for</div>
+  <div class="tagline">The wiki experience Everyone has been waiting for</div>
   <a class="wp-cta-btn" href="https://marketplace.visualstudio.com/items?itemName=mskold.mskold-WikiPRO">Install Wiki PRO for free now →</a>
 </div>
 
@@ -279,7 +279,7 @@ When Microsoft released Azure DevOps Wiki, developers were thrilled — now they
 
 The rest of the team can't contribute comfortably, since there's no rich text editor. Creating visualizations was limited to a few Mermaid charts and requires writing advanced Mermaid syntax.
 
-Markdown evolved — Azure DevOps Wiki didn't keep up. For years, users have asked Microsoft for a better wiki experience in Azure DevOps. The lack of development has pushed teams toward full collaboration suites — a bigger switch than most teams actually want to make, and one that disconnected developers from their work.
+Markdown evolved - Azure DevOps Wiki didn't keep up. For years, users have asked Microsoft for a better wiki experience in Azure DevOps. The lack of development has pushed teams toward full collaboration suites- a bigger switch than most teams actually want to make. The end result is disconnected teams, workflows and frustrated developers. 
 
 ---
 <img width="1200" height="800" alt="Wiki PRO rich text editor with Draw.io integration" src="https://github.com/user-attachments/assets/4e110471-48f4-471b-a71e-62d9f7858972" />
@@ -288,9 +288,7 @@ Markdown evolved — Azure DevOps Wiki didn't keep up. For years, users have ask
 
 Wiki PRO takes Azure DevOps Wiki further and brings a better Wiki experience both for developers and stakeholders. Developers can continue writing in Markdown. Business stakeholders use familiar Word-style rich text editing. Everyone contributes — no compromises, no migration, no retraining. Wiki PRO bridges the gap between developer-first tools and full collaboration suites, purpose-built for development teams and their stakeholders.
 
-For years, users have asked for a better wiki experience in Azure DevOps. We listened to community feedback and feature requests and built a wiki extension that works alongside the existing Azure DevOps Wiki while adding meaningful improvements and new capabilities.
-
-So far, we have delivered 6 of the top 10 Developer Community requests for Azure DevOps Wiki, with 20+ items from the top 30 requests currently on our product roadmap.
+We listened to community feedback and feature requests and built a wiki extension that works alongside the existing Azure DevOps Wiki while adding meaningful improvements and new capabilities. So far, we have delivered 6 of the top 10 Developer Community requests for Azure DevOps Wiki, with 20+ items from the top 30 requests currently on our product roadmap.
 
 * Wiki PRO works side by side with the native Azure DevOps Wiki — same data, same API, no migration required.
 * Wiki PRO is freemium — core features are free for everyone, with no registration or credit card required.
