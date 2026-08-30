@@ -3,6 +3,7 @@ layout: productPage
 title: "Wiki PRO — Pricing & Licensing"
 description: "Wiki PRO pricing: freemium software with a free tier and paid wiki + organization licenses. Volume purchasing, PO/invoicing, and reseller options available."
 permalink: /wiki-pro/pricing/
+toc: true
 ---
 <style>
   .wp-nav { margin-bottom: 24px; font-size: 0.95em; }
