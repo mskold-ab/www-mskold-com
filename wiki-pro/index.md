@@ -324,6 +324,19 @@ So far, we have delivered 6 of the top 10 Developer Community requests for Azure
 
 ---
 
+## How it works
+
+Wiki PRO is an Azure DevOps extensions that only consist of static web resources hosted by Microsoft (or your own server if you run onprem) and executes in you browser, just like the Azure DevOps website. 
+
+* Reads and writes through the same Azure DevOps Wiki data and API as the native wiki — nothing is duplicated or stored elsewhere.
+* No migration step — your existing pages, history, and links stay exactly where they are, new pages and edits show up in the native wiki.
+* Uses your existing Azure DevOps identities and permissions and groups — no separate identity or access model to manage.
+* Runs inside your Azure DevOps organization — no external services required to view or edit wiki content.
+
+For a full technical and security breakdown, see our [Security page](/Security/).
+
+---
+
 ## How it compares
 
 The comparison below is organized around the same six benefits as the sections above.
