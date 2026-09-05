@@ -86,7 +86,7 @@ None of what's below exists in the standard Query Tile — everything here, free
 | Result-level & advanced calculations | ❌ | ✅ |
 | Charts | ❌ | ✅ |
 | Plan & Progress view | ❌ | ✅ |
-{: .qt-compare-tables }
+{: .wp-compare-tables }
 
 ### 🚦 Highlight what matters
 
@@ -96,14 +96,14 @@ None of what's below exists in the standard Query Tile — everything here, free
 | Advanced conditional formatting (cross-field, expressions) | ❌ | ✅ |
 | Trend indicator (vs. fixed or data-sourced target) | ❌ | *[Free/Paid TBC]* |
 | Business Hours calculation (business days, hours, holidays) | ❌ | ✅ |
-{: .qt-compare-tables }
+{: .wp-compare-tables }
 
 ### ⚡ Make a performant dashboard
 
 | Feature | Query Tile PRO Free | Query Tile PRO Paid |
 | ------- | -------------------- | --------------------- |
 | Grouping (one tile, many teams/areas) | ❌ | ✅ |
-{: .qt-compare-tables }
+{: .wp-compare-tables }
 
 ### 🌐 Scale, consistency and governance
 
@@ -113,7 +113,7 @@ None of what's below exists in the standard Query Tile — everything here, free
 | Global shared stylesets | ❌ | ✅ |
 | Global functions | ❌ | ✅ |
 | Change log for global settings | ❌ | ✅ |
-{: .qt-compare-tables }
+{: .wp-compare-tables }
 
 [See the full comparison →](/support/QueryTilePro/about-query-tile-pro)
 
@@ -121,21 +121,21 @@ None of what's below exists in the standard Query Tile — everything here, free
 
 ## What teams are saying
 
-<div class="qt-testimonials">
+<div class="wp-testimonials">
 
-  <div class="qt-testimonial-card">
+  <div class="wp-testimonial-card">
     <p>"Cool and useful tool. The widgets I've been looking for created in 15 minutes - thanks!"</p>
-    <p class="qt-testimonial-author">— Heidi</p>
+    <p class="wp-testimonial-author">— Heidi</p>
   </div>
 
-  <div class="qt-testimonial-card">
+  <div class="wp-testimonial-card">
     <p>"Great widget gives me the metrics I've been needing in my dashboards."</p>
-    <p class="qt-testimonial-author">— Mike</p>
+    <p class="wp-testimonial-author">— Mike</p>
   </div>
 
-  <div class="qt-testimonial-card">
+  <div class="wp-testimonial-card">
     <p>"Outstanding plug-in that MS should buy from the author and include as standard. Greatly enhances the ability to display useful information (rather than pure data) on a dashboard. Highly recommend to everyone."</p>
-    <p class="qt-testimonial-author">— Creech</p>
+    <p class="wp-testimonial-author">— Creech</p>
   </div>
 
 </div>
@@ -144,23 +144,23 @@ None of what's below exists in the standard Query Tile — everything here, free
 
 ## Pricing at a glance
 
-<div class="qt-pricing-cols">
+<div class="wp-pricing-cols">
 
-  <div class="qt-pricing-col">
-    <p class="qt-pricing-tag">Start risk-free</p>
+  <div class="wp-pricing-col">
+    <p class="wp-pricing-tag">Start risk-free</p>
     <h3>Free</h3>
-    <p class="qt-pricing-price">Free, for real</p>
-    <p class="qt-pricing-price-sub">No registration, no card, no time limit</p>
+    <p class="wp-pricing-price">Free, for real</p>
+    <p class="wp-pricing-price-sub">No registration, no card, no time limit</p>
 
-<p class="qt-pricing-content">
-  <svg class="qt-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<p class="wp-pricing-content">
+  <svg class="wp-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
     <polyline points="20 6 9 17 4 12"></polyline>
   </svg>
   Core features
 </p>
 
-<p class="qt-pricing-support">
-  <svg class="qt-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<p class="wp-pricing-support">
+  <svg class="wp-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
     <path d="M3 18v-6a9 9 0 0 1 18 0v6"></path>
     <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 1 2 2h1a2 2 0 0 1 2-2v-3a2 2 0 0 1-2-2H3z"></path>
   </svg>
@@ -169,21 +169,21 @@ None of what's below exists in the standard Query Tile — everything here, free
 
   </div>
 
-  <div class="qt-pricing-col">
-    <p class="qt-pricing-tag">Scale as you grow</p>
+  <div class="wp-pricing-col">
+    <p class="wp-pricing-tag">Scale as you grow</p>
     <h3>[Tier name TBC]</h3>
-    <p class="qt-pricing-price">[Price TBC]</p>
-    <p class="qt-pricing-price-sub">[Licensing model TBC]</p>
+    <p class="wp-pricing-price">[Price TBC]</p>
+    <p class="wp-pricing-price-sub">[Licensing model TBC]</p>
 
-<p class="qt-pricing-content">
-  <svg class="qt-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<p class="wp-pricing-content">
+  <svg class="wp-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
     <polyline points="20 6 9 17 4 12"></polyline>
   </svg>
   Advanced calculations, charts, grouping, and global data sources
 </p>
 
-<p class="qt-pricing-support">
-  <svg class="qt-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<p class="wp-pricing-support">
+  <svg class="wp-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
     <path d="M3 18v-6a9 9 0 0 1 18 0v6"></path>
     <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 1 2 2h1a2 2 0 0 1 2-2v-3a2 2 0 0 1-2-2H3z"></path>
   </svg>
@@ -198,9 +198,9 @@ None of what's below exists in the standard Query Tile — everything here, free
 
 ---
 
-<div class="qt-cta-footer">
+<div class="wp-cta-footer">
   <strong>Ready to get more out of your Azure DevOps dashboards?</strong><br /><br />
-  <a class="qt-cta-btn" href="https://marketplace.visualstudio.com/items?itemName=mskold.mskold-Query-Tile-PRO">Install Query Tile PRO free →</a>
+  <a class="wp-cta-btn" href="https://marketplace.visualstudio.com/items?itemName=mskold.mskold-Query-Tile-PRO">Install Query Tile PRO free →</a>
   <br /><br />
   Questions? <a href="/support/QueryTilePro/">Visit the support &amp; documentation hub</a>
 </div>
