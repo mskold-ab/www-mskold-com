@@ -134,6 +134,7 @@ None of what's below exists in the standard Query Tile — everything here, free
 | Global Data Sources | ❌ | ✅ |
 | Global shared stylesets | ❌ | ✅ |
 | Global functions | ❌ | ✅ |
+| Global tile templates | ❌ | ✅ |
 | Change log for global settings | ❌ | ✅ |
 {: .wp-compare-tables }
 
