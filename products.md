@@ -56,7 +56,7 @@ For full product information, licensing details, and pricing, visit our product 
 			<img class="extension-logo" src="../img/wikipro-logo.png" />
 		</div>
 		<div class="products-cell" style="display: table-cell; vertical-align: top;">
-			<h3>Wiki PRO </h3>
+			<h3><a href="products/WikiPro/">Wiki PRO</a> </h3>
 			A better wiki experience for both developers and business users. Rich text editing, Draw.IO integration, latest version and full support for all Mermaid charts.
 			Page tagging and filtering, print or export multiple wiki pages to Word, page and wiki analytics, and statistics.
 			
@@ -92,7 +92,7 @@ For full product information, licensing details, and pricing, visit our product 
 			<img class="extension-logo" src="../img/QueryTilePRO-logo.png"  width=96 />
 		</div>
 		<div class="products-cell" style="display: table-cell; vertical-align: top;">
-			<h3>Query Tile PRO </h3>
+			<h3><a href="products/QueryTilePro/">Query Tile PRO</a> </h3>
 			An advanced query tile with support for all queries and more options to show the information you need.
 			<div class="getExtension"><a href="https://marketplace.visualstudio.com/items?itemName=mskold.mskold-Query-Tile-PRO">Read more and <b>get it free</b> at the Azure DevOps Marketplace</a></div>
 		</div>
