@@ -4,6 +4,22 @@ title: "Wiki PRO — Pricing & Licensing"
 description: "Wiki PRO pricing: freemium software with a free tier and paid wiki + organization licenses. Volume purchasing, PO/invoicing, and reseller options available."
 permalink: /products/WikiPro/pricing/
 toc: true
+product_name: "Wiki PRO"
+product_tagline: "The wiki experience Everyone has been waiting for"
+product_logo: "/img/wikipro-logo.png"
+product_logo_alt: "Wiki PRO logo"
+cta_url: "https://marketplace.visualstudio.com/items?itemName=mskold.mskold-WikiPRO"
+cta_text: "Install Wiki PRO for free now →"
+social_proof: "Built by MSkold AB · Certified Top Publisher on the Azure DevOps Marketplace &nbsp;·&nbsp; Trusted by 30,000+ organizations &nbsp;·&nbsp; Freemium — core features are free"
+nav_links:
+  - label: "Overview"
+    url: "/products/WikiPro/"
+  - label: "Features Highlights"
+    url: "/products/WikiPro/features/"
+  - label: "Pricing & licensing"
+    url: "/products/WikiPro/pricing/"
+  - label: "Support & docs"
+    url: "/support/WikiPro/"
 ---
 <style>
   .wp-nav { margin-bottom: 24px; font-size: 0.95em; }
