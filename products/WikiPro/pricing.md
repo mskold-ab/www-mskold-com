@@ -2,7 +2,7 @@
 layout: productPage
 title: "Wiki PRO — Pricing & Licensing"
 description: "Wiki PRO pricing: freemium software with a free tier and paid wiki + organization licenses. Volume purchasing, PO/invoicing, and reseller options available."
-permalink: /wiki-pro/pricing/
+permalink: /products/WikiPro/pricing/
 toc: true
 ---
 <style>
@@ -179,7 +179,7 @@ You can use the basic features of Wiki PRO freely, without registering or purcha
     <a class="wp-cta-btn" href="mailto:sales@mskold.com">Contact sales →</a>
   </div>
 </div>
-Looking for the full feature breakdown by plan? See [All features](/wiki-pro/features/), or view live pricing on the [Azure DevOps Marketplace](https://marketplace.visualstudio.com/items?itemName=mskold.mskold-WikiPRO&ssr=false#pricing).
+Looking for the full feature breakdown by plan? See [All features](/products/WikiPro/features/), or view live pricing on the [Azure DevOps Marketplace](https://marketplace.visualstudio.com/items?itemName=mskold.mskold-WikiPRO&ssr=false#pricing).
 
 
 To use Wiki PRO's premium features, you need a subscription. Two licensing models are available:

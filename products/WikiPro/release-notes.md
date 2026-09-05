@@ -2,7 +2,7 @@
 layout: page
 title: "Wiki PRO Release Notes"
 description: "Release notes for Wiki PRO for Azure DevOps."
-permalink: /wiki-pro/release-notes/
+permalink: /products/WikiPro/release-notes/
 ---
 <script>window.location.replace("/support/WikiPro/releaseNotes");</script>
 
