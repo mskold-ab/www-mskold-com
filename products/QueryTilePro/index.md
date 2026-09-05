@@ -1,3 +1,16 @@
+---
+layout: productPage
+title: "Query Tile PRO"
+description: "Query Tile PRO extends the Azure DevOps dashboard tile with advanced calculations, Business Hours, conditional formatting, charts, Plan & Progress timelines, and dashboard-scale tools. Free core version — 30-day trial for paid features."
+permalink: /products/QueryTilePro/
+product_tagline: "Everything the standard Query Tile should have been"
+product_logo: "/img/QueryTilePRO-logo.png"
+product_logo_alt: "Query Tile PRO logo"
+cta_url: "https://marketplace.visualstudio.com/items?itemName=mskold.mskold-WikiPRO"
+cta_text: "Install Query Tile PRO for free now →"
+social_proof: "Built by MSkold AB · Certified Top Publisher on the Azure DevOps Marketplace &nbsp;·&nbsp; Trusted by 30,000+ organizations &nbsp;·&nbsp; Freemium — core features are free"
+toc: true
+---
 
 ## The problem
 
