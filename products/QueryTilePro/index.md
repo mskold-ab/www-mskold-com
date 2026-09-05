@@ -69,6 +69,28 @@ For a full technical and security breakdown, see our [Security page](/Security/)
 
 ---
 
+## What teams are saying
+
+<div class="wp-testimonials">
+
+  <div class="wp-testimonial-card">
+    <p>"Cool and useful tool. The widgets I've been looking for created in 15 minutes - thanks!"</p>
+    <p class="wp-testimonial-author">— Heidi</p>
+  </div>
+
+  <div class="wp-testimonial-card">
+    <p>"Great widget gives me the metrics I've been needing in my dashboards."</p>
+    <p class="wp-testimonial-author">— Mike</p>
+  </div>
+
+  <div class="wp-testimonial-card">
+    <p>"Outstanding plug-in that MS should buy from the author and include as standard. Greatly enhances the ability to display useful information (rather than pure data) on a dashboard. Highly recommend to everyone."</p>
+    <p class="wp-testimonial-author">— Creech</p>
+  </div>
+
+</div>
+---
+
 ## How it compares
 
 None of what's below exists in the standard Query Tile — everything here, free or paid, is something Query Tile PRO adds.
@@ -117,28 +139,6 @@ None of what's below exists in the standard Query Tile — everything here, free
 
 [See the full comparison →](/support/QueryTilePro/about-query-tile-pro)
 
----
-
-## What teams are saying
-
-<div class="wp-testimonials">
-
-  <div class="wp-testimonial-card">
-    <p>"Cool and useful tool. The widgets I've been looking for created in 15 minutes - thanks!"</p>
-    <p class="wp-testimonial-author">— Heidi</p>
-  </div>
-
-  <div class="wp-testimonial-card">
-    <p>"Great widget gives me the metrics I've been needing in my dashboards."</p>
-    <p class="wp-testimonial-author">— Mike</p>
-  </div>
-
-  <div class="wp-testimonial-card">
-    <p>"Outstanding plug-in that MS should buy from the author and include as standard. Greatly enhances the ability to display useful information (rather than pure data) on a dashboard. Highly recommend to everyone."</p>
-    <p class="wp-testimonial-author">— Creech</p>
-  </div>
-
-</div>
 
 ---
 
