@@ -18,24 +18,24 @@ We built Query Tile PRO around the same work item queries and dashboards you alr
 * Query Tile PRO is freemium — core features are free for everyone without registration.
 * Query Tile PRO is built for teams that need accurate, business-relevant metrics without leaving Azure DevOps for a BI tool.
 
-<div class="qt-benefits">
+<div class="wp-benefits">
 
-  <div class="qt-benefit-card">
+  <div class="wp-benefit-card">
     <h3>📊 Build the tiles you actually need</h3>
     <p>Combine multiple queries, apply calculations at the result level, and turn results into charts or a Plan & Progress timeline — instead of settling for what a single basic tile can show.</p>
   </div>
 
-  <div class="qt-benefit-card">
+  <div class="wp-benefit-card">
     <h3>🚦 Highlight what matters</h3>
     <p>Conditional formatting flags good, warning, and critical states with color. Trend shows an arrow/delta against a fixed or data-sourced target, so you see at a glance whether you're ahead, behind, or on track. Business Hours makes sure the time-based numbers feeding those signals are accurate in the first place.</p>
   </div>
 
-  <div class="qt-benefit-card">
+  <div class="wp-benefit-card">
     <h3>⚡ Make a performant dashboard</h3>
     <p>Grouping lets one tile definition render multiple tiles — for every team, area, or category — while the dashboard loads and executes far fewer widgets and queries than building each one individually.</p>
   </div>
 
-  <div class="qt-benefit-card">
+  <div class="wp-benefit-card">
     <h3>🌐 Scale, consistency and governance</h3>
     <p>Global Data Sources, stylesets, and functions let you define a query, a style, or a calculation once and apply it everywhere. A change log tracks who updated a shared setting and when, so nothing drifts silently across hundreds of dashboards.</p>
   </div>
