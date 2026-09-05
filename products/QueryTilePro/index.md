@@ -48,7 +48,6 @@ We built Query Tile PRO around the same work item queries and dashboards you alr
 
 Query Tile PRO is an Azure DevOps extension that runs as static web resources hosted by Microsoft (or your own server if you run on-prem), executing in your browser just like the Azure DevOps website.
 
-* Reads work item data through the same Azure DevOps REST API as the standard Query Tile — nothing is duplicated or stored elsewhere.
 * Your work item data never leaves your Azure DevOps organization. Anonymous telemetry may be collected to improve the product, but customer work item data is never transferred outside your organization.
 * Uses your existing Azure DevOps identities and permissions — no separate identity or access model to manage.
 * Runs inside your Azure DevOps organization, including fully isolated or air-gapped Azure DevOps Server environments.
