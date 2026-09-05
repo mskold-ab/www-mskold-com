@@ -114,9 +114,9 @@ None of what's below exists in the standard Query Tile — everything here, free
 
 | Feature | Query Tile PRO Free | Query Tile PRO Paid |
 | ------- | -------------------- | --------------------- |
-| Basic conditional formatting | ✅ | ✅ |
-| Advanced conditional formatting (cross-field, expressions) | ❌ | ✅ |
-| Trend indicator (vs. fixed or data-sourced target) | ❌ | *[Free/Paid TBC]* |
+| Conditional formatting | ✅ | ✅ |
+| Styling through centralised stylesets | ❌ | ✅ |
+| Trend indicator (vs. fixed or data-sourced target) | ❌ | ✅ |
 | Business Hours calculation (business days, hours, holidays) | ❌ | ✅ |
 {: .wp-compare-tables }
 
