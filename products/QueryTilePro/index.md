@@ -14,9 +14,11 @@ toc: true
 
 ## The problem
 
-Building dashboards to surface information is a great idea, but the limitations of the standard Query Tiles quickly blocks you from building the dashboards you need.
-Building one dashboard can be challenging, but trying to scale it to enterprice scale is both enormously time consuming as all queries and query tile settings needs to be re-entered for every tile. Given a team can have multiple dashboards, with up to 40 tile on each dashboard, now imaging having several 100 teams. 
-The time to setup dashboard just stacks up, not to mention the effort to maintain and keep consistency in enterprise reporting 
+Dashboards are a great way to surface information — but the standard Query Tile can't produce the tile you actually need. Its calculations, aggregations, and formatting options are too limited to show what matters.
+
+And even if the standard tile could do what you need, one tile doesn't make a dashboard. Building even a single team's dashboard is painful — everything gets re-entered by hand, tile by tile. Now imagine trying to maintain and keep hundreds of dashboards consistent across an organization.
+
+The result: dashboards that either fall short of what you need, or cost enormously to build and keep consistent at scale.
 
 
 
