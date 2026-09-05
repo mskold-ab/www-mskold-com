@@ -171,17 +171,17 @@ None of what's below exists in the standard Query Tile — everything here, free
 
   </div>
 
-  <div class="wp-pricing-col">
+    <div class="wp-pricing-col">
     <p class="wp-pricing-tag">Scale as you grow</p>
-    <h3>[Tier name TBC]</h3>
-    <p class="wp-pricing-price">[Price TBC]</p>
-    <p class="wp-pricing-price-sub">[Licensing model TBC]</p>
+    <h3>Selected Teams license</h3>
+    <p class="wp-pricing-price">Starting from €99/year per tean</p>
+    <p class="wp-pricing-price-sub">Pay only for the teams you select</p>
 
 <p class="wp-pricing-content">
   <svg class="wp-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
     <polyline points="20 6 9 17 4 12"></polyline>
   </svg>
-  Advanced calculations, charts, grouping, and global data sources
+  Extended collaboration features
 </p>
 
 <p class="wp-pricing-support">
@@ -189,10 +189,35 @@ None of what's below exists in the standard Query Tile — everything here, free
     <path d="M3 18v-6a9 9 0 0 1 18 0v6"></path>
     <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 1 2 2h1a2 2 0 0 1 2-2v-3a2 2 0 0 1-2-2H3z"></path>
   </svg>
-  Guaranteed email support
+  Email support with SLA
 </p>
 
   </div>
+
+  <div class="wp-pricing-col">
+    <p class="wp-pricing-tag">Enable everyone</p>
+    <h3>Organization license</h3>
+    <p class="wp-pricing-price">Starting from €1,990/year</p>
+    <p class="wp-pricing-price-sub">Enable the whole organization</p>
+
+<p class="wp-pricing-content">
+  <svg class="wp-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="20 6 9 17 4 12"></polyline>
+  </svg>
+  Enterprise and governance features
+</p>
+
+<p class="wp-pricing-support">
+  <svg class="wp-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M3 18v-6a9 9 0 0 1 18 0v6"></path>
+    <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 1 2 2h1a2 2 0 0 1 2-2v-3a2 2 0 0 1-2-2H3z"></path>
+  </svg>
+  Priority support
+</p>
+
+
+  </div>
+
 
 </div>
 
