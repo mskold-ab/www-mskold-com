@@ -8,11 +8,11 @@ toc: true
 
 ## The problem
 
-When Microsoft shipped the standard Query Tile, teams got a quick way to put a work item count on a dashboard. But that's where it froze.
+Building dashboards to surface information is a great idea, but the limitations of the standard Query Tiles quickly blocks you from building the dashboards you need.
+Building one dashboard can be challenging, but trying to scale it to enterprice scale is both enormously time consuming as all queries and query tile settings needs to be re-entered for every tile. Given a team can have multiple dashboards, with up to 40 tile on each dashboard, now imaging having several 100 teams. 
+The time to setup dashboard just stacks up, not to mention the effort to maintain and keep consistency in enterprise reporting 
 
-The standard tile handles simple counts well, but falls short the moment you need more: combining more than one query, calculating time in business hours instead of raw calendar time, or comparing one field against another to flag what actually needs attention. Every team ends up duplicating the same tile and query across every project, team, and dashboard by hand.
 
-Azure DevOps dashboards haven't kept pace with what teams actually need to report on. The result is dashboards that either oversimplify the data or push teams outside Azure DevOps entirely — into spreadsheets or a separate BI tool — just to get the metrics they need.
 
 ---
 
@@ -22,8 +22,7 @@ Query Tile PRO takes the standard Query Tile further, giving teams the advanced 
 
 We built Query Tile PRO around the same work item queries and dashboards you already use, adding the calculation depth and setup-time savings that come up again and again in real dashboards — SLA tracking, cross-team rollups, and delivery timelines.
 
-* Query Tile PRO works side by side with the standard Query Tile and Query Result widget — no migration, same dashboards.
-* Query Tile PRO is freemium — core features are free for everyone, with a 30-day organization-wide trial for paid features.
+* Query Tile PRO is freemium — core features are free for everyone without registration .
 * Query Tile PRO is built for teams that need accurate, business-relevant metrics without leaving Azure DevOps for a BI tool.
 
 <div class="qt-benefits">
