@@ -31,7 +31,7 @@ We built Query Tile PRO around the same work item queries and dashboards you alr
 * Query Tile PRO is freemium — core features are free for everyone without registration.
 * Query Tile PRO is built for teams that need accurate, business-relevant metrics without leaving Azure DevOps for a BI tool.
 
-<div class="wp-benefits">
+<div class="wp-benefits" style="grid-template-columns: repeat(2, minmax(0, 1fr));">
 
   <div class="wp-benefit-card">
     <h3>📊 Build the tiles you actually need</h3>
@@ -61,7 +61,7 @@ We built Query Tile PRO around the same work item queries and dashboards you alr
 
 Query Tile PRO is an Azure DevOps extension that runs as static web resources hosted by Microsoft (or your own server if you run on-prem), executing in your browser just like the Azure DevOps website.
 
-* Your work item data never leaves your Azure DevOps organization. Anonymous telemetry may be collected to improve the product, but customer work item data is never transferred outside your organization.
+* Your data never leaves your Azure DevOps organization, everything executed in your browser. All our products is designed and build we security and privacy as a first concern. 
 * Uses your existing Azure DevOps identities and permissions — no separate identity or access model to manage.
 * Runs inside your Azure DevOps organization, including fully isolated or air-gapped Azure DevOps Server environments.
 
