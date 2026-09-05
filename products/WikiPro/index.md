@@ -11,15 +11,7 @@ product_logo_alt: "Wiki PRO logo"
 cta_url: "https://marketplace.visualstudio.com/items?itemName=mskold.mskold-WikiPRO"
 cta_text: "Install Wiki PRO for free now →"
 social_proof: "Built by MSkold AB · Certified Top Publisher on the Azure DevOps Marketplace &nbsp;·&nbsp; Trusted by 30,000+ organizations &nbsp;·&nbsp; Freemium — core features are free"
-nav_links:
-  - label: "Overview"
-    url: "/products/WikiPro/"
-  - label: "Features Highlights"
-    url: "/products/WikiPro/features/"
-  - label: "Pricing & licensing"
-    url: "/products/WikiPro/pricing/"
-  - label: "Support & docs"
-    url: "/support/WikiPro/"
+supportLink: "/support/WikiPro/"
 ---
 
 ## The problem

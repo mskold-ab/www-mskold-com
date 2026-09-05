@@ -354,9 +354,14 @@ layout: default
     <div class="wp-three-col">
   <div class="wp-col-nav">
     <div class="wp-nav-links">
-      {% for link in page.nav_links %}
-      <a href="{{ link.url }}">{{ link.label }}</a>
-      {% endfor %}
+      {% assign product_url_parts = page.url | split: '/' %}
+      {% assign product_root = '/products/' | append: product_url_parts[2] | append: '/' %}
+      <a href="{{ product_root | relative_url }}">Overview</a>
+      <a href="{{ product_root | append: 'features/' | relative_url }}">Features</a>
+      <a href="{{ product_root | append: 'pricing/' | relative_url }}">Pricing</a>
+      {% if page.supportLink %}
+      <a href="{{ page.supportLink | relative_url }}">Support</a>
+      {% endif %}
     </div>
   </div>
 
