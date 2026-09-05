@@ -174,7 +174,7 @@ None of what's below exists in the standard Query Tile — everything here, free
     <div class="wp-pricing-col">
     <p class="wp-pricing-tag">Scale as you grow</p>
     <h3>Selected Teams license</h3>
-    <p class="wp-pricing-price">Starting from €99/year per tean</p>
+    <p class="wp-pricing-price">Starting from €99/year per team</p>
     <p class="wp-pricing-price-sub">Pay only for the teams you select</p>
 
 <p class="wp-pricing-content">
