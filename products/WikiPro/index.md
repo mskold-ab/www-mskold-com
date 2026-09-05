@@ -2,7 +2,7 @@
 layout: productPage
 title: "Wiki PRO for Azure DevOps"
 description: "Wiki PRO enhances the Azure DevOps wiki with rich text editing, Draw.io diagrams, Mermaid charts, page tags, Word export, and more. Free tier available — 30-day trial for paid features."
-permalink: /wiki-pro/
+permalink: /products/WikiPro/
 toc: true
 ---
 
@@ -222,7 +222,7 @@ The comparison below is organized around the same six benefits as the sections a
 
 </div>
 
-[Full pricing & licensing details →](/wiki-pro/pricing/)
+[Full pricing & licensing details →](/products/WikiPro/pricing/)
 
 ---
 

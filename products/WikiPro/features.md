@@ -2,7 +2,7 @@
 layout: productPage
 title: "Wiki PRO Features"
 description: "All Wiki PRO features for Azure DevOps: rich text editing, Draw.io diagrams, Mermaid charts, page tags, templates, My Pages, export to Word, and more."
-permalink: /wiki-pro/features/
+permalink: /products/WikiPro/features/
 toc: true
 ---
 
@@ -273,4 +273,4 @@ The paid tier adds full Word export: export any page or an entire wiki tree to a
 
 <a href="https://marketplace.visualstudio.com/items?itemName=mskold.mskold-WikiPRO" style="display:inline-block;background:#0078d4;color:#fff;padding:10px 24px;border-radius:4px;font-weight:bold;text-decoration:none;">Install Wiki PRO now →</a>
 &nbsp; &nbsp;
-<a href="/wiki-pro/pricing/">View pricing &amp; licensing</a>
+<a href="/products/WikiPro/pricing/">View pricing &amp; licensing</a>
