@@ -341,26 +341,25 @@ layout: default
   <div class="product-page-shell">
 
 <div class="wp-hero">
-  <img src="{{ site.baseurl }}/img/wikipro-logo.png" alt="Wiki PRO logo" />
-  <span style="font-size:82px;font-weight:600;vertical-align: bottom;"> Wiki PRO</span>
-  <div class="tagline">The wiki experience Everyone has been waiting for</div>
-  <a class="wp-cta-btn" href="https://marketplace.visualstudio.com/items?itemName=mskold.mskold-WikiPRO">Install Wiki PRO for free now →</a>
+  <img src="{{ site.baseurl }}{{ page.product_logo | default: '' }}" alt="{{ page.product_logo_alt | default: page.product_name }}" />
+  <span style="font-size:82px;font-weight:600;vertical-align: bottom;"> {{ page.product_name | default: page.title }}</span>
+  <div class="tagline">{{ page.product_tagline | default: '' }}</div>
+  <a class="wp-cta-btn" href="{{ page.cta_url | default: '#' }}">{{ page.cta_text | default: 'Learn more →' }}</a>
 </div>
 
 <div class="wp-social-proof">
-  Built by MSkold AB · Certified Top Publisher on the Azure DevOps Marketplace &nbsp;·&nbsp;
-  Trusted by 30,000+ organizations &nbsp;·&nbsp;
-  Freemium — core features are free
+  {{ page.social_proof | default: '' }}
 </div>
 
     <div class="wp-three-col">
   <div class="wp-col-nav">
     <div class="wp-nav-links">
-      <a href="/products/WikiPro/">Overview</a>
-      <a href="/products/WikiPro/features/">Features Highlights</a>
-      <a href="/products/WikiPro/pricing/">Pricing &amp; licensing</a>  
-      <a href="/support/WikiPro/">Support &amp; docs</a>
-    </div>
+    {% assign product_root = page.url | replace: 'features/', '' | replace: 'pricing/', '' %}
+    <a href="{{ product_root }}">Overview</a>
+    <a href="{{ product_root }}features/">Features Highlights</a>
+    <a href="{{ product_root }}pricing/">Pricing &amp; licensing</a>
+    <a href="{{ page.supportLink }}">Support &amp; docs</a>
+  </div>
   </div>
 
   <div class="wp-col-content">

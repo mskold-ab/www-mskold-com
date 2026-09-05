@@ -4,6 +4,14 @@ title: "Wiki PRO for Azure DevOps"
 description: "Wiki PRO enhances the Azure DevOps wiki with rich text editing, Draw.io diagrams, Mermaid charts, page tags, Word export, and more. Free tier available — 30-day trial for paid features."
 permalink: /products/WikiPro/
 toc: true
+product_name: "Wiki PRO"
+product_tagline: "The wiki experience Everyone has been waiting for"
+product_logo: "/img/wikipro-logo.png"
+product_logo_alt: "Wiki PRO logo"
+cta_url: "https://marketplace.visualstudio.com/items?itemName=mskold.mskold-WikiPRO"
+cta_text: "Install Wiki PRO for free now →"
+social_proof: "Built by MSkold AB · Certified Top Publisher on the Azure DevOps Marketplace &nbsp;·&nbsp; Trusted by 30,000+ organizations &nbsp;·&nbsp; Freemium — core features are free"
+supportLink: "/support/WikiPro/"
 ---
 
 ## The problem
