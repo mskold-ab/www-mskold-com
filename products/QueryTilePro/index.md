@@ -8,7 +8,7 @@ product_logo: "/img/QueryTilePRO-logo.png"
 product_logo_alt: "Query Tile PRO logo"
 cta_url: "https://marketplace.visualstudio.com/items?itemName=mskold.mskold-Query-Tile-PRO"
 cta_text: "Install Query Tile PRO for free now →"
-social_proof: "Freemium — core features are free · 7800+ installs · 4.2/5 Stars ·  Built by MSkold AB -Certified Top Publisher on the Azure DevOps Marketplace &nbsp;·&nbsp; Trusted by 30,000+ organizations &nbsp;·&nbsp; "
+social_proof: "Built by MSkold AB -Certified Top Publisher on the Azure DevOps Marketplace &nbsp;·&nbsp; Trusted by 30,000+ organizations &nbsp;·&nbsp; "
 supportLink: "/support/QueryTilePro/"
 toc: true
 ---
