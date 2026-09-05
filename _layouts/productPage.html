@@ -341,10 +341,10 @@ layout: default
   <div class="product-page-shell">
 
 <div class="wp-hero">
-  <img src="{{ site.baseurl }}{{ page.product_logo }}" alt="{{ page.product_logo_alt }}" />
-  <span style="font-size:82px;font-weight:600;vertical-align: bottom;"> {{ page.product_name }}</span>
-  <div class="tagline">{{ page.product_tagline }}</div>
-  <a class="wp-cta-btn" href="{{ page.cta_url }}">{{ page.cta_text }}</a>
+  <img src="{{ site.baseurl }}{{ page.product_logo | default: '' }}" alt="{{ page.product_logo_alt | default: page.product_name }}" />
+  <span style="font-size:82px;font-weight:600;vertical-align: bottom;"> {{ page.product_name | default: page.title }}</span>
+  <div class="tagline">{{ page.product_tagline | default: '' }}</div>
+  <a class="wp-cta-btn" href="{{ page.cta_url | default: '#' }}">{{ page.cta_text | default: 'Learn more →' }}</a>
 </div>
 
 <div class="wp-social-proof">
