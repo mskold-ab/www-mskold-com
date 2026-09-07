@@ -14,29 +14,7 @@ social_proof: "Built by MSkold AB · Certified Top Publisher on the Azure DevOps
 supportLink: "/support/WikiPro/"
 ---
 
-<style>
-  .wf-nav { margin-bottom: 24px; font-size: 0.95em; }
-  .wf-nav a { margin-right: 16px; }
-  .wf-outcome { border-top: 2px solid #e0e0e0; padding-top: 24px; margin-top: 40px; }
-  .wf-feature { margin-top: 28px; }
-  .wf-tier-badge {
-    display: inline-block;
-    font-size: 0.78em;
-    font-weight: bold;
-    padding: 2px 10px;
-    border-radius: 10px;
-    vertical-align: middle;
-    margin-left: 8px;
-  }
-  .wf-tier-free  { background: #e6f4ea; color: #1a7f37; }
-  .wf-tier-paid  { background: #fff0c8; color: #7a5200; }
-  .wf-cta { margin-top: 8px; font-size: 0.95em; }
-  .wf-see-also { margin-top: 8px; font-size: 0.9em; color: #555; }
 
-  .wf-feature{
-    margin-left:100px;
-  }
-</style>
 
 This page covers all features included in Wiki PRO for Azure DevOps, organized around the same six outcomes as the product overview.
 Features marked **Free** are available at no cost. Features marked **Paid** require a subscription (free 30-day trial available).
